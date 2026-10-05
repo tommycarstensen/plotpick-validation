@@ -1,8 +1,8 @@
 # Dependencies for the validation pipeline and benchmarks (Python 3.12).
 # pipeline/match_pairs.py also imports pdf_figures from ../plotpick.
 #
-# Reproducing the paper's tables from the stored results needs only the
-# first three (matplotlib, numpy, Pillow); see requirements-core.txt.
+# Reproducing the paper's tables from the stored results needs only
+# matplotlib, numpy and Pillow; see requirements-core.txt.
 # Everything below that is for re-running the benchmarks themselves.
 anthropic>=0.40
 matplotlib
@@ -13,7 +13,7 @@ pypdfium2>=5
 python-dotenv
 requests
 
-# DePlot baseline (benchmark_deplot*.py, run_overnight.py).
+# DePlot baseline (benchmark_deplot*.py).
 # torchvision is required: transformers selects a torchvision-backed image
 # processor for Pix2Struct, and without it from_pretrained("google/deplot")
 # fails with "Could not load any image processor class".

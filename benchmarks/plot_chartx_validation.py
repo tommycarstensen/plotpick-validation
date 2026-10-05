@@ -92,8 +92,19 @@ def draw_bars(scores, systems, out_path):
     ax.tick_params(axis="x", length=0)
     ax.yaxis.grid(True, color="#e5e9ee", linewidth=0.6)
     ax.set_axisbelow(True)
+    # Matplotlib fills a legend column by column. Hand it the entries in the
+    # order that makes the rows, read left to right, follow the bars.
+    handles, labels = ax.get_legend_handles_labels()
+    columns = 5
+    rows = -(-len(handles) // columns)
+    reading_order = [
+        r * columns + c for c in range(columns) for r in range(rows)
+        if r * columns + c < len(handles)
+    ]
     ax.legend(
-        ncol=5, fontsize=FONT - 0.5, loc="upper center",
+        [handles[i] for i in reading_order],
+        [labels[i] for i in reading_order],
+        ncol=columns, fontsize=FONT - 0.5, loc="upper center",
         bbox_to_anchor=(0.5, -0.17), frameon=False,
         columnspacing=1.2, handlelength=1.2, handletextpad=0.5,
     )

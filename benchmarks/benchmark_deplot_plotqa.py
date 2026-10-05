@@ -1,8 +1,16 @@
 """Run DePlot on PlotQA test set. Incremental saves, resume-safe.
 
-The score printed during a run and stored as ``rmsf1`` is the whole-table
-numeric F1 against the one annotated series. The scores the paper reports
-come from score_plotqa.py, which rescores the stored replies.
+The score printed during a run and stored as ``rmsf1`` is a progress figure:
+every number of the reply, title row left out and repeats kept, against the
+one annotated series. The scores the paper reports come from
+score_plotqa.py, which rescores the stored replies.
+
+The stored plotqa_deplot.json predates two corrections made here in October
+2026 (the truth of horizontal bar charts, and the title row), so its
+``gt_nums``, ``ex_nums``, ``rmsf1`` and ``mean_rmsf1`` fields are wrong and
+are ignored by the scoring. A run resumes from an existing output file and
+would keep those stale fields for the items already there: move the file
+aside before a rerun.
 
 Usage:
     python benchmark_deplot_plotqa.py          # all 1000
@@ -20,15 +28,14 @@ if isinstance(sys.stdout, io.TextIOWrapper):
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from paths import PLOTQA_DIR, PLOTQA_RESULTS_DIR, EXTERNAL_DIR  # noqa: E402
-from benchmarks.shared import NUM_RE, compute_rmsf1, plotqa_truth  # noqa: E402
-
-
-def extract_numbers(text):
-    """Extract all numeric values from a string (as list, preserving dupes)."""
-    return [
-        float(m.group().replace(",", ""))
-        for m in NUM_RE.finditer(str(text))
-    ]
+from benchmarks.shared import (  # noqa: E402
+    DEPLOT_INSTRUCTION,
+    DEPLOT_MAX_NEW_TOKENS,
+    compute_rmsf1,
+    deplot_rows,
+    extract_number_list,
+    plotqa_truth,
+)
 
 
 def main():
@@ -82,14 +89,19 @@ def main():
             # transformers' type hints wrongly reject both of these calls.
             inputs = processor(
                 images=img,
-                text="Generate underlying data table of the figure below:",
+                text=DEPLOT_INSTRUCTION,
                 return_tensors="pt",  # pyright: ignore[reportCallIssue]
             )
             preds = model.generate(  # pyright: ignore[reportAttributeAccessIssue]
-                **inputs, max_new_tokens=512
+                **inputs, max_new_tokens=DEPLOT_MAX_NEW_TOKENS
             )
             extracted = processor.decode(preds[0], skip_special_tokens=True)
-            ex_nums = extract_numbers(extracted)
+            ex_nums = [
+                number
+                for cells in deplot_rows(extracted)
+                for cell in cells
+                for number in extract_number_list(cell)
+            ]
             f1 = compute_rmsf1(ex_nums, gt_nums)
         except Exception as e:  # noqa: BLE001
             print(f"  [error] {row['imgname']}: {e}")

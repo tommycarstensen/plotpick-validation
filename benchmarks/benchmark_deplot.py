@@ -9,10 +9,15 @@ Usage:
     python benchmark_deplot.py --n 5              # test split, 5 per type
     python benchmark_deplot.py --split val --n 50 # validation split
 
-The VLM numbers reported in the paper come from the held-out validation
-split, so ``--split val --n 50`` is the run that makes the DePlot
-comparison like-for-like on identical items. The default stays on the
-test split so that the existing chartx_deplot.json reproduces.
+The VLM numbers reported in the paper come from the validation split, so
+``--split val --n 50`` is the run that makes the DePlot comparison
+like-for-like on identical items. The default stays on the test split,
+which the paper uses as its development split.
+
+The stored chartx_deplot*.json files were written before DePlot's title row
+was left out of the scoring, so their ``ex_nums`` and ``rmsf1`` fields
+include the title's numbers; a rerun would not. The paper's scores are
+rescored from ``extracted_text`` by paired_bootstrap.py.
 """
 
 import argparse
@@ -58,6 +63,8 @@ from paths import (  # noqa: E402
     CHARTX_VAL_META,
 )
 from benchmarks.shared import (  # noqa: E402
+    DEPLOT_INSTRUCTION,
+    DEPLOT_MAX_NEW_TOKENS,
     NUM_RE,
     compute_rmsf1,
     deplot_rows,
@@ -142,11 +149,11 @@ def main():
                 # transformers' type hints wrongly reject both of these calls.
                 inputs = processor(
                     images=img,
-                    text="Generate underlying data table of the figure below:",
+                    text=DEPLOT_INSTRUCTION,
                     return_tensors="pt",  # pyright: ignore[reportCallIssue]
                 )
                 preds = model.generate(  # pyright: ignore[reportAttributeAccessIssue]
-                    **inputs, max_new_tokens=512
+                    **inputs, max_new_tokens=DEPLOT_MAX_NEW_TOKENS
                 )
                 extracted_text = processor.decode(
                     preds[0], skip_special_tokens=True,

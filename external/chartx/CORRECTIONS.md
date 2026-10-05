@@ -18,8 +18,10 @@ machine-readable record with their URLs.
 **All eight are in the development (test) split. None is in the
 validation split.** Every ChartX result in the paper's tables and figures,
 including the DePlot comparison, is computed on the validation split, so
-none of them is affected by these corrections. The one sentence of the
-paper that compares the development split with the validation split is.
+none of them is affected by these corrections. The two passages of the
+paper that use the development split (the twelve unreported chart types,
+and the gap between the two splits on the six reported types) are the only
+results the corrections can touch.
 
 ## How the errors were found
 
@@ -60,9 +62,16 @@ cannot affect the validation-split results reported in the paper.
 - **Image regenerations**: `bar_263`, `bar_num_297` and `bar_num_454`
   were re-rendered from corrected redrawing code, and the affected models
   were re-run on the corrected images.
+- **Reported upstream only**: `bar_455` and `bar_num_83` were reported
+  upstream and left as they are here. Their ground-truth tables in
+  `chartx_test.json` are the upstream ones and their images were not
+  regenerated.
 - **Exclusions**: entries covered by pull requests #3-#6 were removed from
   some result files where they had survived an earlier pass, so that
   aggregate metrics are computed over a consistent item set.
+
+Only the three CSV edits change a file in this repository: the images are
+not stored here.
 
 ## Reproducing against pristine upstream data
 

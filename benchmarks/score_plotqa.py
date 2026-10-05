@@ -1,8 +1,9 @@
 """Rescore the stored PlotQA results against the plotted values.
 
 Each entry of external/plotqa_test_1000.json describes ONE series of one
-chart, while every model under test emits the whole table. Two scores are
-computed from the stored reply text, with numeric F1 (compute_numeric_f1):
+chart (the first), while every model under test emits the whole table. Two
+scores are computed from the stored reply text, with numeric F1
+(compute_numeric_f1):
 
     best-series   each column of the reply (header row left out) and each row
                   (first cell left out) is scored against the annotated
@@ -14,6 +15,12 @@ is graded, so a reply that reads the values correctly but attaches them to the
 wrong series still scores 100%. Whole-table charges a reply for correctly
 extracting the series the annotation omits, which is why it sits far lower
 for every system. Neither measures whether the right table was produced.
+
+Both work on sets, so a value that a series repeats counts once. That
+penalises rounding: a reply that writes 76 six times for a series running
+from 75.7 to 76.7 matches one value. ``Scores.repeats`` is the best-series
+score with repeated values kept on both sides, which removes that penalty,
+and paired_bootstrap.py prints how the comparison with DePlot changes.
 
 THE GROUND TRUTH. The runners stored ``gt_nums`` taken from ``y_values``. For
 a horizontal bar chart those are the category labels, and the bar lengths are
@@ -54,8 +61,10 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 from paths import EXTERNAL_DIR, PLOTQA_RESULTS_DIR  # noqa: E402
 from benchmarks.shared import (  # noqa: E402
     compute_numeric_f1,
+    extract_number_list,
     extract_numbers,
     plotqa_truth,
+    within_tolerance,
 )
 from benchmarks.systems import BY_PLOTQA_KEY, DEPLOT  # noqa: E402
 
@@ -69,10 +78,33 @@ DETAILED_PROMPT_RUNS = {
 }
 
 
+# Items whose annotated values have a median magnitude at or above this are
+# reported apart; the split was made after the results were seen.
+LARGE_VALUE = 1e6
+
+
 class Scores(NamedTuple):
+    """Scores of one reply against one annotated series.
+
+    best        best-series numeric F1, on sets
+    whole       whole-table numeric F1, on sets
+    horizontal  whether the chart is a horizontal bar chart
+    repeats     best-series numeric F1 with repeated values kept
+    large       whether the median annotated magnitude reaches LARGE_VALUE
+    errors      relative error of each annotated value that the best series
+                reproduces within the tolerance
+    rows        table rows after the header row
+    values      annotated values, repeats kept
+    """
+
     best: float
     whole: float
     horizontal: bool
+    repeats: float
+    large: bool
+    errors: tuple
+    rows: int
+    values: int
 
 
 def annotations():
@@ -113,25 +145,41 @@ def parse_table(text):
 
 
 def series_candidates(grid):
-    """Every column (without the header row) and row (without its label)."""
+    """Every column (without the header row) and row (without its label).
+
+    Each candidate is the list of its numbers in reading order, repeats kept;
+    the set-based scores deduplicate it.
+    """
     candidates = []
     if not grid:
         return candidates
     body = grid[1:] if len(grid) > 1 else grid
     for j in range(max(len(row) for row in grid)):
-        numbers = set()
+        numbers = []
         for row in body:
             if j < len(row):
-                numbers |= extract_numbers(row[j])
+                numbers += extract_number_list(row[j])
         if numbers:
             candidates.append(numbers)
     for row in grid:
-        numbers = set()
+        numbers = []
         for cell in row[1:]:
-            numbers |= extract_numbers(cell)
+            numbers += extract_number_list(cell)
         if numbers:
             candidates.append(numbers)
     return candidates
+
+
+def relative_errors(candidate, truth, tolerance):
+    """Relative error of each truth value that the candidate reproduces."""
+    errors = []
+    for value in truth:
+        if value == 0:
+            continue
+        nearest = min(candidate, key=lambda e: abs(e - value))
+        if within_tolerance(nearest, value, tolerance):
+            errors.append(abs(nearest - value) / abs(value))
+    return tuple(errors)
 
 
 def score_items(path, tolerance=0.05):
@@ -141,20 +189,32 @@ def score_items(path, tolerance=0.05):
     items = {}
     for row in data["results"]:
         entry = entries[row["imgname"]]
-        truth = set(plotqa_truth(entry))
+        values = plotqa_truth(entry)
+        truth = set(values)
         grid = parse_table(row.get("extracted_text") or "")
         everything = set()
         for cells in grid:
             for cell in cells:
                 everything |= extract_numbers(cell)
+        candidates = series_candidates(grid)
         best = [
-            compute_numeric_f1(candidate, truth, tolerance)
-            for candidate in series_candidates(grid)
+            compute_numeric_f1(set(candidate), truth, tolerance)
+            for candidate in candidates
         ]
+        repeats = [
+            compute_numeric_f1(candidate, values, tolerance)
+            for candidate in candidates
+        ]
+        chosen = candidates[best.index(max(best))] if best else []
         items[row["imgname"]] = Scores(
-            max(best) if best else 0.0,
-            compute_numeric_f1(everything, truth, tolerance),
-            "<s_width>" in entry["raw_text"],
+            best=max(best) if best else 0.0,
+            whole=compute_numeric_f1(everything, truth, tolerance),
+            horizontal="<s_width>" in entry["raw_text"],
+            repeats=max(repeats) if repeats else 0.0,
+            large=statistics.median(map(abs, values)) >= LARGE_VALUE,
+            errors=relative_errors(chosen, truth, tolerance) if chosen else (),
+            rows=max(len(grid) - 1, 0),
+            values=len(values),
         )
     return data["model"], items
 
@@ -192,6 +252,12 @@ def mean_of(items, field, horizontal=None):
         if horizontal is None or scores.horizontal == horizontal
     ]
     return statistics.mean(values) * 100
+
+
+def median_error(items):
+    """Median relative error of the reproduced values, in per cent."""
+    errors = [e for scores in items.values() for e in scores.errors]
+    return statistics.median(errors) * 100
 
 
 def main():

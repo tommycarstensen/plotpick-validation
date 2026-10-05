@@ -8,8 +8,12 @@ percentile 95% interval, fixed seed) for each comparison the paper makes:
     ChartX   each VLM against DePlot, overall and per chart type
     ChartX   each row of Table 2 against the row below it
     ChartX   the same margins if DePlot's title line is scored as output
+    ChartX   the same margins without the numbers that occur only in labels
+    ChartX   the same margins if a missing reply is scored as zero
     ChartX   the unreported ministral-3b-latest run against DePlot
     PlotQA   each VLM against DePlot, best-series and whole-table
+    PlotQA   the same by chart orientation, by magnitude of the values and
+             with repeated values kept
     PlotQA   the detailed prompt against the simple prompt, for Claude
     both     every system at 1, 2, 5 and 10 per cent tolerance
 
@@ -45,6 +49,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 
 from paths import (  # noqa: E402
     CHARTX_RESULTS_DIR,
+    CHARTX_VAL_META,
     FINAL_VAL_RESULTS_DIR,
     RESULTS_DIR,
 )
@@ -56,7 +61,9 @@ from benchmarks.shared import (  # noqa: E402
     compute_numeric_f1,
     compute_recall,
     deplot_rows,
+    extract_numbers,
     extract_numbers_from_rows,
+    parse_chartx_csv,
 )
 from benchmarks.systems import (  # noqa: E402
     BY_KEY,
@@ -118,8 +125,37 @@ def as_numbers(value):
     return set(value)
 
 
+def label_only_numbers():
+    """{imgname: numbers found only in labels} for the six reported types.
+
+    A number is label-only when it occurs in the header row or the first
+    column of the ground-truth table and in no other cell: a year, the 0 and
+    -10 read from a histogram bin "0-10", the 1 and 3 of "Q1" and "Q3". The
+    metric counts them like any other number, so a system is credited for
+    copying labels.
+    """
+    found = {}
+    for record in json.loads(CHARTX_VAL_META.read_text()):
+        if record["chart_type"] not in CHART_TYPES:
+            continue
+        rows = [
+            [cell.strip() for cell in line.split("\t")]
+            for line in parse_chartx_csv(record["csv"]).strip().split("\n")
+            if line.strip()
+        ]
+        labels, data = set(), set()
+        for cell in rows[0]:
+            labels |= extract_numbers(cell)
+        for row in rows[1:]:
+            labels |= extract_numbers(row[0])
+            for cell in row[1:]:
+                data |= extract_numbers(cell)
+        found[record["imgname"]] = (labels - data, labels | data)
+    return found
+
+
 def chartx_items(path, tolerance=0.05, deplot_title=False,
-                 chart_types=CHART_TYPES):
+                 chart_types=CHART_TYPES, labels=None):
     """Return (model, {imgname: Item}) for the six reported chart types.
 
     VLM files store a flat list of rows; DePlot files store rows by chart
@@ -130,9 +166,11 @@ def chartx_items(path, tolerance=0.05, deplot_title=False,
     from deduplicated values is what makes the comparison like for like.
 
     DePlot's numbers are taken from its stored reply without the TITLE row
-    (shared.deplot_rows). ``deplot_title=True`` scores the numbers as the
-    runner stored them, title included, to show what that convention costs.
+    (shared.deplot_rows). ``deplot_title=True`` keeps the title row, as the
+    runner first scored it, to show what that convention costs.
     ``chart_types`` selects other ChartX types than the six reported.
+    ``labels`` (from label_only_numbers) removes the numbers that occur only
+    in labels from the ground truth and from the extraction.
     """
     data = json.loads(Path(path).read_text())
     is_deplot = data.get("model") == DEPLOT.key
@@ -145,12 +183,18 @@ def chartx_items(path, tolerance=0.05, deplot_title=False,
     for chart_type, row in rows:
         if chart_type not in chart_types:
             continue
-        if is_deplot and not deplot_title:
+        if is_deplot:
             extracted = extract_numbers_from_rows(
-                deplot_rows(row["extracted_text"]))
+                deplot_rows(row["extracted_text"], keep_title=deplot_title))
         else:
             extracted = as_numbers(row["ex_nums"])
         truth = as_numbers(row["gt_nums"])
+        if labels is not None:
+            drop, everything = labels[row["imgname"]]
+            if everything != truth:
+                sys.exit(f"{path}: {row['imgname']} truth differs from the "
+                         "annotation file")
+            extracted, truth = extracted - drop, truth - drop
         # Image names are unique within the six reported types. Across all
         # 18 they are not, so other selections are keyed by type as well.
         name = row["imgname"]
@@ -166,7 +210,7 @@ def chartx_items(path, tolerance=0.05, deplot_title=False,
     return data.get("model"), items
 
 
-def _vlm_runs(directory, tolerance=0.05):
+def _vlm_runs(directory, tolerance=0.05, labels=None):
     """{system key: items} for the reported VLMs with a run in a directory.
 
     The directories also hold runs of systems the paper does not report, in
@@ -178,19 +222,32 @@ def _vlm_runs(directory, tolerance=0.05):
         if model in BY_KEY and model != DEPLOT.key:
             if model in found:
                 sys.exit(f"Two result files for {model} in {directory}")
-            found[model] = chartx_items(path, tolerance)[1]
+            found[model] = chartx_items(path, tolerance, labels=labels)[1]
     return found
 
 
-def chartx_validation(tolerance=0.05, deplot_title=False):
+def chartx_validation(tolerance=0.05, deplot_title=False, labels=None):
     """Per-item scores on the ChartX validation split, for every system."""
-    found = _vlm_runs(FINAL_VAL_RESULTS_DIR, tolerance)
+    found = _vlm_runs(FINAL_VAL_RESULTS_DIR, tolerance, labels)
     found[DEPLOT.key] = chartx_items(
-        CHARTX_RESULTS_DIR / "chartx_deplot_val.json", tolerance, deplot_title)[1]
+        CHARTX_RESULTS_DIR / "chartx_deplot_val.json", tolerance, deplot_title,
+        labels=labels)[1]
     missing = [s.name for s in VLMS if s.key not in found]
     if missing:
         sys.exit(f"No validation-split results for: {', '.join(missing)}")
     return found
+
+
+def with_missing_as_zero(items, reference):
+    """Add a zero score for every item of ``reference`` a run has no reply for.
+
+    Empty replies were removed from the result files in April 2026 instead of
+    being scored. This puts them back as failures.
+    """
+    filled = dict(items)
+    for name, item in reference.items():
+        filled.setdefault(name, Item(item.chart_type, 0.0, 0.0))
+    return filled
 
 
 def chartx_development():
@@ -237,9 +294,26 @@ def overall(items, field="f1"):
     return statistics.mean(column(items, field).values()) * 100
 
 
-def field_of(items, field):
-    """{imgname: score} for one field of PlotQA Scores."""
-    return {name: getattr(scores, field) for name, scores in items.items()}
+def field_of(items, field, where=None):
+    """{imgname: score} for one field of PlotQA Scores.
+
+    ``where`` keeps the items for which it returns true, for example
+    ``lambda s: s.horizontal``.
+    """
+    return {
+        name: getattr(scores, field)
+        for name, scores in items.items()
+        if where is None or where(scores)
+    }
+
+
+# The subsets of the PlotQA items that the paper reports apart.
+PLOTQA_SUBSETS = {
+    "horizontal bar charts": lambda s: s.horizontal,
+    "other charts": lambda s: not s.horizontal,
+    "median value below 1e6": lambda s: not s.large,
+    "median value 1e6 or more": lambda s: s.large,
+}
 
 
 def plotqa_order(plotqa):
@@ -303,13 +377,37 @@ def main():
 
     titled = chartx_validation(deplot_title=True)[DEPLOT.key]
     print("\nChartX: each VLM minus DePlot if DePlot's title line is scored "
-          f"(DePlot {overall(titled):.1f}% instead of {overall(deplot):.1f}%)")
+          f"(DePlot {overall(titled):.1f}% instead of {overall(deplot):.1f}%); "
+          "six types, then the five other than box plots")
     for system in ranked(scores):
         interval = paired_interval(column(scores[system.key], "f1"),
                                    column(titled, "f1"))
+        off_box = paired_interval(column(scores[system.key], "f1", non_box),
+                                  column(titled, "f1", non_box))
+        print(f"{system.name:22}{interval.n:>4}  {interval!s:24}{off_box}"
+              f"{flag(off_box)}")
+
+    plain = chartx_validation(labels=label_only_numbers())
+    print("\nChartX: each VLM minus DePlot without the numbers that occur "
+          f"only in labels (DePlot {overall(plain[DEPLOT.key]):.1f}%)")
+    for system in ranked(scores):
+        interval = paired_interval(column(plain[system.key], "f1"),
+                                   column(plain[DEPLOT.key], "f1"))
         print(f"{system.name:22}{interval.n:>4}  {interval}{flag(interval)}")
 
+    print("\nChartX: runs with a missing reply, the reply scored as zero")
     _, ministral = chartx_items(MINISTRAL_RUN)
+    for name, items in [
+        *((s.name, scores[s.key]) for s in ranked(scores)),
+        ("ministral-3b-latest", ministral),
+    ]:
+        if len(items) == len(deplot):
+            continue
+        filled = with_missing_as_zero(items, deplot)
+        interval = paired_interval(column(filled, "f1"), column(deplot, "f1"))
+        print(f"{name:22}{interval.n:>4}  {overall(filled):.1f}% instead of "
+              f"{overall(items):.1f}%  {interval}{flag(interval)}")
+
     print("\nChartX: ministral-3b-latest (unreported alias run) minus DePlot")
     for field, label in (("f1", "numeric F1"), ("recall", "recall")):
         interval = paired_interval(column(ministral, field),
@@ -327,6 +425,24 @@ def main():
                                 field_of(deplot_qa, "whole"))
         print(f"{BY_PLOTQA_KEY[key].name:22}{best.n:>4}  "
               f"{best!s:24}{whole!s:24}")
+
+    for label, where in PLOTQA_SUBSETS.items():
+        size = len(field_of(deplot_qa, "best", where))
+        print(f"\nPlotQA best-series, {label} (n={size}): each VLM minus "
+              "DePlot")
+        for key in plotqa_order(plotqa):
+            interval = paired_interval(field_of(plotqa[key], "best", where),
+                                       field_of(deplot_qa, "best", where))
+            print(f"{BY_PLOTQA_KEY[key].name:22}{interval.n:>4}  "
+                  f"{interval}{flag(interval)}")
+
+    print("\nPlotQA best-series with repeated values kept: each VLM minus "
+          "DePlot")
+    for key in plotqa_order(plotqa):
+        interval = paired_interval(field_of(plotqa[key], "repeats"),
+                                   field_of(deplot_qa, "repeats"))
+        print(f"{BY_PLOTQA_KEY[key].name:22}{interval.n:>4}  "
+              f"{interval}{flag(interval)}")
 
     print("\nPlotQA best-series: detailed prompt minus simple prompt")
     for key, items in detailed_prompt_items().items():

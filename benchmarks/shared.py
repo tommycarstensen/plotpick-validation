@@ -29,6 +29,11 @@ LIFESCI_TYPES = {
     "box", "histogram",
 }
 
+# How DePlot is called: the instruction of its model card, greedy decoding
+# and this cap on the reply. The paper quotes both.
+DEPLOT_INSTRUCTION = "Generate underlying data table of the figure below:"
+DEPLOT_MAX_NEW_TOKENS = 512
+
 EXTRACT_PROMPT = (
     "Extract the data from this chart as a tab-separated table. "
     "Return ONLY the table, no explanation."
@@ -67,6 +72,11 @@ def extract_numbers(text):
         float(m.group().replace(",", ""))
         for m in NUM_RE.finditer(text)
     }
+
+
+def extract_number_list(text):
+    """Every numeric value in a string, in order, repeats kept."""
+    return [float(m.group().replace(",", "")) for m in NUM_RE.finditer(text)]
 
 
 def extract_numbers_from_rows(rows):
@@ -206,7 +216,7 @@ def parse_chartx_csv(csv_field):
     return csv_field.replace("\\t", "\t").replace("\\n", "\n")
 
 
-def deplot_rows(text):
+def deplot_rows(text, keep_title=False):
     """Parse DePlot's linearised table into rows of cells, without its title.
 
     DePlot writes ``TITLE | <chart title> <0x0A> header | ... <0x0A> row``.
@@ -214,13 +224,15 @@ def deplot_rows(text):
     an extracted value that matches nothing, which lowered DePlot's precision
     on 220 of the 300 ChartX validation items. The VLMs are told to return
     only the table, so the title row is dropped to compare like with like.
+    ``keep_title=True`` returns the reply as the runners first scored it, to
+    show what that convention costs.
     """
     rows = []
     for line in text.split("<0x0A>"):
         line = line.strip()
         if line:
             rows.append([c.strip() for c in line.split("|")])
-    if rows and rows[0][0].strip().upper() == "TITLE":
+    if not keep_title and rows and rows[0][0].strip().upper() == "TITLE":
         rows = rows[1:]
     return rows
 
@@ -228,10 +240,17 @@ def deplot_rows(text):
 def plotqa_truth(entry):
     """The plotted values of a PlotQA subset entry, as a list of floats.
 
-    Each entry of external/plotqa_test_*.json describes one series of one
-    chart. For a horizontal bar chart (its annotation carries ``<s_width>``)
-    the bar lengths are in ``x_values`` and ``y_values`` holds the category
-    labels; for every other chart the values are in ``y_values``.
+    Each entry of external/plotqa_test_*.json describes the first series of
+    one chart. For a horizontal bar chart (its annotation carries
+    ``<s_width>``) the bar lengths are in ``x_values`` and ``y_values`` holds
+    the category labels; for every other chart the values are in
+    ``y_values``.
+
+    The ``<s_width>`` test is sound for these files only because of what
+    they hold: all 898 entries with the tag are horizontal bar charts and the
+    other 102 are line or dot-line plots. A vertical bar chart would carry
+    the same tag with the axes the other way round, and the files have none.
+    Do not use this function on other PlotQA data without checking that.
 
     Until October 2026 the runners read ``y_values`` for every chart. For the
     427 horizontal bar charts among the 529 scored items that made the

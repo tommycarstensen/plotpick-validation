@@ -34,7 +34,7 @@ No result in the paper's tables or figures uses it.
 
 ## How sure the attribution is
 
-No result file records the prompt it was made with. The attribution of the two PlotQA files rests on the repository's history: they were first committed on 19 April 2026, when the only PlotQA runner was `benchmark_plotqa.py` and its only prompt was the detailed one; a commit of 21 April archived copies of them as "detailed prompt results"; and the simple-prompt Claude runs (`plotqa_claude_*.json`, written by `benchmark_plotqa_multi.py`) were first committed on 4 May 2026 under the message "add simple-prompt PlotQA results". The replies of the two runs differ in text on 457 (Sonnet) and 476 (Haiku) of the 529 items. One loose end: `benchmark_plotqa.py` as committed reads the 100-item subset, so the 529-item run was made from a copy pointed at the 1000-item file that was never committed.
+No result file records the prompt it was made with. The attribution of the two PlotQA files rests on the repository's history: they were first committed on 19 April 2026, when the only PlotQA runner was `benchmark_plotqa.py` and its only prompt was the detailed one; a commit of 21 April archived copies of them as "detailed prompt results"; and the simple-prompt Claude runs (`plotqa_claude_*.json`, written by `benchmark_plotqa_multi.py`) were first committed on 4 May 2026 under a message ending "add simple-prompt PlotQA results". That history belongs to the development repository; the public release is a snapshot without it, so a reader of the release cannot check these dates. The two runs of each model were therefore also made on different dates. The replies of the two runs differ in text on 457 (Sonnet) and 476 (Haiku) of the 529 items. One loose end: `benchmark_plotqa.py` as committed reads the 100-item subset, so the 529-item run was made from a copy pointed at the 1000-item file that was never committed.
 
 ## What the comparison shows
 
@@ -45,7 +45,7 @@ No result file records the prompt it was made with. The attribution of the two P
 | Claude Sonnet 4.6 | 88.6% | 89.0% | -0.5 [-1.2, +0.3] |
 | Claude Haiku 4.5 | 69.7% | 70.2% | -0.4 [-2.0, +1.1] |
 
-Best-series numeric F1 against the plotted values. Neither difference is separable from zero. Each prompt was run once per model, so this is no evidence of an effect, not a measurement of its absence.
+Best-series numeric F1 against the plotted values. Neither difference is separable from zero, and the intervals exclude a gain of more than 0.3 points for Sonnet and 1.1 points for Haiku. Each prompt was run once per model.
 
 Version 1 of the paper reported the detailed prompt as 1 to 3 points better (Haiku 96.3% against 97.6%, Sonnet 98.8% against 99.1%). Those figures were computed against the wrong axis for 427 of the 529 items (see the README), so they measured whether a reply contained a column of years and say nothing about the prompt.
 

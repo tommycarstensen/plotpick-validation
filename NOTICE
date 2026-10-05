@@ -36,8 +36,11 @@ Licence: CC-BY-4.0 (dataset), https://creativecommons.org/licenses/by/4.0/
 Citation: Methani, Ganguly, Khapra and Kumar, "PlotQA: Reasoning over
   Scientific Plots", WACV 2020.
 These files are a subset of the PlotQA test split, adapted into the field
-layout this benchmark reads. They are provided without warranties, as
-CC-BY-4.0 section 5 sets out.
+layout this benchmark reads: the first 1000 (and the first 100) entries of
+the test split in the order of the conversion published at
+https://huggingface.co/datasets/achang/plot_qa, each reduced to the first
+series of its chart, with the serialised annotation cut to 500 characters.
+They are provided without warranties, as CC-BY-4.0 section 5 sets out.
 
 Not redistributed
 -----------------

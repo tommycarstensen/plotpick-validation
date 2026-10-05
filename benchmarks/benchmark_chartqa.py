@@ -1,6 +1,5 @@
 """Benchmark Claude on ChartQA (question answering, not chart-to-table).
 
-Compares against published scores: Claude 90.8%, GPT-4o 85.7%.
 Uses relaxed accuracy with 5% numerical tolerance.
 
 This is exploratory -- output goes to results/archive/.
@@ -163,12 +162,6 @@ def main():
     if machine:
         m_acc = sum(r["correct"] for r in machine) / len(machine)
         print(f"  Machine-generated: {m_acc:.1%} ({len(machine)} questions)")
-
-    print("\nPublished baselines:")
-    print("  Claude 3.5 Sonnet: 90.8%")
-    print("  GPT-4o: 85.7%")
-    print("  TinyChart: 83.6%")
-    print("  DePlot: 79.3%")
 
 
 if __name__ == "__main__":
