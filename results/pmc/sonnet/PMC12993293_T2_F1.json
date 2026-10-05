@@ -1,0 +1,214 @@
+{
+  "pmcid": "PMC12993293",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 55,
+  "figure_type": "multi-panel figure with DVH curves, NTCP curves, and ROC curves",
+  "metrics": {
+    "n_correct": 6,
+    "n_total": 22,
+    "recall": 0.273,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 23.37,
+        "extracted": 23.37,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 12.63,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": -33.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.18,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 2,
+        "truth": -0.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 2,
+        "truth": -0.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.81,
+        "extracted": 0.81,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.14,
+        "extracted": 0.14,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 70.5,
+        "extracted": 70.5,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 50.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 2,
+        "truth": -105.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 2,
+        "truth": -0.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 2,
+        "truth": -0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.66,
+        "extracted": 0.66,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.17,
+        "extracted": 0.17,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "multi-panel figure with DVH curves, NTCP curves, and ROC curves",
+    "rows": [
+      [
+        "Carbon ion",
+        null,
+        "23.37",
+        null,
+        null,
+        "0.81±0.14"
+      ],
+      [
+        "Photon",
+        null,
+        "70.50",
+        null,
+        null,
+        "0.66±0.17"
+      ]
+    ],
+    "confidence": 55,
+    "notes": "TD50 values extracted from annotated points in panels C and D: (23.37, 50.00) and (70.50, 50.00). AUC values extracted from panels E and F. The dose metrics column and m, n parameters are not explicitly annotated as text labels in the figure. P-values visible in panels A (P=0.001) and B (P=0.008) but these don't correspond to the table columns."
+  }
+}

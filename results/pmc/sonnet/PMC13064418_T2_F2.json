@@ -1,0 +1,438 @@
+{
+  "pmcid": "PMC13064418",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "scatter plots with distribution curves showing discrimination index values across experimental conditions",
+  "metrics": {
+    "n_correct": 8,
+    "n_total": 44,
+    "recall": 0.182,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": -116.0,
+        "extracted": -116.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 49.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 22.44,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": -116.0,
+        "extracted": -116.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 46.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 13.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.34,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": -116.0,
+        "extracted": -116.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.34,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 20.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 1,
+        "truth": -116.0,
+        "extracted": -116.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.34,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.44,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "scatter plots with distribution curves showing discrimination index values across experimental conditions",
+    "rows": [
+      [
+        "Entries open arms (#)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1A-116",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Time open arms (s)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1A-116",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Distance open arms (m)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1A-116",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Total distance (m)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1A-116",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure shows object recognition/discrimination index experiments, not elevated plus maze data. The table template requests EPM measurements (entries/time/distance in open arms) which are not present in this figure. No numerical annotations matching the table structure are visible."
+  }
+}

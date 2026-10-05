@@ -1,0 +1,738 @@
+{
+  "pmcid": "PMC12992057",
+  "table_num": 1,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Box plots with multiple panels showing distribution of variables across follow-up groups with p-values and q-values",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 76,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 62.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.3507,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.069,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 53.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 8.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 50.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.2304,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 8.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 2,
+        "truth": -27.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 14.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 9.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 2,
+        "truth": -21.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.8508,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 465.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 392.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 2,
+        "truth": -537.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 485.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 420.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 2,
+        "truth": -562.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.2125,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 2,
+        "truth": -3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 2,
+        "truth": -3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.1641,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 450.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 1,
+        "truth": 375.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 2,
+        "truth": -480.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 480.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 417.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 2,
+        "truth": -480.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.3371,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 65.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 55.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 2,
+        "truth": -70.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 70.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 1,
+        "truth": 55.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 2,
+        "truth": -80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.3643,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 700.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 1,
+        "truth": 400.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 2,
+        "truth": -800.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 800.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 1,
+        "truth": 500.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 2,
+        "truth": -1500.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.1347,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 800.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 1,
+        "truth": 800.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 2,
+        "truth": -1100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 1200.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 550.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 2,
+        "truth": -2000.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.3148,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.6899,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.7556,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.2683,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 56.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Box plots with multiple panels showing distribution of variables across follow-up groups with p-values and q-values",
+    "rows": [
+      [
+        "Gender (male)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Disease(malignant)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Age",
+        null,
+        null,
+        null
+      ],
+      [
+        "MELD",
+        null,
+        null,
+        null
+      ],
+      [
+        "Operating time(min)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Warm ischemia time(min)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Cold storage time(min)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Anhepatic phase(min)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Operative bleeding(ml)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Transfusion(ml)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Complications",
+        null,
+        null,
+        null
+      ],
+      [
+        "Biliary Complications",
+        null,
+        null,
+        null
+      ],
+      [
+        "Hemorrhage",
+        null,
+        null,
+        null
+      ],
+      [
+        "Infection",
+        null,
+        null,
+        null
+      ],
+      [
+        "Immunesuppression",
+        null,
+        null,
+        null
+      ],
+      [
+        "Tacrolimus+Sirolimus",
+        null,
+        null,
+        null
+      ],
+      [
+        "Tacrolimus",
+        null,
+        null,
+        null
+      ],
+      [
+        "Tacrolimus+MMF",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows four panels (A, B, C, D) with box plots displaying distributions of various markers (CD34, CD47, CD86, CD114, IM, IWT, IEEC, BOX) across different follow-up periods. While p-values and q-values are visible (p=0.001, p=0.030 in panels A-B; p<0.001, p=0.002, p=0.003 in panel C; q=0.029, q=0.034 in panel D), these do not correspond to the table structure requested. The figure does not contain explicit text labels for the specific demographic and clinical variables listed in the table template (Gender, Disease, Age, MELD, Operating time, etc.). The data points shown are immunological markers, not the clinical variables requested. Therefore, no values can be transcribed from this figure to fill the requested table."
+  }
+}

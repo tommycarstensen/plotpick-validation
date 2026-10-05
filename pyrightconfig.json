@@ -1,0 +1,14 @@
+{
+  "pythonVersion": "3.12",
+  "typeCheckingMode": "standard",
+  "extraPaths": ["../plotpick"],
+  "exclude": [
+    "**/__pycache__",
+    "inspect/_archive",
+    "external",
+    "figures",
+    "tables",
+    "results",
+    "reports"
+  ]
+}

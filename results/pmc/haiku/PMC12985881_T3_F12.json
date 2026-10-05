@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC12985881",
+  "table_num": 3,
+  "figure_num": 12,
+  "model": "haiku",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 57.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 28.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.97,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 51.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 18.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "I need to carefully examine the figure to find the table data. However, looking at Figure 12, this figure shows the effect of WTMF (Waste Tire Rubber Modified Asphalt) on various properties like OBC, Marshall quotient, bulk specific gravity, porosity, Marshall stability, flow, VMA, and VFB. \n\nThe figure contains multiple subplots (a through h) showing different properties plotted against WTMF content (%), but I do not see any element composition table with Carbon, Copper, Iron, Oxygen values and"
+  }
+}

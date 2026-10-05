@@ -1,0 +1,1007 @@
+{
+  "pmcid": "PMC12989194",
+  "table_num": 4,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 85,
+  "figure_type": "Forest plot with meta-analysis summary table",
+  "metrics": {
+    "n_correct": 61,
+    "n_total": 96,
+    "recall": 0.635,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2007.0,
+        "extracted": 2007.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 14.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2018.0,
+        "extracted": 2018.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2024.0,
+        "extracted": 2024.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 37.0,
+        "extracted": 37.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 36.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 2007.0,
+        "extracted": 2007.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 17.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 2000.0,
+        "extracted": 2000.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 7.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 2019.0,
+        "extracted": 2019.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 2016.0,
+        "extracted": 2016.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 2012.0,
+        "extracted": 2012.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 2005.0,
+        "extracted": 2005.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 16.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 1999.0,
+        "extracted": 1999.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 43.0,
+        "extracted": 43.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 38.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 2025.0,
+        "extracted": 2025.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 12.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 1996.0,
+        "extracted": 1996.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 1996.0,
+        "extracted": 1996.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 14.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 2001.0,
+        "extracted": 2001.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 2020.0,
+        "extracted": 2020.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 27.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 2011.0,
+        "extracted": 2011.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 0,
+        "truth": 2015.0,
+        "extracted": 2015.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 24.0,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 0,
+        "truth": 2018.0,
+        "extracted": 2018.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 0,
+        "truth": 2018.0,
+        "extracted": 2018.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 16.0,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 15.0,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 0,
+        "truth": 2009.0,
+        "extracted": 2009.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 3.0,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 0,
+        "pos": 0,
+        "truth": 2005.0,
+        "extracted": 2005.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 21.0,
+        "match": false
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 0,
+        "truth": 2021.0,
+        "extracted": 2021.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 14.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 0,
+        "pos": 0,
+        "truth": 2009.0,
+        "extracted": 2009.0,
+        "match": true
+      },
+      {
+        "row": 24,
+        "col": 1,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 24,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 0,
+        "pos": 0,
+        "truth": 2017.0,
+        "extracted": 2017.0,
+        "match": true
+      },
+      {
+        "row": 25,
+        "col": 1,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 25,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 0,
+        "truth": 2008.0,
+        "extracted": 2008.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 1,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 0,
+        "pos": 0,
+        "truth": 2013.0,
+        "extracted": 2013.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 1,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 0,
+        "pos": 0,
+        "truth": 2013.0,
+        "extracted": 2013.0,
+        "match": true
+      },
+      {
+        "row": 28,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 28,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 0,
+        "truth": 2017.0,
+        "extracted": 2017.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 1,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 24.0,
+        "match": false
+      },
+      {
+        "row": 30,
+        "col": 0,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 30,
+        "col": 1,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 30,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 13.0,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot with meta-analysis summary table",
+    "rows": [
+      [
+        "Adelani, 2007",
+        "14",
+        "13",
+        null,
+        null
+      ],
+      [
+        "Akgul, 2018",
+        "17",
+        "13",
+        null,
+        null
+      ],
+      [
+        "Arikawa, 2024",
+        "37",
+        "36",
+        null,
+        null
+      ],
+      [
+        "Baxter, 2007",
+        "19",
+        "17",
+        null,
+        null
+      ],
+      [
+        "Bonardelli, 2000",
+        "7",
+        "7",
+        null,
+        null
+      ],
+      [
+        "Cetinkaya, 2019",
+        "13",
+        "13",
+        null,
+        null
+      ],
+      [
+        "Davis, 2016",
+        "9",
+        "9",
+        null,
+        null
+      ],
+      [
+        "Emori, 2012",
+        "10",
+        "9",
+        null,
+        null
+      ],
+      [
+        "Ghert, 2005",
+        "19",
+        "16",
+        null,
+        null
+      ],
+      [
+        "Hohenberg, 1999",
+        "20",
+        "19",
+        null,
+        null
+      ],
+      [
+        "Homsy, 2022",
+        "8",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Kang, 2023",
+        "43",
+        "38",
+        null,
+        null
+      ],
+      [
+        "Karimi, 2025",
+        "13",
+        "12",
+        null,
+        null
+      ],
+      [
+        "Kawai, 1996",
+        "8",
+        "6",
+        null,
+        null
+      ],
+      [
+        "Koperna, 1996",
+        "14",
+        "14",
+        null,
+        null
+      ],
+      [
+        "Leggon, 2001",
+        "16",
+        "14",
+        null,
+        null
+      ],
+      [
+        "Mless, 2020",
+        "29",
+        "27",
+        null,
+        null
+      ],
+      [
+        "Muramatsu, 2011",
+        "15",
+        "14",
+        null,
+        null
+      ],
+      [
+        "Nishinari, 2015",
+        "25",
+        "24",
+        null,
+        null
+      ],
+      [
+        "Okamoto, 2018",
+        "8",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Park, 2018",
+        "16",
+        "15",
+        null,
+        null
+      ],
+      [
+        "Ramamurthy, 2009",
+        "4",
+        "3",
+        null,
+        null
+      ],
+      [
+        "Schwarzbach, 2005",
+        "21",
+        "21",
+        null,
+        null
+      ],
+      [
+        "Shah, 2021",
+        "14",
+        "13",
+        null,
+        null
+      ],
+      [
+        "Spark, 2009",
+        "9",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Teixeira, 2017",
+        "13",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Tsukushi, 2008",
+        "25",
+        "23",
+        null,
+        null
+      ],
+      [
+        "Umezawa, 2013",
+        "23",
+        "23",
+        null,
+        null
+      ],
+      [
+        "Viñals, 2013",
+        "8",
+        "8",
+        null,
+        null
+      ],
+      [
+        "Wortmann, 2017",
+        "27",
+        "24",
+        null,
+        null
+      ],
+      [
+        "Zheng, 2023",
+        "15",
+        "13",
+        null,
+        null
+      ]
+    ],
+    "confidence": 85,
+    "notes": "The table provided in the figure shows 'Events' (amputation events) and 'Total' (total patients) columns. The 'Cause(s) of amputation' and 'Time interval to amputation' columns are not present in the visible figure data. Only the Events and Total columns have explicit numerical values that can be transcribed from the figure."
+  }
+}

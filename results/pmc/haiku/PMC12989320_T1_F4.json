@@ -1,0 +1,1786 @@
+{
+  "pmcid": "PMC12989320",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Box plot chart showing Gamma Pass Rate comparisons across different anatomical structures",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 204,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 103.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.84,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 115.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 12.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 101.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 119.45,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 12.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 101.35,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.69,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 116.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 12.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.46,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 8.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 39.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 7.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 37.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": 8.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 6.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 5.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 38.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 1,
+        "truth": 6.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.96,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 39.37,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 10.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.56,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 37.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": 6.91,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 10.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": 4.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 37.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 1,
+        "truth": 6.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 42.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 7.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 44.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 44.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 1,
+        "truth": 8.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 46.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 1,
+        "truth": 6.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 40.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": 7.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 41.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 1,
+        "truth": 6.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 9.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 16.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 4.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 1,
+        "truth": 3.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 13.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": 3.61,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 9.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": 4.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 17.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 1,
+        "truth": 4.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 115.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 99.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 121.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": 3.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 100.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 1,
+        "truth": 5.09,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 117.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 1,
+        "truth": 12.16,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 1,
+        "truth": 2.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.16,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.69,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 1,
+        "truth": 1.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 8.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 1,
+        "truth": 9.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 10.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 1,
+        "truth": 10.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.84,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 1,
+        "truth": 6.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 2.56,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 1,
+        "truth": 3.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 9.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 1,
+        "truth": 7.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 18.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 1,
+        "truth": 14.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 15.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 1,
+        "truth": 14.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 0,
+        "truth": 6.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 1,
+        "truth": 5.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "pos": 0,
+        "truth": 15.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "pos": 1,
+        "truth": 11.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 14.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 1,
+        "truth": 6.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 12.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 1,
+        "truth": 9.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 0,
+        "truth": 10.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 1,
+        "truth": 8.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "pos": 0,
+        "truth": 17.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "pos": 1,
+        "truth": 11.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 97.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 1,
+        "truth": 19.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 117.35,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 1,
+        "truth": 27.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 0,
+        "truth": 97.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 1,
+        "truth": 18.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 0,
+        "truth": 120.61,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 1,
+        "truth": 28.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 0,
+        "truth": 96.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 1,
+        "truth": 18.46,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "pos": 0,
+        "truth": 115.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "pos": 1,
+        "truth": 27.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 5,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 6,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 15.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 1,
+        "truth": 9.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 4,
+        "pos": 0,
+        "truth": 13.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 4,
+        "pos": 1,
+        "truth": 7.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 5,
+        "pos": 0,
+        "truth": 7.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 5,
+        "pos": 1,
+        "truth": 5.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 0,
+        "truth": 14.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 1,
+        "truth": 8.61,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": 11.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.16,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.85,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 1,
+        "truth": 5.46,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "pos": 0,
+        "truth": 10.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "pos": 1,
+        "truth": 9.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 5,
+        "pos": 0,
+        "truth": 6.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 5,
+        "pos": 1,
+        "truth": 5.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "pos": 0,
+        "truth": 10.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "pos": 1,
+        "truth": 8.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 1,
+        "truth": 4.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.18,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.76,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 4,
+        "pos": 0,
+        "truth": 6.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 4,
+        "pos": 1,
+        "truth": 4.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "pos": 1,
+        "truth": 3.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.76,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 6,
+        "pos": 1,
+        "truth": 4.54,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Box plot chart showing Gamma Pass Rate comparisons across different anatomical structures",
+    "rows": [
+      [
+        "Prostate",
+        null,
+        null,
+        null
+      ],
+      [
+        "PTV",
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null
+      ],
+      [
+        "Bladder",
+        null,
+        null,
+        null
+      ],
+      [
+        "Rectal wall",
+        null,
+        null,
+        null
+      ],
+      [
+        "Urethra",
+        null,
+        null,
+        null
+      ],
+      [
+        "Femoral head",
+        null,
+        null,
+        null
+      ],
+      [
+        "Liver cases",
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null
+      ],
+      [
+        "PTV",
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null
+      ],
+      [
+        "Bowel",
+        null,
+        null,
+        null
+      ],
+      [
+        "Kidney",
+        null,
+        null,
+        null
+      ],
+      [
+        "Stomach",
+        null,
+        null,
+        null
+      ],
+      [
+        "Esophagus",
+        null,
+        null,
+        null
+      ],
+      [
+        "Brain cases",
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null
+      ],
+      [
+        "PTV",
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null
+      ],
+      [
+        "Brainstem",
+        null,
+        null,
+        null
+      ],
+      [
+        "Optic pathway",
+        null,
+        null,
+        null
+      ],
+      [
+        "Hippocampus",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows box plots without explicit numerical labels on individual data points or box elements. The y-axis shows Gamma Pass Rate (%) but specific values for Pred, Opt, and Clinical columns cannot be read as text annotations on the figure itself. The legend indicates three categories (Pred vs. Opt, Pred vs. Clinical, Opt vs. Clinical) but these appear to represent different comparison types rather than the column structure implied by the table template. No explicit text values are visible for the cells requested in the table."
+  }
+}

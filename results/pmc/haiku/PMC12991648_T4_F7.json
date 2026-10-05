@@ -1,0 +1,410 @@
+{
+  "pmcid": "PMC12991648",
+  "table_num": 4,
+  "figure_num": 7,
+  "model": "haiku",
+  "confidence": 95,
+  "figure_type": "Risk of bias assessment table for multiple studies",
+  "metrics": {
+    "n_correct": 20,
+    "n_total": 26,
+    "recall": 0.769,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": 24.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": 31.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 32.0,
+        "extracted": 32.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": 33.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": 35.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 0,
+        "truth": 36.0,
+        "extracted": 36.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 0,
+        "truth": 37.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Risk of bias assessment table for multiple studies",
+    "rows": [
+      [
+        "Inagaki et al[17]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Lingvay et al[18]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Elkind-Hirsch et al[19]",
+        "Some concerns",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Rosenstock et al[20]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jensen et al[21]",
+        "23% attrition",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Aroda et al[22]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Rodbard et al[23]",
+        "17% dropout",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Rubino et al[24]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Zhang et al[25]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Wadden et al[26]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Mok et al[27]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jastreboff et al[28]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Silver et al[29]",
+        "Some concerns",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Weghuber et al[30]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jastreboff et al[31]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Dahl et al[32]",
+        "26% attrition",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Nahra et al[33]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Rubino et al[34]",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Wadden et al[35]",
+        "22% dropout",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Wilding et al[36]",
+        "18% dropout",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ]
+    ],
+    "confidence": 95,
+    "notes": "All values transcribed directly from the visible text in the table. The table shows risk of bias assessment across different domains (Randomization, Deviations, Missing data, Outcome measurement, Reporting, and Overall) for 20 different studies."
+  }
+}

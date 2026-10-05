@@ -1,0 +1,120 @@
+{
+  "pmcid": "PMC12993306",
+  "table_num": 1,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 20,
+  "figure_type": "combination of cost-effectiveness planes (scatter plots) and cost-acceptability curves (line graphs)",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 1833.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 92.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": -763.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 81.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "combination of cost-effectiveness planes (scatter plots) and cost-acceptability curves (line graphs)",
+    "rows": [
+      [
+        "Effect outcome",
+        null,
+        null,
+        null
+      ],
+      [
+        "Spotting days",
+        null,
+        null,
+        null
+      ],
+      [
+        "Effective rate",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 20,
+    "notes": "No explicit numerical text labels or annotations are visible in the figure for the quadrant distributions (NE, SE, SW, NW). The scatter plots show bootstrap sample distributions but without labeled counts or percentages per quadrant. Only axis labels, treatment labels (HNR, LNG-IUS), and axis tick values are visible as text."
+  }
+}

@@ -1,0 +1,137 @@
+{
+  "pmcid": "PMC13053301",
+  "table_num": 3,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Violin plots with statistical annotations showing distributions across three groups (HC, TEC, PTSD) for multiple fiber tract measurements",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 5,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.003,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.002,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": 0.11,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.002,
+        "extracted": 0.13,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Violin plots with statistical annotations showing distributions across three groups (HC, TEC, PTSD) for multiple fiber tract measurements",
+    "rows": [
+      [
+        "FD",
+        "PTSD vs. HC",
+        "0.01***"
+      ],
+      [
+        "PTSD vs. HC",
+        "TEC vs. HC",
+        null
+      ],
+      [
+        "",
+        "PTSD vs. TEC",
+        null
+      ],
+      [
+        "TEC vs. HC",
+        "PTSD vs. HC",
+        "0.12***"
+      ],
+      [
+        "PTSD vs. TEC",
+        "TEC vs. HC",
+        null
+      ],
+      [
+        "FC",
+        "PTSD vs. HC",
+        "0.04**"
+      ],
+      [
+        "PTSD vs. HC",
+        "TEC vs. HC",
+        null
+      ],
+      [
+        "TEC vs. HC",
+        "PTSD vs. TEC",
+        null
+      ],
+      [
+        "PTSD vs. TEC",
+        "PTSD vs. HC",
+        "0.18***"
+      ],
+      [
+        "FDC",
+        "PTSD vs. HC",
+        null
+      ],
+      [
+        "PTSD vs. HC",
+        "TEC vs. HC",
+        "0.11***"
+      ],
+      [
+        "",
+        "PTSD vs. TEC",
+        null
+      ],
+      [
+        "",
+        "PTSD vs. HC",
+        "0.13**"
+      ],
+      [
+        "TEC vs. HC",
+        "TEC vs. HC",
+        null
+      ],
+      [
+        "PTSD vs. TEC",
+        "PTSD vs. TEC",
+        null
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The table structure provided does not clearly match the figure content. The figure shows violin plots comparing three groups (HC, TEC, PTSD) across five different measurements (FD, FC, FDC, and two others), with p-values shown above some comparisons. The visible p-value annotations include '0.01***', '0.12***', '0.04**', '0.18***', '0.11***', and '0.13**'. However, the mapping between the template rows and the actual data presented in the figure is ambiguous, making it difficult to accurately fill in all cells with confidence."
+  }
+}

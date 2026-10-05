@@ -1,0 +1,571 @@
+{
+  "pmcid": "PMC12989525",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 69,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.812,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.152,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.796,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.075,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.785,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.225,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.745,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.105,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.698,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.305,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.665,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.35,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.087,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.601,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.118,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.092,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.823,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.178,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.791,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.145,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.752,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.295,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.642,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.105,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.615,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.285,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.185,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.088,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.855,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.208,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.102,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.31,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.215,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.715,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.255,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.305,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.585,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 0,
+        "truth": 26.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 20.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 0,
+        "truth": 26.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 0,
+        "truth": 46.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 3,
+        "pos": 0,
+        "truth": 62.3,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the heatmap, I need to transcribe the visible text labels for each symptom across the three clusters.\n\n```json\n{\n  \"figure_type\": \"heatmap\",\n  \"rows\": [\n    [\"Fatigue\", \"0.81\", null],\n    [\"Shortness of breath\", \"0.79\", null],\n    [\"Lack of energy\", \"0.78\", null],\n    [\"Drowsiness\", \"0.74\", null],\n    [\"Dry mouth\", \"0.69\", null],\n    [\"Sleep problems\", \"0.66\", null],\n    [\"Poor appetite\", \"0.60\", null],\n    [\"Bloating\", \"0.58\", null],\n    [\"Sadness\", \"0.85\", null],\n    [\"Nervousness\","
+  }
+}

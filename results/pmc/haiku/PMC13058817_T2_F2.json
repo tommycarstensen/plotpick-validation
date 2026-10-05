@@ -1,0 +1,422 @@
+{
+  "pmcid": "PMC13058817",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Line plot showing ΔPASP (mm Hg) vs PIV/100 with confidence intervals and rug plot",
+  "metrics": {
+    "n_correct": 5,
+    "n_total": 44,
+    "recall": 0.114,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": -0.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.119,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": -0.29,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 2,
+        "truth": 0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.253,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.166,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.36,
+        "extracted": 6.36,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 6.36,
+        "extracted": 6.36,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 2,
+        "truth": 2.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.041,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": -0.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 2,
+        "truth": 2.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.091,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 2,
+        "truth": 2.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.063,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 6.36,
+        "extracted": 6.36,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": -0.52,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 2,
+        "truth": -0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.008,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": -0.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 2,
+        "truth": -0.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.038,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 2,
+        "truth": -0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.017,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.023,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.058,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.035,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Line plot showing ΔPASP (mm Hg) vs PIV/100 with confidence intervals and rug plot",
+    "rows": [
+      [
+        "Fitting by a standard Linear regression model",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Total",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Fitted by a piecewise Linear regression model (break point = 6.36)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "PIV/100 <6.36",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "PIV/100 ≥6.36",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Log likelihood ratio",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows a graph with plotted lines and confidence intervals, but contains no explicit text labels or numerical annotations that correspond to the table cells. The table appears to be designed for regression statistics (Beta coefficients with 95% confidence intervals and p-values), but these numerical values are not visible as text labels within the figure itself. The figure only shows axis labels (ΔPASP in mm Hg, PIV/100), a breakpoint reference (6.36) in the axis annotation, and a rug plot at the bottom, but no embedded data table or coefficient values."
+  }
+}

@@ -1,0 +1,322 @@
+{
+  "pmcid": "PMC13025566",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 45,
+  "figure_type": "Mixed chart with bar charts and text annotations showing demographic and clinicopathological features",
+  "metrics": {
+    "n_correct": 3,
+    "n_total": 27,
+    "recall": 0.111,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 49.0,
+        "extracted": 49.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": 78.0,
+        "extracted": 78.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 294.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 48.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 315.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 52.0,
+        "extracted": 315.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 113.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 344.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 56.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 146.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 487.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 52.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.5,
+        "extracted": 52.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.3,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.33,
+        "extracted": 2.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 39.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.4,
+        "extracted": 39.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.8,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Mixed chart with bar charts and text annotations showing demographic and clinicopathological features",
+    "rows": [
+      [
+        "Age (years)",
+        "Median (Range)",
+        "49 (22–78)",
+        null
+      ],
+      [
+        "Comorbidities",
+        null,
+        null,
+        null
+      ],
+      [
+        "No",
+        "No",
+        "315",
+        null
+      ],
+      [
+        "Tumor Grade",
+        null,
+        null,
+        null
+      ],
+      [
+        "II",
+        null,
+        null,
+        null
+      ],
+      [
+        "III",
+        null,
+        null,
+        null
+      ],
+      [
+        "NA",
+        null,
+        null,
+        null
+      ],
+      [
+        "Type of Tumor",
+        null,
+        null,
+        null
+      ],
+      [
+        "IDC + DCIS",
+        "IDC + DCIS",
+        "52",
+        null
+      ],
+      [
+        "ILC",
+        "ILC",
+        "14",
+        null
+      ],
+      [
+        "ILC + LCIS",
+        "ILC + LCIS",
+        "2",
+        null
+      ],
+      [
+        "DCIS",
+        "DCIS",
+        "39",
+        null
+      ],
+      [
+        "Others",
+        "Others",
+        "5",
+        null
+      ],
+      [
+        "NA",
+        "NA",
+        "10",
+        null
+      ]
+    ],
+    "confidence": 45,
+    "notes": "The table template has rows for Tumor Grade (II, III, NA) which are not visible in the figure. The figure shows Biopsy Diagnosis bars with IIDC=487, IDC+DCIS=52, DCIS=39, ILC=14, NA=10, Others=5, ILC+LCIS=2. Comorbidities shows No=315 and Yes=294. Many cells cannot be filled as the data is not present in the visible figure. The mapping of table rows to figure elements is ambiguous."
+  }
+}

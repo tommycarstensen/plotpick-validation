@@ -1,0 +1,244 @@
+{
+  "pmcid": "PMC13064936",
+  "table_num": 5,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "citation network / main path analysis diagram",
+  "metrics": {
+    "n_correct": 13,
+    "n_total": 18,
+    "recall": 0.722,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 51.0,
+        "extracted": 51.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 82.0,
+        "extracted": 82.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 83.0,
+        "extracted": 83.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 84.0,
+        "extracted": 84.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 85.0,
+        "extracted": 85.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 86.0,
+        "extracted": 86.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 87.0,
+        "extracted": 87.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 88.0,
+        "extracted": 88.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 89.0,
+        "extracted": 89.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": 90.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 91.0,
+        "extracted": 91.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "citation network / main path analysis diagram",
+    "rows": [
+      [
+        "Acta Neuropathologica [51]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Acta Neuropathologica [82]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Acta Neuropathologica [83]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Brain Pathology [84]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Acta Neuropathologica [85]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Neuro-Oncology [50]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Neuro-Oncology [86]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Journal of Clinical Medicine [87]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Journal of Neuro-oncolgy [88]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Korean Journal of Radiology [89]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Journal of Medical Imaging and Radiation Oncology [23]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Neuroradiology [90]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Neuroradiology [91]",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure is a citation network diagram with node labels in author/year/volume:page format. The columns 'Methodological contribution', 'Role in main path', and 'Clinical correlates' do not correspond to any explicitly visible text annotations in the figure. No numeric or categorical values can be directly read from the figure for these columns."
+  }
+}

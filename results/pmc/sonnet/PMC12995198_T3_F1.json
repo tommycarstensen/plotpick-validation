@@ -1,0 +1,160 @@
+{
+  "pmcid": "PMC12995198",
+  "table_num": 3,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "ROC curve",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 15,
+    "recall": 0.067,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 390.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.936,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 88.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 88.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.877,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.995,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "ROC curve",
+    "rows": [
+      [
+        "Fold change of miRNA 21",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "BNP",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure only shows the ROC curves visually without any explicit text annotations for cutoff point, AUC, sensitivity%, specificity%, p-value, or 95% confidence interval values. These data would typically appear in an accompanying table in the paper, not directly on the figure itself. No numeric labels are annotated on the curves."
+  }
+}

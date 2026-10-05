@@ -1,0 +1,358 @@
+{
+  "pmcid": "PMC13006643",
+  "table_num": 4,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 45,
+  "figure_type": "grouped bar chart",
+  "metrics": {
+    "n_correct": 12,
+    "n_total": 36,
+    "recall": 0.333,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.66,
+        "extracted": 3.65,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.08,
+        "extracted": 3.08,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.82,
+        "extracted": 3.81,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.09,
+        "extracted": 3.1,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.87,
+        "extracted": 3.86,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.24,
+        "extracted": 3.25,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.86,
+        "extracted": 2.86,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.26,
+        "extracted": 3.28,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": -4.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.29,
+        "extracted": 3.29,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.93,
+        "extracted": 2.93,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.74,
+        "extracted": 3.74,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.32,
+        "extracted": 3.3,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "grouped bar chart",
+    "rows": [
+      [
+        "Bullying experience (X)",
+        "3.65",
+        "3.08",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Minority stress (M)",
+        "3.81",
+        "3.10",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Revenge impulsivity (Y)",
+        "3.86",
+        "3.25",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Social support (MSPSS)",
+        "2.86",
+        "3.28",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Autism traits (AQ)",
+        "3.29",
+        "2.93",
+        null,
+        null,
+        "**"
+      ],
+      [
+        "Internet use intensity (NetUse)",
+        "3.74",
+        "3.30",
+        null,
+        null,
+        "**"
+      ]
+    ],
+    "confidence": 45,
+    "notes": "Bar heights were read from the figure as approximate values since no explicit numeric labels are annotated on the bars. The significance stars (*** and **) are visible as text annotations. The t and p values are not shown in the figure. Confidence is low because the mean score values are estimated from the chart rather than being explicit text labels."
+  }
+}

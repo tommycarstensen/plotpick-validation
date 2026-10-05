@@ -1,0 +1,99 @@
+{
+  "pmcid": "PMC12993259",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 3911.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 680.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 209.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2811.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 794.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the figure, I can see PCA plots labeled A, B, C, and D showing subfossil samples (Sub1, Sub3, Sub4, Sub13) aligned to modern datasets. The axis labels show PC1 and PC2 percentages, but there are no explicit text annotations for \"SNPs after calling with a depth of ≥ 3×\" values in this figure.\n\nThe figure only shows PCA scatter plots with percentage variance explained on axes, and sample labels (Sub1, Sub3, Sub4, Sub13) pointing to specific data points. There are no numerical values cor"
+  }
+}

@@ -1,0 +1,689 @@
+{
+  "pmcid": "PMC12989525",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 75,
+  "figure_type": "Heatmap showing factor loadings for symptoms across three clusters",
+  "metrics": {
+    "n_correct": 16,
+    "n_total": 69,
+    "recall": 0.232,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.812,
+        "extracted": 0.81,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.152,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.796,
+        "extracted": 0.79,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.075,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.785,
+        "extracted": 0.78,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.225,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.745,
+        "extracted": 0.74,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.105,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.698,
+        "extracted": 0.69,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.305,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.665,
+        "extracted": 0.66,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.35,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.087,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.601,
+        "extracted": 0.6,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.58,
+        "extracted": 0.58,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.118,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": 0.85,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.092,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.823,
+        "extracted": 0.82,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.178,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.791,
+        "extracted": 0.79,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.145,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.752,
+        "extracted": 0.75,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.68,
+        "extracted": 0.68,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.098,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.295,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.642,
+        "extracted": 0.64,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.105,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.615,
+        "extracted": 0.61,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.285,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.59,
+        "extracted": 0.59,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.185,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.088,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.855,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.208,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.102,
+        "extracted": 0.83,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.31,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.215,
+        "extracted": 0.71,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.715,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.255,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.305,
+        "extracted": 0.58,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.585,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 0,
+        "truth": 26.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 20.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 0,
+        "truth": 26.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 0,
+        "truth": 46.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 3,
+        "pos": 0,
+        "truth": 62.3,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Heatmap showing factor loadings for symptoms across three clusters",
+    "rows": [
+      [
+        "Fatigue",
+        "0.81",
+        null
+      ],
+      [
+        "Shortness of breath",
+        "0.79",
+        null
+      ],
+      [
+        "Lack of energy",
+        "0.78",
+        null
+      ],
+      [
+        "Drowsiness",
+        "0.74",
+        null
+      ],
+      [
+        "Dry mouth",
+        "0.69",
+        null
+      ],
+      [
+        "Sleep problems",
+        "0.66",
+        null
+      ],
+      [
+        "Poor appetite",
+        "0.60",
+        null
+      ],
+      [
+        "Bloating",
+        "0.58",
+        null
+      ],
+      [
+        "Sadness",
+        null,
+        "0.85"
+      ],
+      [
+        "Nervousness",
+        null,
+        "0.82"
+      ],
+      [
+        "Irritability",
+        null,
+        "0.79"
+      ],
+      [
+        "Lack of interest",
+        null,
+        "0.75"
+      ],
+      [
+        "Pain",
+        null,
+        "0.68"
+      ],
+      [
+        "Numbness",
+        null,
+        "0.64"
+      ],
+      [
+        "Difficulty concentrating",
+        null,
+        "0.61"
+      ],
+      [
+        "Worrying",
+        null,
+        "0.59"
+      ],
+      [
+        "Hunger",
+        null,
+        "0.85"
+      ],
+      [
+        "Frequent urination",
+        null,
+        "0.83"
+      ],
+      [
+        "Sweating",
+        null,
+        "0.71"
+      ],
+      [
+        "Blurred vision",
+        null,
+        "0.58"
+      ],
+      [
+        "Eigenvalue",
+        null,
+        null
+      ],
+      [
+        "Variance explained (%)",
+        null,
+        null
+      ],
+      [
+        "Cumulative variance explained (%)",
+        null,
+        null
+      ]
+    ],
+    "confidence": 75,
+    "notes": "The heatmap shows factor loadings with text labels visible for most symptoms. Some rows in the template (Eigenvalue, Variance explained, Cumulative variance explained) are not visible as explicit text labels in the figure, so they are marked as null. The figure displays 30 symptoms total, but the template only includes some of them. I have transcribed the visible numerical values from the colored cells that have explicit text labels."
+  }
+}

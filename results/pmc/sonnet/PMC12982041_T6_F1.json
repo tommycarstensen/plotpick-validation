@@ -1,0 +1,202 @@
+{
+  "pmcid": "PMC12982041",
+  "table_num": 6,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "bar chart (two panels: A - QC Recovery percentage, B - QC RSD percentage)",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 18,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 110.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 103.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 86.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 103.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 91.31,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.05,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "bar chart (two panels: A - QC Recovery percentage, B - QC RSD percentage)",
+    "rows": [
+      [
+        "PAUnA",
+        null,
+        null,
+        null
+      ],
+      [
+        "PDA",
+        null,
+        null,
+        null
+      ],
+      [
+        "PFBA",
+        null,
+        null,
+        null
+      ],
+      [
+        "PFNA",
+        null,
+        null,
+        null
+      ],
+      [
+        "PFOA",
+        null,
+        null,
+        null
+      ],
+      [
+        "PFOS",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "No explicit numerical text labels or annotations are visible on any of the bars in either panel A or panel B. The concentration column is not represented in the figure at all. Values cannot be transcribed without estimating from axis scales, which is not permitted."
+  }
+}

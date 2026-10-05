@@ -1,0 +1,127 @@
+{
+  "pmcid": "PMC12982106",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 20,
+  "figure_type": "stacked bar chart showing surgical approach by preoperative diagnosis",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 317.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 89.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 355.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "stacked bar chart showing surgical approach by preoperative diagnosis",
+    "rows": [
+      [
+        "CERVICOTOMY",
+        null,
+        null
+      ],
+      [
+        "CERVICOTOMY WITH SKIN-SPLIT INCISION",
+        null,
+        null
+      ],
+      [
+        "STERNOTOMY",
+        null,
+        null
+      ],
+      [
+        "POSTEROLATERAL THORACOTOMY",
+        null,
+        null
+      ],
+      [
+        "TOTAL",
+        null,
+        null
+      ]
+    ],
+    "confidence": 20,
+    "notes": "The figure displays percentages within each preoperative diagnosis group, not overall totals or aggregate percentages across all groups. No total counts or summary percentages are explicitly labeled in the figure, making it impossible to fill the requested table columns without calculation or estimation."
+  }
+}

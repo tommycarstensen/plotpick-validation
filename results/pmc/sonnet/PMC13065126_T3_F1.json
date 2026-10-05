@@ -1,0 +1,578 @@
+{
+  "pmcid": "PMC13065126",
+  "table_num": 3,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 15,
+  "figure_type": "Kaplan-Meier survival curve",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 64,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.599,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": 0.875,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0081,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.0081,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.591,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.398,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.879,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.0094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.0094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.579,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 1,
+        "truth": 0.383,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 2,
+        "truth": 0.875,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.0095,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.0095,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 200.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 200.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 3,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.678,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 2,
+        "truth": 0.959,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0278,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.0278,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.668,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.465,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.96,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.029,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.029,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.594,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 1,
+        "truth": 0.408,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 2,
+        "truth": 0.865,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.0066,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.0066,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.147,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.793,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 2,
+        "truth": 1.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.4653,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.4653,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.336,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.924,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 2,
+        "truth": 1.929,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.1233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.1233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 0,
+        "truth": 1.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 1,
+        "truth": 0.697,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 2,
+        "truth": 1.522,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.8818,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.8818,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.529,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.373,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 2,
+        "truth": 0.751,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0004,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.0004,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.644,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.453,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 2,
+        "truth": 0.915,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.0142,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.0142,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.611,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 1,
+        "truth": 0.417,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 2,
+        "truth": 0.895,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.0115,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.0115,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Kaplan-Meier survival curve",
+    "rows": [
+      [
+        "Kidney amyloidosis",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Melphalan dose",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "eGFR",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Kappa–lambda",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure only shows a Kaplan-Meier curve with P value = 0.001 and at-risk numbers. The HR (95% CI) and other P values required by the table template are not explicitly annotated in this figure. The table likely comes from a separate panel or table not visible in this image."
+  }
+}

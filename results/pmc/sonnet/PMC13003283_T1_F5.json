@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC13003283",
+  "table_num": 1,
+  "figure_num": 5,
+  "model": "sonnet",
+  "confidence": 82,
+  "figure_type": "transient absorption spectra with decay component panels",
+  "metrics": {
+    "n_correct": 6,
+    "n_total": 10,
+    "recall": 0.6,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.3,
+        "extracted": 1.3,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 99.0,
+        "extracted": 99.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.9,
+        "extracted": 0.9,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 92.0,
+        "extracted": 92.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "transient absorption spectra with decay component panels",
+    "rows": [
+      [
+        "NSs",
+        "1.3",
+        "99",
+        ">2",
+        null,
+        null
+      ],
+      [
+        "NPLs",
+        "0.9",
+        "92",
+        ">2",
+        null,
+        null
+      ]
+    ],
+    "confidence": 82,
+    "notes": "τ1, τ2, and τ3 values are explicitly annotated in panels c and d. No text labels visible for f [THz] or τd [ps] columns."
+  }
+}

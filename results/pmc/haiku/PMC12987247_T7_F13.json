@@ -1,0 +1,867 @@
+{
+  "pmcid": "PMC12987247",
+  "table_num": 7,
+  "figure_num": 13,
+  "model": "haiku",
+  "confidence": 95,
+  "figure_type": "data table showing satellite configuration parameters across different orbital types",
+  "metrics": {
+    "n_correct": 91,
+    "n_total": 91,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 144.0,
+        "extracted": 144.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 196.0,
+        "extracted": 196.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 14.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 256.0,
+        "extracted": 256.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 324.0,
+        "extracted": 324.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 36.0,
+        "extracted": 36.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 49.0,
+        "extracted": 49.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 64.0,
+        "extracted": 64.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 81.0,
+        "extracted": 81.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "data table showing satellite configuration parameters across different orbital types",
+    "rows": [
+      [
+        "1",
+        "100",
+        "10",
+        "25",
+        "5",
+        "3",
+        "1"
+      ],
+      [
+        "2",
+        "144",
+        "12",
+        "25",
+        "5",
+        "3",
+        "1"
+      ],
+      [
+        "3",
+        "196",
+        "14",
+        "25",
+        "5",
+        "3",
+        "1"
+      ],
+      [
+        "4",
+        "256",
+        "16",
+        "25",
+        "5",
+        "3",
+        "1"
+      ],
+      [
+        "5",
+        "324",
+        "18",
+        "25",
+        "5",
+        "3",
+        "1"
+      ],
+      [
+        "6",
+        "100",
+        "10",
+        "36",
+        "6",
+        "3",
+        "1"
+      ],
+      [
+        "7",
+        "100",
+        "10",
+        "49",
+        "7",
+        "3",
+        "1"
+      ],
+      [
+        "8",
+        "100",
+        "10",
+        "64",
+        "8",
+        "3",
+        "1"
+      ],
+      [
+        "9",
+        "100",
+        "10",
+        "81",
+        "9",
+        "3",
+        "1"
+      ],
+      [
+        "10",
+        "100",
+        "10",
+        "25",
+        "5",
+        "6",
+        "2"
+      ],
+      [
+        "11",
+        "100",
+        "10",
+        "25",
+        "5",
+        "9",
+        "3"
+      ],
+      [
+        "12",
+        "100",
+        "10",
+        "25",
+        "5",
+        "12",
+        "4"
+      ],
+      [
+        "13",
+        "100",
+        "10",
+        "25",
+        "5",
+        "15",
+        "5"
+      ]
+    ],
+    "confidence": 95,
+    "notes": "All values transcribed directly from the table shown in the figure. The table presents satellite configuration parameters across 13 different satellite sizes, with quantities and track surface values for three orbital types: LEO, MEO, and HEO."
+  }
+}

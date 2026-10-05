@@ -1,0 +1,245 @@
+{
+  "pmcid": "PMC12993345",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 0,
+  "figure_type": "Schematic diagram showing the role of SLC7A7 in tumor microenvironment",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 28,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 57.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 76.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 2,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 3,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 67.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 65.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": 66.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 71.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 77.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Schematic diagram showing the role of SLC7A7 in tumor microenvironment",
+    "rows": [],
+    "confidence": 0,
+    "notes": "The provided figure is a schematic/mechanistic diagram illustrating SLC7A7's role in the tumor microenvironment. It does not contain a data table with numerical values for cancer types (NSCLC, CRC, GC, PC, ESCC, HGG, OSA) and their correlations with SLC7A7. The figure shows biological pathways and mechanisms rather than tabular data comparing different cancers. No explicit numerical or text values matching the table template columns (Positively correlated, Negatively correlated, Ref.) are visible in this figure. The requested table cannot be filled from this schematic diagram."
+  }
+}

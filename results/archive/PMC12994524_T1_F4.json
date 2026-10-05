@@ -1,0 +1,831 @@
+{
+  "pmcid": "PMC12994524",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 38,
+  "figure_type": "Multi-panel figure containing violin plots, raincloud plots, and line plots",
+  "metrics": {
+    "n_truth": 84,
+    "n_extracted": 30,
+    "matched": 63,
+    "recall": 0.75,
+    "precision": 2.1
+  },
+  "extraction": {
+    "figure_type": "Multi-panel figure containing violin plots, raincloud plots, and line plots",
+    "data": [
+      {
+        "panel": "A",
+        "comparison": "An vs. Ca",
+        "significance": "***",
+        "approximate_median": -5,
+        "approximate_range_min": -30,
+        "approximate_range_max": 20,
+        "y_axis": "Stimulation effects on pain sensation"
+      },
+      {
+        "panel": "A",
+        "comparison": "An vs. Sh",
+        "significance": "***",
+        "approximate_median": -5,
+        "approximate_range_min": -15,
+        "approximate_range_max": 15,
+        "y_axis": "Stimulation effects on pain sensation"
+      },
+      {
+        "panel": "A",
+        "comparison": "Ca vs. Sham",
+        "significance": "**",
+        "approximate_median": 2,
+        "approximate_range_min": -10,
+        "approximate_range_max": 25,
+        "y_axis": "Stimulation effects on pain sensation"
+      },
+      {
+        "panel": "B",
+        "condition": "High temperature",
+        "group": "Cathodal",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -20,
+        "approximate_range_max": 20,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "B",
+        "condition": "High temperature",
+        "group": "Sham",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 7,
+        "approximate_range_min": -15,
+        "approximate_range_max": 20,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "B",
+        "condition": "High temperature",
+        "group": "Anodal",
+        "significance_vs_cathodal": "***",
+        "significance_vs_sham": "***",
+        "approximate_median": -3,
+        "approximate_25th_percentile": -8,
+        "approximate_75th_percentile": 1,
+        "approximate_range_min": -30,
+        "approximate_range_max": 10,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "C",
+        "condition": "Low temperature",
+        "group": "Cathodal",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -15,
+        "approximate_range_max": 20,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "C",
+        "condition": "Low temperature",
+        "group": "Sham",
+        "significance_vs_cathodal": "**",
+        "approximate_median": 1,
+        "approximate_25th_percentile": -4,
+        "approximate_75th_percentile": 6,
+        "approximate_range_min": -15,
+        "approximate_range_max": 20,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "C",
+        "condition": "Low temperature",
+        "group": "Anodal",
+        "significance_vs_cathodal": "***",
+        "significance_vs_sham": "***",
+        "approximate_median": -4,
+        "approximate_25th_percentile": -10,
+        "approximate_75th_percentile": 1,
+        "approximate_range_min": -25,
+        "approximate_range_max": 15,
+        "y_axis": "Post - Pre for pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Cathodal",
+        "timepoint": "Pre",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -4,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -15,
+        "approximate_range_max": 25,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Cathodal",
+        "timepoint": "Post",
+        "approximate_median": 3,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 9,
+        "approximate_range_min": -15,
+        "approximate_range_max": 25,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Sham",
+        "timepoint": "Pre",
+        "approximate_median": 1,
+        "approximate_25th_percentile": -4,
+        "approximate_75th_percentile": 7,
+        "approximate_range_min": -15,
+        "approximate_range_max": 20,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Sham",
+        "timepoint": "Post",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -15,
+        "approximate_range_max": 20,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Anodal",
+        "timepoint": "Pre",
+        "approximate_median": 3,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 9,
+        "approximate_range_min": -15,
+        "approximate_range_max": 25,
+        "significance": "***",
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "D",
+        "condition": "High temperature",
+        "group": "Anodal",
+        "timepoint": "Post",
+        "approximate_median": -1,
+        "approximate_25th_percentile": -7,
+        "approximate_75th_percentile": 5,
+        "approximate_range_min": -20,
+        "approximate_range_max": 15,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Cathodal",
+        "timepoint": "Pre",
+        "approximate_median": 3,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 9,
+        "approximate_range_min": -10,
+        "approximate_range_max": 25,
+        "significance": "***",
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Cathodal",
+        "timepoint": "Post",
+        "approximate_median": 5,
+        "approximate_25th_percentile": -1,
+        "approximate_75th_percentile": 11,
+        "approximate_range_min": -10,
+        "approximate_range_max": 30,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Sham",
+        "timepoint": "Pre",
+        "approximate_median": 1,
+        "approximate_25th_percentile": -4,
+        "approximate_75th_percentile": 7,
+        "approximate_range_min": -10,
+        "approximate_range_max": 20,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Sham",
+        "timepoint": "Post",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -10,
+        "approximate_range_max": 20,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Anodal",
+        "timepoint": "Pre",
+        "approximate_median": 2,
+        "approximate_25th_percentile": -3,
+        "approximate_75th_percentile": 8,
+        "approximate_range_min": -10,
+        "approximate_range_max": 20,
+        "significance": "***",
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "E",
+        "condition": "Low temperature",
+        "group": "Anodal",
+        "timepoint": "Post",
+        "approximate_median": -2,
+        "approximate_25th_percentile": -8,
+        "approximate_75th_percentile": 3,
+        "approximate_range_min": -20,
+        "approximate_range_max": 15,
+        "y_axis": "Pre and Post tDCS pain rating"
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 2,
+        "group": "Ca",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 2,
+        "group": "Sh",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 2,
+        "group": "An",
+        "approximate_value": -2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 3,
+        "group": "Ca",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 3,
+        "group": "Sh",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 3,
+        "group": "An",
+        "approximate_value": -3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 4,
+        "group": "Ca",
+        "approximate_value": 5
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 4,
+        "group": "Sh",
+        "approximate_value": 4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 4,
+        "group": "An",
+        "approximate_value": -2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 14
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 12
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 5
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 6,
+        "group": "Ca",
+        "approximate_value": 4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 6,
+        "group": "Sh",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 6,
+        "group": "An",
+        "approximate_value": -2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 7,
+        "group": "Ca",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 7,
+        "group": "Sh",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 7,
+        "group": "An",
+        "approximate_value": -3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 8,
+        "group": "Ca",
+        "approximate_value": 4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 8,
+        "group": "Sh",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 8,
+        "group": "An",
+        "approximate_value": -4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 9,
+        "group": "Ca",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 9,
+        "group": "Sh",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 9,
+        "group": "An",
+        "approximate_value": -4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 10,
+        "group": "Ca",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 10,
+        "group": "Sh",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 10,
+        "group": "An",
+        "approximate_value": -4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 11,
+        "group": "Ca",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 11,
+        "group": "Sh",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 11,
+        "group": "An",
+        "approximate_value": -5
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "Ca",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "An",
+        "approximate_value": -5
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": -4
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 8
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 7
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 2
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 1
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": -3
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 6
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 5
+      },
+      {
+        "panel": "F",
+        "title": "Post tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 10
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 8
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 6
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "Ca",
+        "approximate_value": 1
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "Sh",
+        "approximate_value": 1
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 1,
+        "trial": 12,
+        "group": "An",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 6
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 5
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 2,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 4
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "Ca",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "Sh",
+        "approximate_value": 0
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 1,
+        "group": "An",
+        "approximate_value": -1
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "Ca",
+        "approximate_value": 4
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "Sh",
+        "approximate_value": 4
+      },
+      {
+        "panel": "G",
+        "title": "Pre tDCS",
+        "run": 3,
+        "trial": 5,
+        "group": "An",
+        "approximate_value": 3
+      },
+      {
+        "panel": "F_yaxis",
+        "y_min": -10,
+        "y_max": 15,
+        "y_axis_label": "Pain Rating (Covariate-Adjusted)"
+      },
+      {
+        "panel": "G_yaxis",
+        "y_min": -8,
+        "y_max": 12,
+        "y_axis_label": "Pain Rating (Covariate-Adjusted)"
+      }
+    ],
+    "confidence": 38,
+    "notes": "Line plots in panels F and G contain approximately 36 data points each (3 groups x 3 runs x 12 trials), making precise extraction very difficult. Only representative/key values were extracted for the line plots. The violin/raincloud plots in panels A-E contain approximate distributional data. Exact values from violin plots and raincloud plots are estimated from visual inspection. The peak in trial 5 of Run 1 in panel F appears to be around 14-15 for Ca and 12 for Sh, with An around 5. Significance markers: *** = p<0.001, ** = p<0.01."
+  }
+}

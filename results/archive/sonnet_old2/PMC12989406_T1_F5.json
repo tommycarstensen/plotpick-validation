@@ -1,0 +1,971 @@
+{
+  "pmcid": "PMC12989406",
+  "table_num": 1,
+  "figure_num": 5,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 119,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 2576.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": -3.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": -3.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 2,
+        "truth": -2.16,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2576.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": -3.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": -3.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 2,
+        "truth": -2.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 32.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": -2.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 1,
+        "truth": -3.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 2,
+        "truth": -1.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.44,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": -1.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 2,
+        "truth": 0.28,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": -2.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": -3.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 2,
+        "truth": -0.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": -7.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": -11.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 2,
+        "truth": -3.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": -5.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": -7.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 2,
+        "truth": -4.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 48.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": -5.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 1,
+        "truth": -8.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 2,
+        "truth": -3.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": -1.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": -2.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 2,
+        "truth": 0.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": -6.61,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": -10.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 2,
+        "truth": -2.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": -5.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 1,
+        "truth": -9.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 2,
+        "truth": -2.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 2576.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 1,
+        "truth": 3.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 2,
+        "truth": 13.44,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 3.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 1,
+        "truth": 2.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 2,
+        "truth": 5.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 2,
+        "truth": 10.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 6.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 2,
+        "truth": 12.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 2576.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 0,
+        "truth": -5.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 1,
+        "truth": -7.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 2,
+        "truth": -3.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": -3.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 1,
+        "truth": -6.29,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 2,
+        "truth": -1.38,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the figure, I can see two forest plots (A for BDNF and B for apoptosis levels). The table template asks for information that goes beyond what's directly visible in these forest plots - most cells require information not shown in Figure 5 specifically (like AD model type, administration route, dose, number of studies for the escape latency and Aβ load rows).\n\nFrom what I can directly read from Figure 5:\n\nFor BDNF (Panel A):\n- Common effect model: SMD 4.25 [3.18; 5.31], I² = 18.4%\n- Ran"
+  }
+}

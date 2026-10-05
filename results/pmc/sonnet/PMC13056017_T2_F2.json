@@ -1,0 +1,494 @@
+{
+  "pmcid": "PMC13056017",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 90,
+  "figure_type": "bar chart showing SCQ scores for SMA1 patients grouped by subtype",
+  "metrics": {
+    "n_correct": 8,
+    "n_total": 50,
+    "recall": 0.16,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 1,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 11,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 11,
+        "pos": 1,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 12,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 15,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 0,
+        "truth": 49.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 11,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 11,
+        "pos": 1,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 12,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 15,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 0,
+        "truth": 38.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 11,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 11,
+        "pos": 1,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 12,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 15,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 37.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 11,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 11,
+        "pos": 1,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 12,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 15,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "bar chart showing SCQ scores for SMA1 patients grouped by subtype",
+    "rows": [
+      [
+        "ID34",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "11",
+        null,
+        null,
+        null
+      ],
+      [
+        "ID2",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "12",
+        null,
+        null,
+        null
+      ],
+      [
+        "ID13",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "12",
+        null,
+        null,
+        null
+      ],
+      [
+        "ID22",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        "20",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 90,
+    "notes": "Only SCQ scores are explicitly labeled in the figure as text annotations on the bars. All other columns (sex, SMN2 copies, DMT info, etc.) are not visible in this figure. Red bars indicate scores above the cut-off of ≥11."
+  }
+}

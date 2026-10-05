@@ -1,0 +1,138 @@
+{
+  "pmcid": "PMC12836228",
+  "table_num": 5,
+  "figure_num": 5,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Horizontal bar chart showing factors influencing choice of induction therapy",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 12,
+    "recall": 0.333,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 2000.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": 3000.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 3,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2000.0,
+        "extracted": 2000.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 75000.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": 50000.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 3,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 50000.0,
+        "extracted": 50000.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Horizontal bar chart showing factors influencing choice of induction therapy",
+    "rows": [
+      [
+        "WBC",
+        null,
+        null
+      ],
+      [
+        "< 2000/mm3",
+        null,
+        null
+      ],
+      [
+        "Platelet",
+        null,
+        null
+      ],
+      [
+        "< 50000/mm3",
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure displayed does not contain a data table with WBC, platelet counts, or lab values organized by ATG dose. The figure is a bar chart showing percentages of various clinical factors (e.g., 'Immunologic risk assessment 88.6%', 'Type of donor 66.1%', etc.) that influence the choice of induction therapy. The table template appears to be for a different figure or dataset that is not shown in this image. No explicit text labels matching the requested table structure (WBC, <2000/mm3, Platelet, <50000/mm3) are visible in this figure."
+  }
+}

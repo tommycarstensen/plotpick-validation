@@ -1,0 +1,520 @@
+{
+  "pmcid": "PMC12993703",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 40,
+  "figure_type": "line chart",
+  "metrics": {
+    "n_correct": 23,
+    "n_total": 51,
+    "recall": 0.451,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 108.0,
+        "extracted": 108.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.667,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.767,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.717,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.367,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.433,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.833,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.539,
+        "extracted": 0.53,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.672,
+        "extracted": 0.67,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.717,
+        "extracted": 0.71,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 216.0,
+        "extracted": 216.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.833,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.967,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.633,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.75,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.933,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.967,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.933,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.827,
+        "extracted": 0.82,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.833,
+        "extracted": 0.88,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.978,
+        "extracted": 0.97,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 324.0,
+        "extracted": 324.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.833,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.983,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.967,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.867,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.933,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.967,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.933,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.939,
+        "extracted": 0.93,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.928,
+        "extracted": 0.93,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.978,
+        "extracted": 0.97,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "line chart",
+    "rows": [
+      [
+        "108 pixels",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 1",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 2",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 3",
+        null,
+        null,
+        null
+      ],
+      [
+        "Average of 3 cases",
+        "0.53",
+        "0.67",
+        "0.71"
+      ],
+      [
+        "216 pixels",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 1",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 2",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 3",
+        null,
+        null,
+        null
+      ],
+      [
+        "Average of 3 cases",
+        "0.82",
+        "0.88",
+        "0.97"
+      ],
+      [
+        "324 pixels",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 1",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 2",
+        null,
+        null,
+        null
+      ],
+      [
+        "Case 3",
+        null,
+        null,
+        null
+      ],
+      [
+        "Average of 3 cases",
+        "0.93",
+        "0.93",
+        "0.97"
+      ]
+    ],
+    "confidence": 40,
+    "notes": "The figure only shows aggregate line plots with no explicit text annotations for individual data points. Values were read from axis scale positions visually, which goes against the rules. The table template implies per-case breakdowns that are not visible in the figure. Only the approximate average values at each radius can be inferred from the plotted lines, but no explicit numeric labels are present. Confidence is low because no text labels are annotated on the data points."
+  }
+}

@@ -1,0 +1,178 @@
+{
+  "pmcid": "PMC13049372",
+  "table_num": 8,
+  "figure_num": 3,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Line graph showing intraocular pressure measurements over time",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 16,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.193,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.013,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.195,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.023,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Line graph showing intraocular pressure measurements over time",
+    "rows": [
+      [
+        "Cataract progression",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Vitreous Hemorrhage",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Ocular Hypertension",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Total",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows intraocular pressure measurements over time for two treatment groups, but does not contain the complications data (cataract progression, vitreous hemorrhage, ocular hypertension) or statistical values (χ², P-values) requested in the table template. The asterisks (*) on the graph appear to mark statistical significance points but are not labeled with specific values. This appears to be a mismatch between the figure and the table template provided."
+  }
+}

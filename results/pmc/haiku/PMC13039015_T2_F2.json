@@ -1,0 +1,2018 @@
+{
+  "pmcid": "PMC13039015",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Forest plot showing odds ratios with 95% confidence intervals from multiple studies",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 172,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 17,
+        "pos": 0,
+        "truth": 1.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.84,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 2.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "pos": 0,
+        "truth": 2.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 14,
+        "pos": 0,
+        "truth": 2.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 15,
+        "pos": 0,
+        "truth": 2.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.29,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 1.37,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 0,
+        "truth": 1.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 11,
+        "pos": 0,
+        "truth": 0.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 13,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "pos": 0,
+        "truth": 1.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 16,
+        "pos": 0,
+        "truth": 1.37,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.612,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 35.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.791,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 94.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 15,
+        "pos": 0,
+        "truth": 0.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.851,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 16,
+        "pos": 1,
+        "truth": 34.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 17,
+        "pos": 0,
+        "truth": 0.931,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 17,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 13,
+        "pos": 0,
+        "truth": 0.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "pos": 0,
+        "truth": 2.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.35,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 10,
+        "pos": 0,
+        "truth": 2.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 11,
+        "pos": 0,
+        "truth": 1.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 14,
+        "pos": 0,
+        "truth": 1.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 8,
+        "pos": 0,
+        "truth": 1.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 14,
+        "pos": 0,
+        "truth": 1.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.56,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 14,
+        "pos": 0,
+        "truth": 3.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 16,
+        "pos": 0,
+        "truth": 1.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 17,
+        "pos": 0,
+        "truth": 1.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 11,
+        "pos": 0,
+        "truth": 1.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 18,
+        "pos": 0,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 11,
+        "pos": 0,
+        "truth": 2.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.56,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 10,
+        "pos": 0,
+        "truth": 1.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 15,
+        "pos": 0,
+        "truth": 0.97,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 18,
+        "pos": 0,
+        "truth": 1.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.43,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 4,
+        "pos": 0,
+        "truth": 10.37,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 7,
+        "pos": 0,
+        "truth": 1.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 10,
+        "pos": 0,
+        "truth": 1.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 11,
+        "pos": 0,
+        "truth": 1.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 7,
+        "pos": 0,
+        "truth": 1.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 7,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 10,
+        "pos": 0,
+        "truth": 1.661,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 10,
+        "pos": 1,
+        "truth": 17.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 11,
+        "pos": 0,
+        "truth": 0.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 11,
+        "pos": 1,
+        "truth": 87.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 12,
+        "pos": 0,
+        "truth": 0.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 12,
+        "pos": 1,
+        "truth": 79.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.921,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 15,
+        "pos": 1,
+        "truth": 14.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 18,
+        "pos": 0,
+        "truth": 0.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 18,
+        "pos": 1,
+        "truth": 99.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 4,
+        "pos": 0,
+        "truth": 3.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 23,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 23,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 23,
+        "col": 4,
+        "pos": 0,
+        "truth": 4.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.76,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 24,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 10,
+        "pos": 0,
+        "truth": 2.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.91,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.96,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 14,
+        "pos": 0,
+        "truth": 1.86,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.693,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 1,
+        "pos": 1,
+        "truth": 78.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.99,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 2,
+        "pos": 1,
+        "truth": 99.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.413,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.751,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 4,
+        "pos": 1,
+        "truth": 95.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 5,
+        "pos": 1,
+        "truth": 94.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 6,
+        "pos": 0,
+        "truth": 2.151,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 6,
+        "pos": 1,
+        "truth": 27.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 9,
+        "pos": 1,
+        "truth": 72.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 12,
+        "pos": 0,
+        "truth": 2.513,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 12,
+        "pos": 1,
+        "truth": 67.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.011,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 27,
+        "col": 15,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.76,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 15,
+        "pos": 0,
+        "truth": 1.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 9,
+        "pos": 0,
+        "truth": 1.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 14,
+        "pos": 0,
+        "truth": 0.96,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 15,
+        "pos": 0,
+        "truth": 2.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 16,
+        "pos": 0,
+        "truth": 0.56,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 18,
+        "pos": 0,
+        "truth": 0.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 30,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 30,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 30,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 30,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.99,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot showing odds ratios with 95% confidence intervals from multiple studies",
+    "rows": [
+      [
+        "Emi Ishikawa",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Emma Johansson",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jong-Ho Kim",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jennifer R Majumdar",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Ulrike M Stamer",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Yan-Yuen Poon",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jolanda E Van den Bosch",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Myung Sub Yi",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Paul S Myles",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Florian Brettner",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Y H Wu",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jinfei Li",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Christian C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Pankaj Sarin",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "K Leslie",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "C C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jan Wallenborn",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sirkku E Ahlström",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Lili Qiu",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Tomonori Morita",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Wendy Suhre",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jong-Ho Kim",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "D R Sinclair",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "C C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "L H Eberhart",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "K Visser",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "C C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Michaela Stadler",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "C C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "C C Apfel",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Masashi Nakagawa",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure is a forest plot showing odds ratios and confidence intervals for different studies. The table headers provided (Female gender, Age, Non-smoking, MS, BMI, Migrain, ASA categories, Duration, Volatile-anesthetics, N2O, Intravenous-anesthesia, PCA, Opioids, Ondansetron, Fentanyl, Hormone) do not correspond to any data columns visible in the forest plot figure itself. The figure only displays Study ID, Odds Ratio (95% CI), and % Weight columns. Without corresponding data columns in the figure that match the table headers, all data cells must be marked as null."
+  }
+}

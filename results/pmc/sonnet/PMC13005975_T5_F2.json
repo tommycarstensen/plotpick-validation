@@ -1,0 +1,1250 @@
+{
+  "pmcid": "PMC13005975",
+  "table_num": 5,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "line graph showing serum concentration-time profiles on linear scale for 5 dose groups",
+  "metrics": {
+    "n_correct": 3,
+    "n_total": 143,
+    "recall": 0.021,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.2171,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": 12.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 5.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 1.593,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 2,
+        "truth": 31.09,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 22.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 1,
+        "truth": 6.892,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 2,
+        "truth": 30.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 0,
+        "truth": 54.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 1,
+        "truth": 17.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 8,
+        "pos": 2,
+        "truth": 32.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 0,
+        "truth": 114.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 1,
+        "truth": 19.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 10,
+        "pos": 2,
+        "truth": 17.46,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 7.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 2,
+        "truth": 28.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 14.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 7.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 2,
+        "truth": 28.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 7.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 2,
+        "truth": 28.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 0,
+        "truth": 7.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 1,
+        "truth": 4.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 8,
+        "pos": 2,
+        "truth": 28.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 0,
+        "truth": 4.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 1,
+        "truth": 4.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 10,
+        "pos": 2,
+        "truth": 14.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 122.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 17.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 2,
+        "truth": 14.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 332.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 1,
+        "truth": 85.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 2,
+        "truth": 25.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 1240.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 1,
+        "truth": 280.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 2,
+        "truth": 22.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 0,
+        "truth": 4740.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 1,
+        "truth": 1254.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 8,
+        "pos": 2,
+        "truth": 26.45,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 0,
+        "truth": 8550.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 1,
+        "truth": 1728.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 10,
+        "pos": 2,
+        "truth": 20.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 156.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 20.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 2,
+        "truth": 13.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 467.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": 463.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 2,
+        "truth": 471.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 1730.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 1,
+        "truth": 419.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 2,
+        "truth": 24.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 0,
+        "truth": 5100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 1,
+        "truth": 1362.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 8,
+        "pos": 2,
+        "truth": 26.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "pos": 0,
+        "truth": 9430.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "pos": 1,
+        "truth": 2220.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 10,
+        "pos": 2,
+        "truth": 23.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 55.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 12.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 2,
+        "truth": 22.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 58.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": 55.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 2,
+        "truth": 62.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 65.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 1,
+        "truth": 16.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 2,
+        "truth": 24.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "pos": 0,
+        "truth": 56.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "pos": 1,
+        "truth": 3.091,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 8,
+        "pos": 2,
+        "truth": 5.52,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 10,
+        "pos": 0,
+        "truth": 61.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 10,
+        "pos": 1,
+        "truth": 13.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 10,
+        "pos": 2,
+        "truth": 21.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.01662,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 2,
+        "truth": 12.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.128,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.127,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 2,
+        "truth": 0.129,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.121,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.03179,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 2,
+        "truth": 26.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "pos": 0,
+        "truth": 0.125,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "pos": 1,
+        "truth": 0.03334,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 8,
+        "pos": 2,
+        "truth": 26.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 10,
+        "pos": 0,
+        "truth": 0.101,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 10,
+        "pos": 1,
+        "truth": 0.0259,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 10,
+        "pos": 2,
+        "truth": 25.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 10.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.729,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 2,
+        "truth": 17.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 10.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": 10.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 2,
+        "truth": 11.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 1,
+        "truth": 1.935,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 2,
+        "truth": 17.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 7,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 8,
+        "pos": 0,
+        "truth": 10.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 8,
+        "pos": 1,
+        "truth": 2.701,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 8,
+        "pos": 2,
+        "truth": 26.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 9,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "pos": 0,
+        "truth": 8.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "pos": 1,
+        "truth": 0.7545,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 10,
+        "pos": 2,
+        "truth": 8.838,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "line graph showing serum concentration-time profiles on linear scale for 5 dose groups",
+    "rows": [
+      [
+        "Cmax (μg/mL)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Tmax (day)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "AUClast (μg·day/mL)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "AUC0-∞ (μg·day/mL)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "T1/2 (day)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "CL/F (L/day)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Vd/F (L)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure is a concentration-time curve plot and does not contain explicit text annotations for PK parameters. The table values (Cmax, Tmax, AUC, etc.) are not visible as labeled data points or embedded table values within this figure."
+  }
+}

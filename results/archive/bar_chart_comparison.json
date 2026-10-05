@@ -1,0 +1,162 @@
+[
+  {
+    "imgname": "bar_87",
+    "model": "haiku",
+    "gt_csv": "Employee \\t Salary(USD) \\t Benefits(USD) \\n John \\t 5000 \\t 1400 \\n Sarah \\t 4500 \\t 1300 \\n David \\t 4600 \\t 1200 \\n Jane \\t 4200 \\t 1100 \\n ",
+    "extracted_text": "Employee\tSalary\tBenefits\nJohn\t4800\t1400\nSarah\t4300\t1300\nDavid\t4300\t1200\nJane\t4000\t1100",
+    "title": " Employee salaries and benefits in 2021",
+    "img_rel": "bar_chart/png/bar_87.png"
+  },
+  {
+    "imgname": "bar_87",
+    "model": "sonnet",
+    "gt_csv": "Employee \\t Salary(USD) \\t Benefits(USD) \\n John \\t 5000 \\t 1400 \\n Sarah \\t 4500 \\t 1300 \\n David \\t 4600 \\t 1200 \\n Jane \\t 4200 \\t 1100 \\n ",
+    "extracted_text": "Employee\tSalary\tBenefits\nJohn\t5000\t1400\nSarah\t4600\t1300\nDavid\t4600\t1200\nJane\t4300\t1100",
+    "title": " Employee salaries and benefits in 2021",
+    "img_rel": "bar_chart/png/bar_87.png"
+  },
+  {
+    "imgname": "bar_395",
+    "model": "haiku",
+    "gt_csv": "Country \\t GDP(thousand billion) \\t Inflation Rate \\n USA \\t 21 \\t 2.4 \\n UK \\t 3 \\t 1.6 \\n Germany \\t 4.5 \\t 1.1 \\n France \\t 6 \\t 1.5 \\n ",
+    "extracted_text": "Country\tGDP (thousand billion)\tInflation Rate\nUSA\t21\t2\nUK\t3\t1\nGermany\t4\t1\nFrance\t6\t1.5",
+    "title": " GDP and Inflation Rate of Four Countries in 2021",
+    "img_rel": "bar_chart/png/bar_395.png"
+  },
+  {
+    "imgname": "bar_395",
+    "model": "sonnet",
+    "gt_csv": "Country \\t GDP(thousand billion) \\t Inflation Rate \\n USA \\t 21 \\t 2.4 \\n UK \\t 3 \\t 1.6 \\n Germany \\t 4.5 \\t 1.1 \\n France \\t 6 \\t 1.5 \\n ",
+    "extracted_text": "Country\tGDP(thousand billion)\tInflation Rate\nUSA\t21\t2.3\nUK\t2.8\t1.8\nGermany\t4.4\t1.2\nFrance\t6\t1.5",
+    "title": " GDP and Inflation Rate of Four Countries in 2021",
+    "img_rel": "bar_chart/png/bar_395.png"
+  },
+  {
+    "imgname": "bar_279",
+    "model": "haiku",
+    "gt_csv": "Country \\t Hotels \\t Restaurants \\t Tourists(hundred) \\n USA \\t 1000 \\t 500 \\t 200 \\n UK \\t 800 \\t 600 \\t 180 \\n Germany \\t 900 \\t 700 \\t 190 \\n France \\t 1100 \\t 600 \\t 170 \\n ",
+    "extracted_text": "Country\tHotels\tRestaurants\tTourists(hundred)\nUSA\t700\t700\t200\nUK\t800\t800\t200\nGermany\t900\t900\t200\nFrance\t800\t800\t150",
+    "title": " Number of hotels, restaurants, and tourists in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_279.png"
+  },
+  {
+    "imgname": "bar_279",
+    "model": "sonnet",
+    "gt_csv": "Country \\t Hotels \\t Restaurants \\t Tourists(hundred) \\n USA \\t 1000 \\t 500 \\t 200 \\n UK \\t 800 \\t 600 \\t 180 \\n Germany \\t 900 \\t 700 \\t 190 \\n France \\t 1100 \\t 600 \\t 170 \\n ",
+    "extracted_text": "Country\tHotels\tRestaurants\tTourists(hundred)\nUSA\t750\t500\t200\nUK\t600\t600\t175\nGermany\t700\t700\t200\nFrance\t950\t600\t160",
+    "title": " Number of hotels, restaurants, and tourists in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_279.png"
+  },
+  {
+    "imgname": "bar_185",
+    "model": "haiku",
+    "gt_csv": "Country \\t Internet Users(million) \\t Smartphone Users(million) \\n USA \\t 350 \\t 280 \\n UK \\t 60 \\t 50 \\n Germany \\t 80 \\t 70 \\n France \\t 70 \\t 60 \\n ",
+    "extracted_text": "Country\tInternet Users (million)\tSmartphone Users (million)\nUSA\t350\t280\nUK\t60\t45\nGermany\t80\t70\nFrance\t70\t65",
+    "title": " Number of internet and smartphone users in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_185.png"
+  },
+  {
+    "imgname": "bar_185",
+    "model": "sonnet",
+    "gt_csv": "Country \\t Internet Users(million) \\t Smartphone Users(million) \\n USA \\t 350 \\t 280 \\n UK \\t 60 \\t 50 \\n Germany \\t 80 \\t 70 \\n France \\t 70 \\t 60 \\n ",
+    "extracted_text": "Country\tInternet Users(million)\tSmartphone Users(million)\nUSA\t350\t280\nUK\t57\t50\nGermany\t78\t70\nFrance\t68\t60",
+    "title": " Number of internet and smartphone users in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_185.png"
+  },
+  {
+    "imgname": "bar_258",
+    "model": "haiku",
+    "gt_csv": "Country \\t Websites \\t Social Media Users \\n USA \\t 200 \\t 450 Million \\n UK \\t 150 \\t 400 Million \\n Germany \\t 180 \\t 320 Million \\n France \\t 170 \\t 250 Million \\n ",
+    "extracted_text": "Country\tWebsites\tSocial Media Users\nUSA\t200\t430\nUK\t150\t390\nGermany\t175\t315\nFrance\t160\t255",
+    "title": " Number of websites and social media users in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_258.png"
+  },
+  {
+    "imgname": "bar_258",
+    "model": "sonnet",
+    "gt_csv": "Country \\t Websites \\t Social Media Users \\n USA \\t 200 \\t 450 Million \\n UK \\t 150 \\t 400 Million \\n Germany \\t 180 \\t 320 Million \\n France \\t 170 \\t 250 Million \\n ",
+    "extracted_text": "Country\tWebsites\tSocial Media Users\nUSA\t200\t425\nUK\t150\t395\nGermany\t180\t320\nFrance\t170\t250",
+    "title": " Number of websites and social media users in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_258.png"
+  },
+  {
+    "imgname": "bar_400",
+    "model": "haiku",
+    "gt_csv": "Country \\t Retail Stores \\t Online Stores \\n USA \\t 500 \\t 1500 \\n UK \\t 400 \\t 1200 \\n Germany \\t 300 \\t 1000 \\n France \\t 400 \\t 1300 \\n ",
+    "extracted_text": "Country\tRetail Stores\tOnline Stores\nUSA\t500\t1500\nUK\t400\t1200\nGermany\t300\t1000\nFrance\t400\t1300",
+    "title": " Number of Retail and Online Stores in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_400.png"
+  },
+  {
+    "imgname": "bar_400",
+    "model": "sonnet",
+    "gt_csv": "Country \\t Retail Stores \\t Online Stores \\n USA \\t 500 \\t 1500 \\n UK \\t 400 \\t 1200 \\n Germany \\t 300 \\t 1000 \\n France \\t 400 \\t 1300 \\n ",
+    "extracted_text": "Country\tRetail Stores\tOnline Stores\nUSA\t500\t1500\nUK\t400\t1200\nGermany\t300\t1000\nFrance\t400\t1300",
+    "title": " Number of Retail and Online Stores in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_400.png"
+  },
+  {
+    "imgname": "bar_254",
+    "model": "haiku",
+    "gt_csv": "Year \\t Inventions \\t Research papers \\n 2020 \\t 180 \\t 2500 \\n 2021 \\t 220 \\t 3000 \\n 2022 \\t 240 \\t 3500 \\n 2023 \\t 280 \\t 4000 \\n ",
+    "extracted_text": "Year\tInventions\tResearch papers\n2020\t250\t2500\n2021\t250\t3150\n2022\t250\t3500\n2023\t300\t4150",
+    "title": " Number of inventions and research papers from 2020 to 2023",
+    "img_rel": "bar_chart/png/bar_254.png"
+  },
+  {
+    "imgname": "bar_254",
+    "model": "sonnet",
+    "gt_csv": "Year \\t Inventions \\t Research papers \\n 2020 \\t 180 \\t 2500 \\n 2021 \\t 220 \\t 3000 \\n 2022 \\t 240 \\t 3500 \\n 2023 \\t 280 \\t 4000 \\n ",
+    "extracted_text": "Year\tInventions\tResearch papers\n2020\t150\t2500\n2021\t200\t3050\n2022\t225\t3500\n2023\t300\t4100",
+    "title": " Number of inventions and research papers from 2020 to 2023",
+    "img_rel": "bar_chart/png/bar_254.png"
+  },
+  {
+    "imgname": "bar_230",
+    "model": "haiku",
+    "gt_csv": "Employee \\t Average Salary(USD) \\t Average Hours \\n Sales \\t 4000 \\t 40 \\n Production \\t 5000 \\t 45 \\n Administration \\t 3000 \\t 35 \\n Support \\t 2000 \\t 30 \\n ",
+    "extracted_text": "Employee Role\tAverage Salary (USD)\tAverage Hours\nSales\t4000\t40\nProduction\t5000\t50\nAdministration\t3000\t30\nSupport\t2000\t20",
+    "title": " Average salary and hours of four employee roles in 2021",
+    "img_rel": "bar_chart/png/bar_230.png"
+  },
+  {
+    "imgname": "bar_230",
+    "model": "sonnet",
+    "gt_csv": "Employee \\t Average Salary(USD) \\t Average Hours \\n Sales \\t 4000 \\t 40 \\n Production \\t 5000 \\t 45 \\n Administration \\t 3000 \\t 35 \\n Support \\t 2000 \\t 30 \\n ",
+    "extracted_text": "Role\tAverage Salary(USD)\tAverage Hours\nSales\t4000\t40\nProduction\t5000\t50\nAdministration\t3000\t30\nSupport\t2000\t20",
+    "title": " Average salary and hours of four employee roles in 2021",
+    "img_rel": "bar_chart/png/bar_230.png"
+  },
+  {
+    "imgname": "bar_315",
+    "model": "haiku",
+    "gt_csv": "Department \\t Employees \\t Average Salary \\n IT \\t 150 \\t 6000 \\n HR \\t 50 \\t 5500 \\n Accounting \\t 200 \\t 4500 \\n Marketing \\t 100 \\t 5000 \\n ",
+    "extracted_text": "Department\tEmployees\tAverage Salary\nIT\t150\t6000\nHR\t80\t5500\nAccounting\t120\t4700\nMarketing\t90\t5100",
+    "title": " Number of Employees and Average Salary by Department in 2021",
+    "img_rel": "bar_chart/png/bar_315.png"
+  },
+  {
+    "imgname": "bar_315",
+    "model": "sonnet",
+    "gt_csv": "Department \\t Employees \\t Average Salary \\n IT \\t 150 \\t 6000 \\n HR \\t 50 \\t 5500 \\n Accounting \\t 200 \\t 4500 \\n Marketing \\t 100 \\t 5000 \\n ",
+    "extracted_text": "Department\tEmployees\tAverage Salary\nIT\t150\t6000\nHR\t50\t5500\nAccounting\t200\t4700\nMarketing\t100\t5100",
+    "title": " Number of Employees and Average Salary by Department in 2021",
+    "img_rel": "bar_chart/png/bar_315.png"
+  },
+  {
+    "imgname": "bar_212",
+    "model": "haiku",
+    "gt_csv": "Country \\t Solar Energy(KWh) \\t Wind Energy(KWh) \\t Hydro Energy(KWh) \\n USA \\t 15000 \\t 20000 \\t 12000 \\n UK \\t 18000 \\t 17000 \\t 14000 \\n Germany \\t 14000 \\t 19000 \\t 18000 \\n France \\t 16000 \\t 18000 \\t 15000 \\n ",
+    "extracted_text": "Country\tSolar Energy (kWh)\tWind Energy (kWh)\tHydro Energy (kWh)\nUSA\t15000\t20000\t12000\nUK\t18000\t17000\t13000\nGermany\t14000\t19000\t17000\nFrance\t16000\t18000\t14000",
+    "title": " Energy production from solar, wind and hydro sources in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_212.png"
+  },
+  {
+    "imgname": "bar_212",
+    "model": "sonnet",
+    "gt_csv": "Country \\t Solar Energy(KWh) \\t Wind Energy(KWh) \\t Hydro Energy(KWh) \\n USA \\t 15000 \\t 20000 \\t 12000 \\n UK \\t 18000 \\t 17000 \\t 14000 \\n Germany \\t 14000 \\t 19000 \\t 18000 \\n France \\t 16000 \\t 18000 \\t 15000 \\n ",
+    "extracted_text": "Country\tSolar Energy(KWh)\tWind Energy(KWh)\tHydro Energy(KWh)\nUSA\t15000\t20000\t12000\nUK\t18000\t17000\t14000\nGermany\t14000\t19000\t18000\nFrance\t16000\t18000\t15000",
+    "title": " Energy production from solar, wind and hydro sources in four countries in 2021",
+    "img_rel": "bar_chart/png/bar_212.png"
+  }
+]

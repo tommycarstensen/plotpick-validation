@@ -1,0 +1,358 @@
+{
+  "pmcid": "PMC13006643",
+  "table_num": 4,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 35,
+  "figure_type": "Bar chart with error bars showing mean scores across psychological variables, comparing LGBTQIA+ (dark gray) and Heterosexual (light gray) groups",
+  "metrics": {
+    "n_correct": 12,
+    "n_total": 36,
+    "recall": 0.333,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.66,
+        "extracted": 3.67,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.08,
+        "extracted": 3.02,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.82,
+        "extracted": 3.8,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.09,
+        "extracted": 3.08,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.87,
+        "extracted": 3.9,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.24,
+        "extracted": 3.23,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.86,
+        "extracted": 2.92,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.26,
+        "extracted": 3.34,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": -4.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.29,
+        "extracted": 3.31,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.93,
+        "extracted": 2.92,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.74,
+        "extracted": 3.82,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.32,
+        "extracted": 3.29,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Bar chart with error bars showing mean scores across psychological variables, comparing LGBTQIA+ (dark gray) and Heterosexual (light gray) groups",
+    "rows": [
+      [
+        "Bullying experience (X)",
+        "3.67",
+        "3.02",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Minority stress (M)",
+        "3.80",
+        "3.08",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Revenge impulsivity (Y)",
+        "3.90",
+        "3.23",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Social support (MSPSS)",
+        "2.92",
+        "3.34",
+        null,
+        null,
+        "***"
+      ],
+      [
+        "Autism traits (AQ)",
+        "3.31",
+        "2.92",
+        null,
+        null,
+        "**"
+      ],
+      [
+        "Internet use intensity (NetUse)",
+        "3.82",
+        "3.29",
+        null,
+        null,
+        "**"
+      ]
+    ],
+    "confidence": 35,
+    "notes": "The figure shows mean scores with error bars for each variable, but the table template requires specific columns (t, p values) that are not explicitly labeled in the figure. Only the mean scores for each group and significance indicators (*, **, ***) are visible as text annotations. The exact t and p values are not provided as text labels in the figure. The significance indicators appear above the bars: *** indicates p<0.001, ** indicates p<0.01."
+  }
+}

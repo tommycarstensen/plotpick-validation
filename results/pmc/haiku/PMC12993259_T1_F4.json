@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC12993259",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "PCA (Principal Component Analysis) scatter plots",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 10,
+    "recall": 0.4,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 3911.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 680.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 209.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2811.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 794.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "PCA (Principal Component Analysis) scatter plots",
+    "rows": [
+      [
+        "Sub1",
+        null
+      ],
+      [
+        "Sub3",
+        null
+      ],
+      [
+        "Sub4",
+        null
+      ],
+      [
+        "Sub13",
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows PCA plots with subfossil samples labeled (Sub1, Sub3, Sub4, Sub13), but no numerical data about 'SNPs after calling with a depth of ≥3×' is visible as text labels or annotations in these plots. The only numbers visible are the PC percentages on the axes (15.75%, 6.41%, 6.71%, etc.) and PC coordinates, but these do not correspond to the requested SNP data column. The table structure asks for SNP data that is not displayed in this figure."
+  }
+}

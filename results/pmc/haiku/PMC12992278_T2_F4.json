@@ -1,0 +1,180 @@
+{
+  "pmcid": "PMC12992278",
+  "table_num": 2,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Bar chart showing 30-day mortality by risk group",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 16,
+    "recall": 0.062,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.29,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 30.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.76,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Bar chart showing 30-day mortality by risk group",
+    "rows": [
+      [
+        "Age ≥50",
+        null,
+        null,
+        null
+      ],
+      [
+        "Severe GVHD",
+        null,
+        null,
+        null
+      ],
+      [
+        "Septic shock",
+        null,
+        null,
+        null
+      ],
+      [
+        "Pneumonia",
+        null,
+        null,
+        null
+      ],
+      [
+        "High risk hematologic disease",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows only a bar chart comparing 30-day mortality rates between Low risk (11.3%) and High risk (39%) groups with a p-value < 0.001. The table template requests coefficients, odds ratios, and scores for specific variables (Age, GVHD, Septic shock, Pneumonia, High risk disease), but none of these specific data values are explicitly labeled or visible in the figure. The figure does not contain the detailed statistical information needed to fill the template table."
+  }
+}

@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC12988434",
+  "table_num": 7,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.993,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.974,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.256,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.95,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the figure, I can see it's a ROC curve. The figure itself does not contain any explicit text annotations or numerical labels beyond the axis tick marks (0, 20, 40, 60, 80, 100). There are no data labels, confidence interval values, or AUC values explicitly written in the figure that would correspond to \"Lower\" and \"Upper\" bounds.\n\n```json\n{\n  \"figure_type\": \"ROC (Receiver Operating Characteristic) curve\",\n  \"rows\": [\n    [\"0.993\", null]\n  ],\n  \"confidence\": 20,\n  \"notes\": \"The figure "
+  }
+}

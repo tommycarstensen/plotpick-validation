@@ -1,0 +1,82 @@
+{
+  "pmcid": "PMC12994766",
+  "table_num": 3,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 15,
+  "figure_type": "table (partially visible demographic table)",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 98.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 88.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.4,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "table (partially visible demographic table)",
+    "rows": [
+      [
+        "No response to the inquiry, n (%)",
+        null
+      ],
+      [
+        "Competing priorities, n (%)",
+        null
+      ],
+      [
+        "Other, n (%)",
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows Table 2 with participant demographics (Age, Sex, Career stage), but the 'Reasons for dropout' rows are not visible in this image. The right side of the table is cut off, and dropout reasons are not explicitly labeled or annotated in the visible portion of the figure."
+  }
+}

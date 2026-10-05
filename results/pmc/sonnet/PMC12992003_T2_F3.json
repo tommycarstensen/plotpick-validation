@@ -1,0 +1,222 @@
+{
+  "pmcid": "PMC12992003",
+  "table_num": 2,
+  "figure_num": 3,
+  "model": "sonnet",
+  "confidence": 15,
+  "figure_type": "Calibration curves (line plots) arranged in a 3x2 grid",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 22,
+    "recall": 0.182,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 95.0,
+        "extracted": 95.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.738,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": -0.773,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.694,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.602,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": -0.776,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.727,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.632,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 2,
+        "truth": -0.821,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.773,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.734,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.727,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.809,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.772,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.702,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.822,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.739,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Calibration curves (line plots) arranged in a 3x2 grid",
+    "rows": [
+      [
+        "C-index [95% CI]",
+        null,
+        null,
+        null
+      ],
+      [
+        "1-year AUC",
+        null,
+        null,
+        null
+      ],
+      [
+        "2-year AUC",
+        null,
+        null,
+        null
+      ],
+      [
+        "3-year AUC",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure only contains calibration curves with MAE and Event rate annotations (MAE: 0.154, Event rate: 0.446 for Training set median; MAE: 0.284, Event rate: 0.601 for Training set max; MAE: 0.194, Event rate: 0.471 for Test set-1 median; MAE: 0.086, Event rate: 0.603 for Test set-1 max; MAE: 0.350, Event rate: 0.160 for Test set-2 median; MAE: 0.290, Event rate: 0.220 for Test set-2 max). No C-index, 1-year AUC, 2-year AUC, or 3-year AUC values are explicitly shown as text labels in this figure."
+  }
+}

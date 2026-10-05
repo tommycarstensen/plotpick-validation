@@ -1,0 +1,63 @@
+Third-party datasets redistributed in this repository
+=====================================================
+
+This repository redistributes the annotation files of two public
+benchmark datasets so that the results reported in the PlotPick paper can
+be reproduced exactly. For ChartX this is every record of both splits (6000
+entries: the 1152-entry test split with all its fields, and the
+4848-entry validation split reduced to the image name, chart type, title
+and CSV table the benchmark reads); for PlotQA it is a 1000-entry subset
+of the test split. No chart images are redistributed; they are fetched from the
+original sources by pipeline/fetch_chartx_images.py.
+
+Licence texts are in LICENSES/.
+
+ChartX
+------
+Files: external/chartx/chartx_test.json, external/chartx/chartx_val.json
+Copyright: the ChartX authors (Shanghai AI Laboratory and collaborators)
+Source: https://huggingface.co/datasets/InternScience/ChartX
+Licence: Apache-2.0
+Citation: Xia et al., "ChartX & ChartVLM: A Versatile Benchmark and
+  Foundation Model for Complicated Chart Reasoning", arXiv:2402.12185.
+
+The copies here are MODIFIED: ground-truth errors found during evaluation
+(CSV columns not shown in the chart, errors in the redrawing code, and
+stacked-bar annotations giving totals instead of segment values) were
+corrected in eight test-split figures. The corrections are
+listed in external/chartx/CORRECTIONS.md so that the modifications are
+identifiable, as Apache-2.0 section 4(b) requires.
+
+PlotQA
+------
+Files: external/plotqa_test_1000.json, external/plotqa_test_100.json
+Source: https://github.com/NiteshMethani/PlotQA
+Licence: CC-BY-4.0 (dataset), https://creativecommons.org/licenses/by/4.0/
+Citation: Methani, Ganguly, Khapra and Kumar, "PlotQA: Reasoning over
+  Scientific Plots", WACV 2020.
+These files are a subset of the PlotQA test split, adapted into the field
+layout this benchmark reads. They are provided without warranties, as
+CC-BY-4.0 section 5 sets out.
+
+Not redistributed
+-----------------
+Subsets of ChartQA, ChartQAPro and ChartMuseum were used in exploratory
+work that is not reported in the paper. They are not included here
+because their redistribution terms were not established. The scripts that
+reference them remain, and will not run until that data is obtained from
+the original sources.
+
+PubMed Central content
+----------------------
+results/pmc/, reports/, pairs.json, candidates.csv and excluded_pairs.json
+contain values and metadata from figures and tables in PubMed Central
+Open Access Subset articles, identified by PMCID. Each
+source article carries its own licence; consult the article record before
+reusing its content. No patient-identifiable data is included; all values
+are aggregate figures as published.
+
+Derived values
+--------------
+The result files under results/ and the summaries under reports/ embed
+ground-truth values copied from ChartX and PlotQA, so the terms above
+apply to them as well.

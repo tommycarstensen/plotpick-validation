@@ -1,0 +1,408 @@
+{
+  "pmcid": "PMC12990069",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "opus",
+  "confidence": 20,
+  "figure_type": "Multi-panel line charts showing longitudinal trajectories of glycemic and insulin markers over time (2015-2025)",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 37,
+    "recall": 0.027,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 111.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 113.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 86.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 36.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 43.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 25.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 2019.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 1,
+        "truth": 2024.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 2,
+        "truth": 2025.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 2016.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.91,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 1,
+        "truth": 2025.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.73,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 116.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 1,
+        "truth": 2017.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 97.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 1,
+        "truth": 2025.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 2019.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 1,
+        "truth": 2025.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Multi-panel line charts showing longitudinal trajectories of glycemic and insulin markers over time (2015-2025)",
+    "rows": [
+      [
+        "Glycemia",
+        "HbA1c",
+        null,
+        null
+      ],
+      [
+        "Glycemia",
+        "Fasting Glucose",
+        null,
+        null
+      ],
+      [
+        "Insulin dynamics",
+        "Fasting Insulin",
+        null,
+        null
+      ],
+      [
+        "Insulin resistance",
+        "HOMA-IR",
+        null,
+        null
+      ],
+      [
+        "Lipids",
+        null,
+        null,
+        null
+      ],
+      [
+        "Lipids",
+        null,
+        null,
+        null
+      ],
+      [
+        "Lipids",
+        null,
+        null,
+        null
+      ],
+      [
+        "Lipoprotein(a)",
+        null,
+        null,
+        null
+      ],
+      [
+        "Inflammation",
+        null,
+        null,
+        null
+      ],
+      [
+        "Cardiovascular",
+        null,
+        null,
+        null
+      ],
+      [
+        "Bone",
+        null,
+        null,
+        null
+      ],
+      [
+        "Ophthalmic",
+        null,
+        null,
+        null
+      ],
+      [
+        "Renal",
+        null,
+        null,
+        null
+      ],
+      [
+        "Renal",
+        null,
+        null,
+        null
+      ],
+      [
+        "Renal",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 20,
+    "notes": "The figure shows 4 panels (HbA1c, Fasting Glucose, Fasting Insulin, HOMA-IR) with line graphs, but there are no explicit text labels or annotations showing the actual data values at each point. The values would need to be read from the axis scales, which is not permitted per the instructions. Additionally, the table template requests 15 rows covering multiple domains (Lipids, Lipoprotein(a), Inflammation, Cardiovascular, Bone, Ophthalmic, Renal) that are not shown in this figure at all. Only the marker names from the panel titles can be identified."
+  }
+}

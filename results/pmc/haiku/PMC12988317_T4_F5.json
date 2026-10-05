@@ -1,0 +1,580 @@
+{
+  "pmcid": "PMC12988317",
+  "table_num": 4,
+  "figure_num": 5,
+  "model": "haiku",
+  "confidence": 35,
+  "figure_type": "Forest plot with confidence intervals",
+  "metrics": {
+    "n_correct": 9,
+    "n_total": 60,
+    "recall": 0.15,
+    "cells": [
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2008.0,
+        "extracted": 2008.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 65.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.59,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2008.0,
+        "extracted": 2010.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.45,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 2010.0,
+        "extracted": 2005.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 2005.0,
+        "extracted": 2004.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 2004.0,
+        "extracted": 2016.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 2016.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 74.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 2016.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 235.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.2,
+        "extracted": 1.99,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 1973.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 138.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.63,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 1977.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 129.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 2017.0,
+        "extracted": 95.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 110.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 1973.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 1975.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 96.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 70.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 8.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 2,
+        "truth": 12.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 3,
+        "truth": 33.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 1975.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 121.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 70.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 1,
+        "truth": 8.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 2,
+        "truth": 6.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 3,
+        "truth": 11.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 1977.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.68,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot with confidence intervals",
+    "rows": [
+      [
+        "Ballesteros 2008 (trifurcated)",
+        null,
+        null,
+        "1.63"
+      ],
+      [
+        "Ballesteros 2008 (tetrafurcated)",
+        null,
+        null,
+        "1.47"
+      ],
+      [
+        "Fazliogullari 2010",
+        null,
+        null,
+        "1.51"
+      ],
+      [
+        "Ortale 2005",
+        null,
+        null,
+        "1.48"
+      ],
+      [
+        "Surucu 2004",
+        null,
+        null,
+        "1.42"
+      ],
+      [
+        "Medrano-Gracia 2016 (RI)",
+        null,
+        null,
+        "1.84"
+      ],
+      [
+        "Medrano-Gracia 2016 (diagonal)",
+        null,
+        null,
+        "1.68"
+      ],
+      [
+        "Zhang 2022 (male)",
+        null,
+        null,
+        "2.10"
+      ],
+      [
+        "Zhang 2022 (female)",
+        null,
+        null,
+        "1.99"
+      ],
+      [
+        "MacAlpin 1973",
+        null,
+        null,
+        "1.53"
+      ],
+      [
+        "Kalbfleisch 1977",
+        null,
+        null,
+        "1.60"
+      ],
+      [
+        "Ali 2017",
+        null,
+        null,
+        "1.49"
+      ],
+      [
+        "RE overall 95% CI",
+        null,
+        null,
+        "2.21 (2.02-2.39)"
+      ]
+    ],
+    "confidence": 35,
+    "notes": "The figure shows only mean diameter values with confidence intervals for what appears to be branches or vessels. The table template requests 'Diameter of RI (mm)' and 'Diameter of diagonal branches (mm)' as separate columns, but the figure does not clearly distinguish between these two measures or provide separate values for each row. Only the single diameter values visible as point estimates on the forest plot have been transcribed. The sample sizes and detailed categorization cannot be read from this figure alone."
+  }
+}

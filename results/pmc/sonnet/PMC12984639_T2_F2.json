@@ -1,0 +1,466 @@
+{
+  "pmcid": "PMC12984639",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 5,
+  "figure_type": "Stacked horizontal bar chart showing QUADAS-2 Risk of Bias Summary with Low Risk, Unclear Risk, and High Risk proportions",
+  "metrics": {
+    "n_correct": 12,
+    "n_total": 30,
+    "recall": 0.4,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 14,
+        "pos": 1,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 14,
+        "pos": 2,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": 24.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": 31.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 14,
+        "pos": 2,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 14,
+        "pos": 1,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 14,
+        "pos": 2,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 14,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 14,
+        "pos": 2,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 14,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 14,
+        "pos": 2,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 14,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 14,
+        "pos": 1,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 14,
+        "pos": 0,
+        "truth": -2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Stacked horizontal bar chart showing QUADAS-2 Risk of Bias Summary with Low Risk, Unclear Risk, and High Risk proportions",
+    "rows": [
+      [
+        "Yuan et al. [30]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Kubo et al. [24]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Zhong et al. [31]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Kudoh et al. [17]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Vidiri et al. [27]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Han et al. [23]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Liu et al. [26]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Wang et al. [28]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Lan et al. [25]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Committeri et al. [21]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Csüry et al. [22]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Wang et al. [29]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure only shows aggregate percentage bar charts for four QUADAS-2 domains across all studies combined (showing approximately 90% low risk for patient selection, ~15% low/75% unclear/10% high for index test, ~100% low for reference standard, and ~70% low/15% unclear/15% high for flow & timing). No explicit text labels or annotations are visible for individual study-level assessments in the cells required by the table template."
+  }
+}

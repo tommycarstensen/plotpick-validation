@@ -1,0 +1,75 @@
+{
+  "pmcid": "PMC12984240",
+  "table_num": 3,
+  "figure_num": 5,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 7,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 96.68,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 97.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 95.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 95.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 96.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 96.91,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the confusion matrix, I can see the following values:\n- True Positive (TP) = 559\n- False Negative (FN) = 12\n- False Positive (FP) = 25\n- True Negative (TN) = 517\n\nHowever, the table asks for computed metrics (Accuracy, Sensitivity, Specificity, Precision, F1-score, Geometric mean), and these values are **not explicitly labeled as text annotations in the figure**. The figure only shows the confusion matrix with the four cell values (559, 12, 25, 517).\n\nSince my task is to transcribe on"
+  }
+}

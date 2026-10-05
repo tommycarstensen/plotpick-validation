@@ -1,0 +1,295 @@
+{
+  "pmcid": "PMC12985826",
+  "table_num": 7,
+  "figure_num": 20,
+  "model": "haiku",
+  "confidence": 85,
+  "figure_type": "Grouped bar chart showing permeability percentages",
+  "metrics": {
+    "n_correct": 5,
+    "n_total": 29,
+    "recall": 0.172,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.97,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.57,
+        "extracted": 11.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 19.45,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 11.44,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.03,
+        "extracted": 20.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.68,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 20.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 13.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.88,
+        "extracted": 37.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.91,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 37.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 18.18,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.18,
+        "extracted": 63.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.23,
+        "extracted": 44.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 63.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 44.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.7,
+        "extracted": 94.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.64,
+        "extracted": 72.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 94.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 72.76,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Grouped bar chart showing permeability percentages",
+    "rows": [
+      [
+        "Aged SBS-modified asphalt",
+        null,
+        null,
+        null
+      ],
+      [
+        "Layer 1",
+        "19",
+        "11",
+        null,
+        null
+      ],
+      [
+        "Layer 2",
+        "20",
+        "13",
+        null,
+        null
+      ],
+      [
+        "Layer 3",
+        "37",
+        "18",
+        null,
+        null
+      ],
+      [
+        "Layer 4",
+        "63",
+        "44",
+        null,
+        null
+      ],
+      [
+        "Layer 5",
+        "94",
+        "72",
+        null,
+        null
+      ]
+    ],
+    "confidence": 85,
+    "notes": "The table template has 4 columns labeled ZS-1, ZS-2, ZS-1, ZS-2 which appears to be a formatting error (duplicate column names). The figure shows only 2 data series (ZS-1 in green and ZS-2 in blue) across 5 layers. I have transcribed the visible bar values for each layer and each sample type. The first row 'Aged SBS-modified asphalt' has no visible values in the chart, so those cells are null. The table template appears to expect 4 data columns, but logically only 2 are needed for the two sample types shown."
+  }
+}

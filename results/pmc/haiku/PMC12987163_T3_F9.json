@@ -1,0 +1,138 @@
+{
+  "pmcid": "PMC12987163",
+  "table_num": 3,
+  "figure_num": 9,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Line plots showing training/validation loss and accuracy curves over epochs",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 9,
+    "recall": 0.111,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 180.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 180.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Line plots showing training/validation loss and accuracy curves over epochs",
+    "rows": [
+      [
+        "dataset partition",
+        null
+      ],
+      [
+        "number of participants",
+        null
+      ],
+      [
+        "number of repetitions per participant",
+        null
+      ],
+      [
+        "number of epochs",
+        "30"
+      ],
+      [
+        "image size",
+        null
+      ],
+      [
+        "augmentation",
+        null
+      ],
+      [
+        "number of learning samples per class",
+        null
+      ],
+      [
+        "number of validation samples per class",
+        null
+      ],
+      [
+        "total number of samples per class",
+        null
+      ],
+      [
+        "dropout rate",
+        null
+      ],
+      [
+        "optimizer",
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "Only the number of epochs (30) is explicitly visible as a text label on the x-axis of the plots. All other parameters requested in the table are not annotated as text labels in this figure. The figure shows learning curves for two scenarios (a) and (b) but does not contain explicit numerical labels for dataset parameters, model configuration, or training hyperparameters in the visible text annotations."
+  }
+}

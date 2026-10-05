@@ -1,0 +1,222 @@
+{
+  "pmcid": "PMC12991978",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Pie charts showing distribution of participant groups across matching categories",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 20,
+    "recall": 0.05,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 97.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": -283.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": -216.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 2,
+        "truth": 76.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 3,
+        "truth": -246.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Pie charts showing distribution of participant groups across matching categories",
+    "rows": [
+      [
+        "Total Number",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Low Risk HLA Incompatible Matching (N = 23)",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "FCXM",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "B +",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "T+ & B+",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows two pie charts with matching categories and numbers, but the table template requests data organized by specific incompatibility types (A2→O, B→A, B→O, A1B→B, A2B→B) and FCXM/serological results. The figure does not contain explicitly labeled text annotations broken down in this format. The visible numbers in the figure are: At Registration - ABOi/HLAc (n=34, 25.2%), ABOi/HLAi (n=3, 2.2%), ABOc/HLAc (n=29, 21.5%), ABOc/HLAi (n=69, 51.1%); Post Exchange - HLA/ABO Incompatible Matching (n=41, 30.4%), HLA & ABO Compatible Matching (n=94, 69.6%), with HLAi matching breakdown shown (HLAi=23 (17%), ABOi=15 (11%), ABOi & HLAi=3 (2%)). However, these do not directly map to the requested table structure, making accurate transcription impossible."
+  }
+}

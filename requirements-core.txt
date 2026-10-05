@@ -1,0 +1,11 @@
+# Enough to regenerate the paper's tables, figures and numbers from the
+# stored per-item results:
+#     python benchmarks/score_plotqa.py
+#     python benchmarks/paired_bootstrap.py
+#     python benchmarks/plot_chartx_validation.py
+#     python benchmarks/export_paper_numbers.py
+# None of them calls a model API or touches the network. Use this instead of
+# requirements.txt to avoid installing torch and the provider SDKs.
+matplotlib
+numpy
+Pillow>=10.0

@@ -1,0 +1,1422 @@
+{
+  "pmcid": "PMC13048866",
+  "table_num": 2,
+  "figure_num": 3,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Meta-analysis forest plot with evidence quality assessment table",
+  "metrics": {
+    "n_correct": 91,
+    "n_total": 135,
+    "recall": 0.674,
+    "cells": [
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 2.5,
+        "extracted": 2.5,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 1361.0,
+        "extracted": 1361.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 86.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": -3.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 1,
+        "truth": -4.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 2,
+        "truth": -2.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 2,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 3,
+        "truth": 98.0,
+        "extracted": 98.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 4,
+        "truth": 69.0,
+        "extracted": 69.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 2,
+        "truth": -36.0,
+        "extracted": -36.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 3,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": 209.0,
+        "extracted": 209.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 86.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 11.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 1,
+        "truth": 1.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 2,
+        "truth": 21.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 2,
+        "truth": 47.0,
+        "extracted": 47.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 3,
+        "truth": 58.0,
+        "extracted": 58.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 4,
+        "truth": 32.0,
+        "extracted": 32.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 1,
+        "truth": 770.0,
+        "extracted": 770.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": -0.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 1,
+        "truth": -0.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 2,
+        "truth": -0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 1,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 2,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 3,
+        "truth": 67.0,
+        "extracted": 67.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 4,
+        "truth": 41.0,
+        "extracted": 41.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 1,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 2,
+        "truth": -36.0,
+        "extracted": -36.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 3,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 1,
+        "truth": 580.0,
+        "extracted": 580.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 88.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 9.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 1,
+        "truth": 6.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 2,
+        "truth": 12.66,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 1,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 2,
+        "truth": 38.0,
+        "extracted": 38.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 3,
+        "truth": 91.0,
+        "extracted": 91.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 4,
+        "truth": 57.0,
+        "extracted": 57.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 1,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 2,
+        "truth": -36.0,
+        "extracted": -36.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 3,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 1,
+        "truth": 209.0,
+        "extracted": 209.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 1,
+        "truth": 14.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 0,
+        "truth": 15.37,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 1,
+        "truth": 10.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 2,
+        "truth": 20.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 1,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 2,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 3,
+        "truth": 56.0,
+        "extracted": 56.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 4,
+        "truth": 33.0,
+        "extracted": 33.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 1,
+        "truth": 2.5,
+        "extracted": 2.5,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 1,
+        "truth": 362.0,
+        "extracted": 362.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 1,
+        "truth": 62.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 0,
+        "truth": -1.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 1,
+        "truth": -2.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 2,
+        "truth": -0.91,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 2,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 3,
+        "truth": 96.0,
+        "extracted": 96.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 4,
+        "truth": 89.0,
+        "extracted": 89.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 1,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 2,
+        "truth": -36.0,
+        "extracted": -36.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 3,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 0,
+        "pos": 1,
+        "truth": 80.0,
+        "extracted": 80.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 6,
+        "pos": 0,
+        "truth": 8.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 6,
+        "pos": 1,
+        "truth": -0.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 6,
+        "pos": 2,
+        "truth": 17.34,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 1,
+        "truth": -5.0,
+        "extracted": -5.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 2,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 3,
+        "truth": 89.0,
+        "extracted": 89.0,
+        "match": true
+      },
+      {
+        "row": 23,
+        "col": 0,
+        "pos": 4,
+        "truth": 78.0,
+        "extracted": 78.0,
+        "match": true
+      },
+      {
+        "row": 24,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 25,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 25,
+        "col": 0,
+        "pos": 1,
+        "truth": 120.0,
+        "extracted": 120.0,
+        "match": true
+      },
+      {
+        "row": 25,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 2,
+        "pos": 1,
+        "truth": 64.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 6,
+        "pos": 0,
+        "truth": -0.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 6,
+        "pos": 1,
+        "truth": -0.77,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 25,
+        "col": 6,
+        "pos": 2,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 1,
+        "truth": -5.0,
+        "extracted": -5.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 2,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 3,
+        "truth": 89.0,
+        "extracted": 89.0,
+        "match": true
+      },
+      {
+        "row": 26,
+        "col": 0,
+        "pos": 4,
+        "truth": 78.0,
+        "extracted": 78.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 0,
+        "pos": 1,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 0,
+        "pos": 2,
+        "truth": -36.0,
+        "extracted": -36.0,
+        "match": true
+      },
+      {
+        "row": 27,
+        "col": 0,
+        "pos": 3,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 28,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 28,
+        "col": 0,
+        "pos": 1,
+        "truth": 80.0,
+        "extracted": 80.0,
+        "match": true
+      },
+      {
+        "row": 28,
+        "col": 6,
+        "pos": 0,
+        "truth": 10.16,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 6,
+        "pos": 1,
+        "truth": 1.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 28,
+        "col": 6,
+        "pos": 2,
+        "truth": 18.85,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 2,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 3,
+        "truth": 74.0,
+        "extracted": 74.0,
+        "match": true
+      },
+      {
+        "row": 29,
+        "col": 0,
+        "pos": 4,
+        "truth": 53.0,
+        "extracted": 53.0,
+        "match": true
+      },
+      {
+        "row": 31,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 31,
+        "col": 0,
+        "pos": 1,
+        "truth": 58.0,
+        "extracted": 58.0,
+        "match": true
+      },
+      {
+        "row": 31,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 31,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 31,
+        "col": 6,
+        "pos": 2,
+        "truth": 4.27,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Meta-analysis forest plot with evidence quality assessment table",
+    "rows": [
+      [
+        "Acupressure vs Waiting-list",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sleep quality: 21-point for PSQI scale; lower is better; MID=2.5",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "18(1361)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 29% (27%, 30%)Acupressure:98% Control:69%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Mental health: 0 to 100 points SF-36 subscale; higher is better; MID=10",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "3(209)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 26% (4%, 47%)Acupressure:58% Control:32%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sleep duration: achieving a 1-point reduction in sleep duration score from baseline",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "11(770)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 26% (19%, 34%)Acupressure:67% Control:41%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Life quality: 0 to 100 points SF-36 scale; higher is better; MID=5",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "7(580)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 34% (27%, 38%)Acupressure:91% Control:57%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Social functioning: 0 to 100 points SF-36 subscale; higher is better; MID=10",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "3(209)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 23% (16%, 30%)Acupressure:56% Control:33%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Acupressure vs Medication treatment",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sleep quality: 21-point for PSQI scale; lower is better; MID=2.5",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "6(362)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 8% (5%, 10%)Acupressure:96% Control:89%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Mental health: 0 to 100 points SF-36 subscale; higher is better; MID=10",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1(80)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 11% (-5%, 19%)Acupressure:89% Control:78%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sleep duration: achieving a 1-point reduction in sleep duration score from baseline",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "2(120)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 11% (-5%, 19%)Acupressure:89% Control:78%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Social functioning: 0 to 100 points SF-36 subscale; higher is better; MID=10",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1(80)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Modelled RD 21% (3%, 34%)Acupressure:74% Control:53%",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Adverse effects",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "1(58)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shown is a forest plot and data table for a meta-analysis on acupressure for insomnia. The template requested appears to be for a GRADE evidence quality assessment table with columns for Risk of Bias, Inconsistency, Indirectness, Imprecision, Publication Bias, Treatment Association, and Certainty. However, the visible figure does not contain explicit text labels or numerical values for these assessment criteria columns. The figure displays the forest plot with mean differences and confidence intervals in the right panel, but these are embedded in a graphical visualization rather than as discrete cell values in a GRADE table. Without explicit text labels for the assessment criteria in each row, all data cells must be marked as null."
+  }
+}

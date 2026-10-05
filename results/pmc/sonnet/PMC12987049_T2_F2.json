@@ -1,0 +1,146 @@
+{
+  "pmcid": "PMC12987049",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 45,
+  "figure_type": "Forest plot showing mean differences in cancer-related fatigue scores",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 13,
+    "recall": 0.308,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": -3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": -0.96,
+        "extracted": -0.96,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 51.0,
+        "extracted": 51.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -36.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 81.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 75.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 2.05,
+        "extracted": 2.05,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot showing mean differences in cancer-related fatigue scores",
+    "rows": [
+      [
+        "Zick [50]",
+        null,
+        null,
+        null,
+        null,
+        "PFS",
+        null,
+        "-0.96 (-2.10 to 0.18)"
+      ],
+      [
+        "Baguley [51]",
+        null,
+        null,
+        null,
+        null,
+        "FACIT-F",
+        null,
+        "2.05 (0.70 to 3.40)"
+      ]
+    ],
+    "confidence": 45,
+    "notes": "The forest plot only explicitly shows the fatigue tool names (PFS, FACIT-F) and the mean difference values with 95% CIs. Other table columns (Design, Cancer Type, Sample Size, Adherence to MD, Hedges' g) are not visible in the figure. The effect sizes shown are mean differences, not Hedges' g specifically."
+  }
+}

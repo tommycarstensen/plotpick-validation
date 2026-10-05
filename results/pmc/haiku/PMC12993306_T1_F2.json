@@ -1,0 +1,120 @@
+{
+  "pmcid": "PMC12993306",
+  "table_num": 1,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Cost-effectiveness analysis planes and cost-acceptability curves",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 1833.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 92.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": -763.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 81.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Cost-effectiveness analysis planes and cost-acceptability curves",
+    "rows": [
+      [
+        "Effect outcome",
+        null,
+        null,
+        null
+      ],
+      [
+        "Spotting days",
+        null,
+        null,
+        null
+      ],
+      [
+        "Effective rate",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows cost-effectiveness planes (panels A and B) and cost-acceptability curves (panels C and D), but does not contain explicit numerical data organized by the four geographic quadrants (North east, South east, South west, North west) as specified in the table template. The scatter plots in panels A and B show bootstrapped samples distributed across quadrants, but no specific values are labeled for each quadrant. Panels C and D show probability curves but are not stratified by geographic region. The visible text labels in the figure (HNR, LNG-IUS, axis labels) do not correspond to the requested table structure."
+  }
+}

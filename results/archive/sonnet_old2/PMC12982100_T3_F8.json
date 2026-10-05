@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC12982100",
+  "table_num": 3,
+  "figure_num": 8,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.043,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.049,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.085,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.619,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the figure, I can see a heatmap (A) and a volcano plot (B) showing metabolite profiles. The figure displays visual data but does not contain explicit text annotations or labels for the specific values requested in the table (P value, VIP, FC, Pathways) for D-Proline or Oleic Acid ethyl ester.\n\nThe heatmap shows metabolite names on the y-axis (neg_1998, neg_4120, neg_14990, pos_2036, pos_19267) but these are feature IDs, not the metabolite names requested. The volcano plot shows log2FC"
+  }
+}

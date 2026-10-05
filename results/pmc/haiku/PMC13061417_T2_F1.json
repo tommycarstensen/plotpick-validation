@@ -1,0 +1,310 @@
+{
+  "pmcid": "PMC13061417",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Bar chart with error bars and individual data points",
+  "metrics": {
+    "n_correct": 8,
+    "n_total": 32,
+    "recall": 0.25,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": -3.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.961,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": -5.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.825,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 7.0,
+        "extracted": -7.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.135,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 9.0,
+        "extracted": -9.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 11.0,
+        "extracted": -11.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 22.47,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 13.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": 12.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": 14.0,
+        "extracted": -14.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 14.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 1,
+        "truth": 16.0,
+        "extracted": -16.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.26,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 1,
+        "truth": 18.0,
+        "extracted": -18.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 13.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.38,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Bar chart with error bars and individual data points",
+    "rows": [
+      [
+        "1-3 hr",
+        null
+      ],
+      [
+        "3-5 hr",
+        null
+      ],
+      [
+        "5-7 hr",
+        null
+      ],
+      [
+        "7-9 hr",
+        null
+      ],
+      [
+        "9-11 hr",
+        null
+      ],
+      [
+        "12-14 hr",
+        null
+      ],
+      [
+        "14-16 hr",
+        null
+      ],
+      [
+        "16-18 hr",
+        null
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The table template requests data from embryonic stages (1-3 hr through 16-18 hr), but Figure C 'Estimation of polyP from various embryonic stages' shows different time intervals (1-3 hrs, 3-5 hrs, 5-7 hrs, 7-9 hrs, 9-11 hrs, 12-14 hrs, 14-16 hrs, 16-18 hrs). While the stages in the template match those in Figure C, the figure does not display explicit numerical labels for the bar heights or data point values. Only qualitative information ('ns' for not significant) and error bars are visible. Without explicit text labels showing the actual pmoles values for each stage, I cannot accurately transcribe the requested data."
+  }
+}

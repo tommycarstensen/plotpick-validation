@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC12985808",
+  "table_num": 1,
+  "figure_num": 5,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Technical diagram showing cross-sectional and finite element model views of an aramid fiber-reinforced thick-walled rubber pipe",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 8,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 166.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 65.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 73.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 53.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.9,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.111,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Technical diagram showing cross-sectional and finite element model views of an aramid fiber-reinforced thick-walled rubber pipe",
+    "rows": [
+      [
+        "Length (mm)",
+        null
+      ],
+      [
+        "Inner diameter (mm)",
+        null
+      ],
+      [
+        "Outer diameter (mm)",
+        null
+      ],
+      [
+        "Innermost reinforcement layer diameter (mm)",
+        null
+      ],
+      [
+        "Number of reinforcement layers",
+        null
+      ],
+      [
+        "Reinforcing fiber winding angle (°)",
+        null
+      ],
+      [
+        "Diameter of reinforcing fiber (mm)",
+        null
+      ],
+      [
+        "Center-to-center distance of reinforcing fibers (mm)",
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "This is a technical schematic diagram showing the geometric structure and finite element model of a rubber pipe. While the diagram clearly labels various components (External flange, Intermediate flange, Bush, Rubber, Compression flange, Reinforcement layer, and shows Inner diameter and Outer diameter indicators), no explicit numerical values are visible as text annotations in the figure for any of the structural parameters requested in the table. The diagram is illustrative rather than containing quantitative data labels."
+  }
+}

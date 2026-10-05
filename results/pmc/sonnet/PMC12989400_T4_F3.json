@@ -1,0 +1,390 @@
+{
+  "pmcid": "PMC12989400",
+  "table_num": 4,
+  "figure_num": 3,
+  "model": "sonnet",
+  "confidence": 85,
+  "figure_type": "Path diagram / structural equation model with annotated coefficients",
+  "metrics": {
+    "n_correct": 23,
+    "n_total": 40,
+    "recall": 0.575,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.439,
+        "extracted": 0.439,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.197,
+        "extracted": 0.197,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.682,
+        "extracted": 0.682,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": 0.001,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.288,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.128,
+        "extracted": -0.128,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": -0.449,
+        "extracted": -0.449,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.194,
+        "extracted": 0.194,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.437,
+        "extracted": -0.055,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.055,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.148,
+        "extracted": -0.148,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": -0.25,
+        "extracted": -0.25,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": -0.045,
+        "extracted": -0.045,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.005,
+        "extracted": 0.005,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.193,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.182,
+        "extracted": 0.182,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.115,
+        "extracted": 0.115,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.25,
+        "extracted": 0.25,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": 0.001,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.362,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.172,
+        "extracted": 0.178,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": -0.266,
+        "extracted": 0.117,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 2,
+        "truth": -0.078,
+        "extracted": 0.239,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": 0.001,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.178,
+        "extracted": -0.172,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.117,
+        "extracted": -0.266,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.239,
+        "extracted": -0.078,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": 0.001,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.393,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.202,
+        "extracted": 0.202,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.041,
+        "extracted": 0.041,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.363,
+        "extracted": 0.363,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.014,
+        "extracted": -0.014,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.173,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.146,
+        "extracted": 0.146,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.008,
+        "extracted": 0.008,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.284,
+        "extracted": 0.284,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.038,
+        "extracted": -0.038,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.14,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Path diagram / structural equation model with annotated coefficients",
+    "rows": [
+      [
+        "Mindfulness → Cognitive reappraisal",
+        "0.439 (0.197 to 0.682)",
+        "p<0.001",
+        null
+      ],
+      [
+        "Mindfulness → Expressive suppression",
+        "-0.128 (-0.449 to 0.194)",
+        "p=-0.055",
+        null
+      ],
+      [
+        "Cognitive reappraisal → GAD",
+        "-0.148 (-0.250 to -0.045)",
+        "p=0.005",
+        null
+      ],
+      [
+        "Expressive suppression → GAD",
+        "0.182 (0.115 to 0.250)",
+        "p<0.001",
+        null
+      ],
+      [
+        "Cognitive reappraisal → PHQ",
+        "0.178 (0.117 to 0.239)",
+        "p<0.001",
+        null
+      ],
+      [
+        "Expressive suppression → PHQ",
+        "-0.172 (-0.266 to -0.078)",
+        "p<0.001",
+        null
+      ],
+      [
+        "Mindfulness → GAD",
+        "0.202 (0.041 to 0.363)",
+        "p=-0.014",
+        null
+      ],
+      [
+        "Mindfulness → PHQ",
+        "0.146 (0.008 to 0.284)",
+        "p=-0.038",
+        null
+      ]
+    ],
+    "confidence": 85,
+    "notes": "The 'Standardized beta' column has no explicit separate values visible in the figure - the annotated values appear to be the beta coefficients with 95% CIs and p-values. Some p-values use unusual notation (p=-0.014, p=-0.055, p=-0.038) which appear to be transcribed directly as shown in the figure. The indirect effects via Emotion Regulation are shown as dashed red arrows with their own annotations but are not included in the table template rows."
+  }
+}

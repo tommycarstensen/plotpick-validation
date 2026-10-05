@@ -1,0 +1,67 @@
+{
+  "pmcid": "PMC12994766",
+  "table_num": 3,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 98.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 88.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.4,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "I'm looking at the provided figure, which shows Table 2.1 about participant demographics for CBTm self-directed and CBTm facilitator-led programs. However, I need to find the specific data about \"reasons for dropout\" to fill in the requested table.\n\nThe figure shows the beginning of Table 2.1 with demographic information (Age, Sex, Career stage), but the actual dropout reasons data that would correspond to the template provided is not visible in this portion of the figure. The visible text discu"
+  }
+}

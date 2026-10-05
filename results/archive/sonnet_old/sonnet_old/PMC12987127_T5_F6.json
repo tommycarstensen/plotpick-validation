@@ -1,0 +1,51 @@
+{
+  "pmcid": "PMC12987127",
+  "table_num": 5,
+  "figure_num": 6,
+  "model": "sonnet",
+  "confidence": null,
+  "figure_type": null,
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 4,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.044,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.007,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 22.557,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.244,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "error": "invalid_json",
+    "raw": "Looking at the figure, I can see it's a contour plot showing gravitational deformation with displacement values in the legend. However, I need to find explicit text annotations for PV (nm) and RMS (nm) values for both Gravity and Thermal conditions.\n\nThe figure shows:\n- A contour plot with displacement values\n- Max = 1.573×10⁻³\n- Grids 187763\n\nThere are no explicit PV (nm) or RMS (nm) text label annotations visible in this figure for either the Gravity or Thermal conditions.\n\n```json\n{\n  \"figure"
+  }
+}

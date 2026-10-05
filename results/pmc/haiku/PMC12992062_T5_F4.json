@@ -1,0 +1,164 @@
+{
+  "pmcid": "PMC12992062",
+  "table_num": 5,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Hierarchical heatmap showing pathogen-resistome landscape with microbial species and resistance gene categories",
+  "metrics": {
+    "n_correct": 9,
+    "n_total": 11,
+    "recall": 0.818,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 44.0,
+        "extracted": 44.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 45.0,
+        "extracted": 45.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 82.0,
+        "extracted": 82.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 93.0,
+        "extracted": 93.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 93.0,
+        "extracted": 93.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Hierarchical heatmap showing pathogen-resistome landscape with microbial species and resistance gene categories",
+    "rows": [
+      [
+        "P02",
+        null,
+        null,
+        null
+      ],
+      [
+        "P08",
+        null,
+        null,
+        null
+      ],
+      [
+        "P13",
+        null,
+        null,
+        null
+      ],
+      [
+        "P25",
+        null,
+        null,
+        null
+      ],
+      [
+        "P44",
+        null,
+        null,
+        null
+      ],
+      [
+        "P45",
+        null,
+        null,
+        null
+      ],
+      [
+        "P82",
+        null,
+        null,
+        null
+      ],
+      [
+        "P93",
+        null,
+        null,
+        null
+      ],
+      [
+        "P93",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure is a hierarchical heatmap showing the association between microbes and resistance genes. While patient identifiers (P02, P08, P13, P25, P44, P45, P82, P93) appear to be labeled on the left side of the heatmap, the specific numerical values or categorical assignments for 'Group', 'Microbial', and 'Virulence factors' columns are not explicitly shown as text annotations or labels in the figure. The heatmap uses colors to represent different resistance gene categories and microbial groups, but these are legend indicators rather than explicit cell values. No text labels appear within the data cells themselves that would correspond to the table structure requested."
+  }
+}

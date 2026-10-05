@@ -1,0 +1,2204 @@
+{
+  "pmcid": "PMC12989214",
+  "table_num": 2,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 52,
+  "figure_type": "Mediation Mendelian randomization diagram with pathway annotations",
+  "metrics": {
+    "n_correct": 24,
+    "n_total": 244,
+    "recall": 0.098,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 3,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.165,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.076,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": 0.205,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.096,
+        "extracted": 0.033,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.101,
+        "extracted": 0.101,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.04,
+        "extracted": 0.012,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.021,
+        "extracted": 0.165,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.029,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.125,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.165,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.179,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.079,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.071,
+        "extracted": 0.179,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.018,
+        "extracted": 0.024,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.013,
+        "extracted": -0.071,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.007,
+        "extracted": 0.001,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.077,
+        "extracted": -0.185,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.165,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.318,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.089,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.045,
+        "extracted": -0.318,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.021,
+        "extracted": 0.001,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.014,
+        "extracted": 0.045,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.008,
+        "extracted": 0.034,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.086,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 11.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.099,
+        "extracted": 34.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.044,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.048,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.058,
+        "extracted": -0.13,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.022,
+        "extracted": 0.006,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.008,
+        "extracted": -0.058,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.004,
+        "extracted": 0.009,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.077,
+        "extracted": 0.099,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 2,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 3,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.165,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.076,
+        "extracted": 0.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.205,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.096,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.101,
+        "extracted": 0.205,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.04,
+        "extracted": 0.033,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.021,
+        "extracted": 0.101,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.012,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.125,
+        "extracted": 0.165,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.396,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.139,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.137,
+        "extracted": 0.137,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.057,
+        "extracted": 0.016,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.242,
+        "extracted": -0.242,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.115,
+        "extracted": 0.034,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": -0.033,
+        "extracted": -0.396,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.022,
+        "extracted": 0.004,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.084,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.396,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.139,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.122,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.055,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.163,
+        "extracted": 0.122,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.073,
+        "extracted": 0.027,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.02,
+        "extracted": -0.163,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.024,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 2,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 3,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 4,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.357,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.132,
+        "extracted": 1.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.116,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.054,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.289,
+        "extracted": 0.116,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.091,
+        "extracted": 0.032,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.034,
+        "extracted": -0.289,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.02,
+        "extracted": 0.002,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.094,
+        "extracted": -0.357,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.357,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.132,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.128,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.052,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.163,
+        "extracted": 0.128,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.073,
+        "extracted": 0.015,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.021,
+        "extracted": -0.163,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.024,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.058,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": -18.0,
+        "extracted": -18.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": 0.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 2,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 3,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 4,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.395,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.168,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.206,
+        "extracted": -0.206,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.078,
+        "extracted": 0.008,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.213,
+        "extracted": -0.213,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.097,
+        "extracted": 0.028,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.044,
+        "extracted": 0.395,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.027,
+        "extracted": 0.018,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.111,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.395,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.168,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.166,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.075,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.131,
+        "extracted": -0.166,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": 0.027,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.022,
+        "extracted": -0.131,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.009,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.055,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.389,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.118,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.139,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.054,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.154,
+        "extracted": 0.139,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": 0.011,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.021,
+        "extracted": -0.154,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.023,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.055,
+        "extracted": -0.389,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.389,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.118,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.211,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.077,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.142,
+        "extracted": -0.211,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": 0.006,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.03,
+        "extracted": -0.142,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.019,
+        "extracted": 0.036,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.077,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.447,
+        "extracted": 34.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.199,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.201,
+        "extracted": -0.24,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.054,
+        "extracted": 0.011,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.048,
+        "extracted": -0.201,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.023,
+        "extracted": 0.001,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.108,
+        "extracted": 0.447,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.447,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.199,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.172,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.087,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.096,
+        "extracted": 0.172,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.049,
+        "extracted": 0.049,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.017,
+        "extracted": 0.096,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.048,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.037,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.222,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.045,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.227,
+        "extracted": 0.093,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.114,
+        "extracted": 0.026,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.021,
+        "extracted": 0.096,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.016,
+        "extracted": 0.048,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.096,
+        "extracted": 0.222,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.222,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.094,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.093,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.042,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.096,
+        "extracted": 0.094,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.049,
+        "extracted": 0.038,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.009,
+        "extracted": 0.227,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.006,
+        "extracted": 0.046,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.36,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.176,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.182,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.12,
+        "extracted": 0.202,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.048,
+        "extracted": 0.007,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.022,
+        "extracted": 0.096,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.014,
+        "extracted": 0.048,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.06,
+        "extracted": 0.369,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.36,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.176,
+        "extracted": 1.0,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.202,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.075,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.096,
+        "extracted": -0.182,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.049,
+        "extracted": 0.023,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.019,
+        "extracted": -0.12,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.013,
+        "extracted": 0.012,
+        "match": false
+      },
+      {
+        "row": 18,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.054,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.327,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.112,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.154,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.051,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.154,
+        "extracted": 0.154,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": 0.003,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.024,
+        "extracted": -0.154,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.014,
+        "extracted": 0.023,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.073,
+        "extracted": -0.327,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": -0.327,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.112,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.195,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.073,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.142,
+        "extracted": 0.195,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.068,
+        "extracted": 0.008,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.028,
+        "extracted": -0.142,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.018,
+        "extracted": 0.036,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.085,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 2,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.872,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.394,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.17,
+        "extracted": -0.17,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.077,
+        "extracted": 0.027,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.704,
+        "extracted": -0.704,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.241,
+        "extracted": 0.004,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.12,
+        "extracted": 0.872,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.07,
+        "extracted": 0.027,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 7,
+        "pos": 0,
+        "truth": 0.137,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 0,
+        "truth": -18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 2,
+        "truth": 18.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 3,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 1,
+        "pos": 4,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.872,
+        "extracted": -18.0,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.394,
+        "extracted": 0.0,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.206,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.078,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.465,
+        "extracted": -0.206,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.23,
+        "extracted": 0.008,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.096,
+        "extracted": -0.465,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.062,
+        "extracted": 0.043,
+        "match": false
+      },
+      {
+        "row": 22,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Mediation Mendelian randomization diagram with pathway annotations",
+    "rows": [
+      [
+        "Sepsis",
+        "family.Actinomycetaceae",
+        "Cer(d18:0/18:0)",
+        null,
+        "β=0.205, P=0.033",
+        "β=0.101, P=0.012",
+        "β=0.165, P=0.029",
+        null
+      ],
+      [
+        "genus. Dialister",
+        "genus.Dialister",
+        "Androsterone sulfate",
+        null,
+        "β=0.179, P=0.024",
+        "β=-0.071, P<0.001",
+        "β=-0.185, P=0.016",
+        null
+      ],
+      [
+        "genus. Dialister",
+        "genus.Dialister",
+        "FAD",
+        null,
+        "β=-0.318, P<0.001",
+        "β=0.045, P=0.034",
+        null,
+        null
+      ],
+      [
+        "genus. RuminococcaceaeUCG011",
+        "genus.RuminococcaceaeUCG011",
+        "PC(34:4)",
+        null,
+        "β=-0.130, P=0.006",
+        "β=-0.058, P=0.009",
+        "β=0.099, P=0.024",
+        null
+      ],
+      [
+        "order. Actinomycetales",
+        "order.Actinomycetales",
+        "Cer(d18:0/18:0)",
+        null,
+        "β=0.205, P=0.033",
+        "β=0.101, P=0.012",
+        "β=0.165, P=0.029",
+        null
+      ],
+      [
+        "Sepsis (critical care)",
+        "class.Lentisphaeria/order.Victivallales",
+        "4-Hydroxyphenylacetic acid",
+        null,
+        "β=0.137, P=0.016",
+        "β=-0.242, P=0.034",
+        "β=-0.396, P=0.004",
+        null
+      ],
+      [
+        "class. Lentisphaeria/order.Victivallales",
+        "class.Lentisphaeria/order.Victivallales",
+        "N-Acetyl-beta-alanine",
+        null,
+        "β=0.122, P=0.027",
+        "β=-0.163, P=0.024",
+        null,
+        null
+      ],
+      [
+        "phylum. Lentisphaerae",
+        "phylum.Lentisphaerae",
+        "LysoPI(18:1(9Z)/0:0)",
+        null,
+        "β=0.116, P=0.032",
+        "β=-0.289, P=0.002",
+        "β=-0.357, P=0.007",
+        null
+      ],
+      [
+        "phylum. Lentisphaerae",
+        "phylum.Lentisphaerae",
+        "N-Acetyl-beta-alanine",
+        null,
+        "β=0.128, P=0.015",
+        "β=-0.163, P=0.024",
+        null,
+        null
+      ],
+      [
+        "Sepsis (28-day death)",
+        "class.Bacteroidia/order.Bacteroidales",
+        "PE(P-18:0/18:1(9Z))",
+        null,
+        "β=-0.206, P=0.008",
+        "β=-0.213, P=0.028",
+        "β=0.395, P=0.018",
+        null
+      ],
+      [
+        "class. Bacteroidia/order. Bacteroidales",
+        "class.Bacteroidia/order.Bacteroidales",
+        "Hexadecanedioic acid",
+        null,
+        "β=-0.166, P=0.027",
+        "β=-0.131, P=0.009",
+        null,
+        null
+      ],
+      [
+        "class. Lentisphaeria/order. Victivallales",
+        "class.Lentisphaeria/order.Victivallales",
+        "Gulonic acid",
+        null,
+        "β=0.139, P=0.011",
+        "β=-0.154, P=0.023",
+        "β=-0.389, P<0.001",
+        null
+      ],
+      [
+        "class. Lentisphaeria/order. Victivallales",
+        "class.Lentisphaeria/order.Victivallales",
+        "Maltotriose",
+        null,
+        "β=-0.211, P=0.006",
+        "β=-0.142, P=0.036",
+        null,
+        null
+      ],
+      [
+        "family. FamilyXIII",
+        "family.FamilyXIII",
+        "PC(34:4)",
+        null,
+        "β=-0.240, P=0.011",
+        "β=-0.201, P<0.001",
+        "β=0.447, P=0.025",
+        null
+      ],
+      [
+        "family. FamilyXIII",
+        "family.FamilyXIII",
+        "4-Trimethylammoniobutanoic acid",
+        null,
+        "β=0.172, P=0.049",
+        "β=0.096, P=0.048",
+        null,
+        null
+      ],
+      [
+        "genus. Sellimonas",
+        "genus.Sellimonas",
+        "4-Trimethylammoniobutanoic acid",
+        null,
+        "β=0.093, P=0.026",
+        "β=0.096, P=0.048",
+        "β=0.222, P=0.019",
+        null
+      ],
+      [
+        "genus. Sellimonas",
+        "genus.Sellimonas",
+        "Eicosadienoic acid",
+        null,
+        "β=0.094, P=0.038",
+        "β=0.227, P=0.046",
+        null,
+        null
+      ],
+      [
+        "genus. Terrisporobacter",
+        "genus.Terrisporobacter",
+        "4-Trimethylammoniobutanoic acid",
+        null,
+        "β=0.202, P=0.007",
+        "β=0.096, P=0.048",
+        "β=0.369, P=0.040",
+        null
+      ],
+      [
+        "genus. Terrisporobacter",
+        "genus.Terrisporobacter",
+        "Octadecenedioylcarnitine (C18:1-DC)",
+        null,
+        "β=-0.182, P=0.023",
+        "β=-0.120, P=0.012",
+        null,
+        null
+      ],
+      [
+        "phylum. Lentisphaerae",
+        "phylum.Lentisphaerae",
+        "Gulonic acid",
+        null,
+        "β=0.154, P=0.003",
+        "β=-0.154, P=0.023",
+        "β=-0.327, P=0.004",
+        null
+      ],
+      [
+        "phylum. Lentisphaerae",
+        "phylum.Lentisphaerae",
+        "Maltotriose",
+        null,
+        "β=0.195, P=0.008",
+        "β=-0.142, P=0.036",
+        null,
+        null
+      ],
+      [
+        "Sepsis (28-day death in critical care)",
+        "class.Bacteroidia/order.Bacteroidales",
+        "17-Methyloctadecanoic acid",
+        null,
+        "β=-0.170, P=0.027",
+        "β=-0.704, P=0.004",
+        "β=0.872, P=0.027",
+        null
+      ],
+      [
+        "class. Bacteroidia/order. Bacteroidales",
+        "class.Bacteroidia/order.Bacteroidales",
+        "PE(P-18:0/18:1(9Z))",
+        null,
+        "β=-0.206, P=0.008",
+        "β=-0.465, P=0.043",
+        null,
+        null
+      ]
+    ],
+    "confidence": 52,
+    "notes": "The figure shows a pathway diagram with β values annotated on arrows, but does not explicitly show β0±SE, indirect effect±SE, or proportion mediated columns as separate values. The table structure requests more columns than visible in the figure. I've mapped β1 (exposure→mediator) and β2 (mediator→outcome) where visible, and the middle red/green β as the indirect effect estimate. Many cells cannot be filled from visible text alone."
+  }
+}

@@ -1,0 +1,75 @@
+[
+  {
+    "pr": 3,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/3",
+    "imgname": "bar_263",
+    "chart_type": "bar_chart",
+    "bug_class": "redrawing_typo",
+    "summary": "Oxford enrollment hardcoded as 1 instead of 10 in redrawing code",
+    "note": "Superseded by PR #11 which also fixes the stacking bug"
+  },
+  {
+    "pr": 4,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/4",
+    "imgname": "bar_num_363",
+    "chart_type": "bar_chart_num",
+    "bug_class": "csv_extra_column",
+    "summary": "CSV has Carbon Emissions column not depicted in chart"
+  },
+  {
+    "pr": 5,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/5",
+    "imgname": "bar_num_83",
+    "chart_type": "bar_chart_num",
+    "bug_class": "misleading_annotation",
+    "summary": "Stacked bar annotations show totals instead of segment values"
+  },
+  {
+    "pr": 6,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/6",
+    "imgname": "bar_455",
+    "chart_type": "bar_chart",
+    "bug_class": "redrawing_stacking",
+    "summary": "Incorrect stacking order: bottom=solar instead of solar+hydro"
+  },
+  {
+    "pr": 7,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/7",
+    "imgname": "line_num_315",
+    "chart_type": "line_chart_num",
+    "bug_class": "csv_extra_column",
+    "summary": "CSV has Donation Amount column not depicted in chart"
+  },
+  {
+    "pr": 8,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/8",
+    "imgname": "line_num_361",
+    "chart_type": "line_chart_num",
+    "bug_class": "csv_extra_column",
+    "summary": "CSV has Employees column not depicted in chart"
+  },
+  {
+    "pr": 9,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/9",
+    "imgname": "bar_num_297",
+    "chart_type": "bar_chart_num",
+    "bug_class": "redrawing_wrong_data",
+    "summary": "Redrawing code has undefined variables and wrong annotations"
+  },
+  {
+    "pr": 10,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/10",
+    "imgname": "bar_num_454",
+    "chart_type": "bar_chart_num",
+    "bug_class": "misleading_annotation",
+    "summary": "Stacked bar annotations show totals instead of segment values"
+  },
+  {
+    "pr": 11,
+    "url": "https://huggingface.co/datasets/InternScience/ChartX/discussions/11",
+    "imgname": "bar_263",
+    "chart_type": "bar_chart",
+    "bug_class": "redrawing_stacking",
+    "summary": "Oxford enrollment typo (1->10) and ratio stacked on enrollment. Supersedes PR #3"
+  }
+]

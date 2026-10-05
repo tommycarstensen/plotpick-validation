@@ -1,0 +1,130 @@
+{
+  "pmcid": "PMC12993265",
+  "table_num": 1,
+  "figure_num": 5,
+  "model": "sonnet",
+  "confidence": 15,
+  "figure_type": "3D scatter plot with fitted surface (modified power law model)",
+  "metrics": {
+    "n_correct": 2,
+    "n_total": 9,
+    "recall": 0.222,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 43.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.65,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 7415.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.74,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.394,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.45,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "3D scatter plot with fitted surface (modified power law model)",
+    "rows": [
+      [
+        "Scaling parameters",
+        null,
+        null,
+        null
+      ],
+      [
+        "Q̄",
+        null,
+        null,
+        null
+      ],
+      [
+        "n̄",
+        null,
+        null,
+        null
+      ],
+      [
+        "Power law parameters",
+        null,
+        null,
+        null
+      ],
+      [
+        "a 2",
+        null,
+        null,
+        null
+      ],
+      [
+        "b 2",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shows a 3D scatter plot of HRI vs Flow and Speed with a fitted surface model, but contains no explicit text annotations or embedded table values for the requested parameters (Q̄, n̄, a2, b2). The axis ranges visible are: Flow 0-10 L/min, Speed 6000-9000 rpm, HRI 0-140 %·mL/h."
+  }
+}

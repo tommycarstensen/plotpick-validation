@@ -1,0 +1,322 @@
+{
+  "pmcid": "PMC13025566",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 35,
+  "figure_type": "Panel figure with demographic, comorbidities, and clinicopathological features displayed as text annotations and bar charts",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 27,
+    "recall": 0.037,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 49.0,
+        "extracted": 49.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 22.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 2,
+        "truth": 78.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 294.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 48.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 315.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 52.0,
+        "extracted": 315.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 113.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 344.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 56.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 146.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 487.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 52.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 8.5,
+        "extracted": 487.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.3,
+        "extracted": 52.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.33,
+        "extracted": 39.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 39.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.4,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.8,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Panel figure with demographic, comorbidities, and clinicopathological features displayed as text annotations and bar charts",
+    "rows": [
+      [
+        "Age (years)",
+        "Median (Range)",
+        "49",
+        "(22-78)"
+      ],
+      [
+        "Comorbidities",
+        null,
+        null,
+        null
+      ],
+      [
+        "No",
+        null,
+        "315",
+        null
+      ],
+      [
+        "Tumor Grade",
+        null,
+        null,
+        null
+      ],
+      [
+        "II",
+        null,
+        null,
+        null
+      ],
+      [
+        "III",
+        null,
+        null,
+        null
+      ],
+      [
+        "NA",
+        null,
+        null,
+        null
+      ],
+      [
+        "Type of Tumor",
+        null,
+        null,
+        null
+      ],
+      [
+        "IDC + DCIS",
+        null,
+        "487",
+        null
+      ],
+      [
+        "ILC",
+        null,
+        "52",
+        null
+      ],
+      [
+        "ILC + LCIS",
+        null,
+        "39",
+        null
+      ],
+      [
+        "DCIS",
+        null,
+        "6",
+        null
+      ],
+      [
+        "Others",
+        null,
+        "5",
+        null
+      ],
+      [
+        "NA",
+        null,
+        "2",
+        null
+      ]
+    ],
+    "confidence": 35,
+    "notes": "The figure shows demographic and clinicopathological features, but the table template requests information not fully visible or clearly labeled in the figure. Panel A shows age median and range. Panel B shows comorbidities bar chart with 'No Comorbidities' (315) and 'Yes' (294) visible on bars, but the table structure doesn't match perfectly. Panel D shows biopsy diagnosis (Tumor Grade proxy) with values: IDC (487), DCIS (52), ILC (39), Others (6), E (5), LCS (2). The exact percentage values and some class assignments are not explicitly labeled in the figure as text annotations. Only values that appear as explicit text labels on bars or in annotations have been transcribed."
+  }
+}

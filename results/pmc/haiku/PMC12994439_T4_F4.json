@@ -1,0 +1,133 @@
+{
+  "pmcid": "PMC12994439",
+  "table_num": 4,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 0,
+  "figure_type": "Text excerpt from research paper",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 14,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 130.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 3.842,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 130.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.53,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 14.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 37.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 3.842,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 37.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.92,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 14.07,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Text excerpt from research paper",
+    "rows": [],
+    "confidence": 0,
+    "notes": "The provided image only contains a title/caption text: 'pig and gerbil dataset, with 95% and 99% confidence bands.' This is not a data figure with numerical values that can be transcribed. The table template provided describes a data table with columns for Dataset, Analysis type, Dose-response model, Y, χ², and Conclusion, but no actual figure containing these data values is shown in the image. Without the actual figure displaying the numerical data, I cannot fill in the table cells."
+  }
+}

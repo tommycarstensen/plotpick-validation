@@ -1,0 +1,419 @@
+{
+  "pmcid": "PMC12991648",
+  "table_num": 4,
+  "figure_num": 7,
+  "model": "sonnet",
+  "confidence": 62,
+  "figure_type": "Risk of bias assessment table",
+  "metrics": {
+    "n_correct": 26,
+    "n_total": 26,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": 24.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": 31.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 32.0,
+        "extracted": 32.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": 33.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": 35.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 0,
+        "truth": 36.0,
+        "extracted": 36.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 3,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 22.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 0,
+        "truth": 37.0,
+        "extracted": 37.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 3,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Risk of bias assessment table",
+    "rows": [
+      [
+        "Inagaki et al[17]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Lingvay et al[18]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Elkind-Hirsch et al[19]",
+        null,
+        null,
+        "Some concerns",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Rosenstock et al[20]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jensen et al[21]",
+        null,
+        null,
+        "23% attrition",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Aroda et al[22]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Rodbard et al[23]",
+        null,
+        null,
+        "17% dropout",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Rubino et al[24]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Zhang et al[25]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Wadden et al[26]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Mok et al[27]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jastreboff et al[28]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Silver et al[29]",
+        null,
+        null,
+        "Some concerns",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Weghuber et al[30]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Jastreboff et al[31]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Dahl et al[32]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Nahra et al[33]",
+        null,
+        null,
+        "26% attrition",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Rubino et al[34]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Low risk"
+      ],
+      [
+        "Wadden et al[35]",
+        null,
+        null,
+        "Low risk",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ],
+      [
+        "Wilding et al[36]",
+        null,
+        null,
+        "22% dropout",
+        "Low risk",
+        "Low risk",
+        "High risk"
+      ],
+      [
+        "Ji et al[37]",
+        null,
+        null,
+        "18% dropout",
+        "Low risk",
+        "Low risk",
+        "Some concerns"
+      ]
+    ],
+    "confidence": 62,
+    "notes": "The Randomization and Deviations columns are not visible in the provided figure - only the rightmost four columns (Missing data, Outcome measurement, Reporting, Overall) are visible."
+  }
+}

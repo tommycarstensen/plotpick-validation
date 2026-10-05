@@ -1,0 +1,302 @@
+{
+  "pmcid": "PMC12994669",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 20,
+  "figure_type": "CONSORT flow diagram",
+  "metrics": {
+    "n_correct": 9,
+    "n_total": 25,
+    "recall": 0.36,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 360.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 91.0,
+        "extracted": 91.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 2,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 54.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 76.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 94.1,
+        "extracted": 94.1,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 76.5,
+        "extracted": 76.5,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 94.1,
+        "extracted": 94.1,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 82.4,
+        "extracted": 82.4,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 82.4,
+        "extracted": 82.4,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 94.1,
+        "extracted": 94.1,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 88.2,
+        "extracted": 88.2,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "CONSORT flow diagram",
+    "rows": [
+      [
+        "Feasibility",
+        null,
+        null
+      ],
+      [
+        "To evaluate the screening rate",
+        null,
+        "n=91"
+      ],
+      [
+        "To evaluate the proportion of women meeting eligibility criteria",
+        null,
+        "n=76 excluded"
+      ],
+      [
+        "To evaluate the proportion of eligible women consenting to participate in the study",
+        null,
+        "n=19"
+      ],
+      [
+        "To evaluate the proportion of participants taking part in all four intervention sessions and answering the call after birth",
+        null,
+        null
+      ],
+      [
+        "94.1% took part in the second session",
+        null,
+        "n=16"
+      ],
+      [
+        "76.5% took part in the third session",
+        null,
+        "n=13"
+      ],
+      [
+        "94.1% answered the phone-call",
+        null,
+        null
+      ],
+      [
+        "82.4% took part in the fourth session",
+        null,
+        "n=14"
+      ],
+      [
+        "To evaluate the proportion of participants completing all three questionnaires and participating in the exit interview",
+        null,
+        null
+      ],
+      [
+        "82.4% completed the second questionnaire",
+        null,
+        null
+      ],
+      [
+        "94.1% completed the third questionnaire",
+        null,
+        null
+      ],
+      [
+        "88.2% participated in the exit interview",
+        null,
+        "n=15"
+      ],
+      [
+        "Acceptability",
+        null,
+        null
+      ],
+      [
+        "To assess the acceptability of the intervention",
+        null,
+        null
+      ],
+      [
+        "No adverse events are allowed",
+        null,
+        null
+      ]
+    ],
+    "confidence": 20,
+    "notes": "The figure is a CONSORT flow diagram with many values cut off on the right side. The table structure references progression criteria and results columns that are not directly labeled in the flow diagram. Most cell values cannot be reliably transcribed as explicit text labels matching the table structure."
+  }
+}

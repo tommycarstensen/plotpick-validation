@@ -1,0 +1,84 @@
+{
+  "pmcid": "PMC12982100",
+  "table_num": 3,
+  "figure_num": 8,
+  "model": "sonnet",
+  "confidence": 5,
+  "figure_type": "Heatmap and Volcano Plot",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.043,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.049,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.085,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.619,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Heatmap and Volcano Plot",
+    "rows": [
+      [
+        "D-Proline",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Oleic Acid ethyl ester",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows a heatmap (A) and volcano plot (B) of metabolite profiles, but the specific table values for D-Proline and Oleic Acid ethyl ester (P value, VIP, FC, Pathways) are not explicitly annotated as text labels anywhere in the figure. The heatmap row labels visible are 'neg_1998', 'neg_4120', 'neg_14990', 'pos_2036', and 'pos_19267', which do not correspond to the metabolite names in the table. No numeric annotations are visible on the volcano plot data points."
+  }
+}

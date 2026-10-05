@@ -1,0 +1,270 @@
+{
+  "pmcid": "PMC13063356",
+  "table_num": 4,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 35,
+  "figure_type": "Mass spectrometry chromatogram with chemical structures and analytical parameters",
+  "metrics": {
+    "n_correct": 3,
+    "n_total": 28,
+    "recall": 0.107,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.86,
+        "extracted": 465.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.4,
+        "extracted": 466.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.23,
+        "extracted": 313.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.45,
+        "extracted": 319.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 112.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 12.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": 101.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 3,
+        "truth": 0.57,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 4,
+        "truth": 97.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 5,
+        "truth": 5.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 99.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 2,
+        "truth": 99.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 3,
+        "truth": 1.41,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 4,
+        "truth": 101.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 5,
+        "truth": 1.63,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 2,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.06,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 2.96,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 2,
+        "truth": 1.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.39,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 2,
+        "truth": 4.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": 3.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 2,
+        "truth": 3.55,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Mass spectrometry chromatogram with chemical structures and analytical parameters",
+    "rows": [
+      [
+        "LOD [nmol/L]",
+        "465",
+        "466",
+        "467"
+      ],
+      [
+        "LOQ [nmol/L]",
+        "313",
+        "319",
+        "319"
+      ],
+      [
+        "Recovery [%]",
+        null,
+        null,
+        null
+      ],
+      [
+        "Precision [RSD%] • Inter-injection (n = 15) • Intra-day (n = 3) • Inter-day (n = 3)",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 35,
+    "notes": "The figure shows mass-to-charge ratios (m/z values: 460, 465, 466, 467) and peak labels with m/z ranges (465 > 313, 465 > 180, 466 > 313, 466 > 180, 466 > 319, 466 > 180, 467 > 319, 467 > 185). These appear to correspond to LOD and LOQ values based on the legend, but the exact assignment to LOD vs LOQ rows and their precise values from the chromatogram annotations cannot be definitively determined. Recovery and Precision data are not visible as text labels in the figure."
+  }
+}

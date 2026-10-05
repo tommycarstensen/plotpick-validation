@@ -1,0 +1,202 @@
+{
+  "pmcid": "PMC12948932",
+  "table_num": 4,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 45,
+  "figure_type": "Multi-panel dose-response and bar charts",
+  "metrics": {
+    "n_correct": 2,
+    "n_total": 20,
+    "recall": 0.1,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.0056,
+        "extracted": 1.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.0001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.23,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 31.83,
+        "extracted": 0.3,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.15,
+        "extracted": 1.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 1,
+        "truth": 1.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.32,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 55.22,
+        "extracted": 0.5,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.2,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Multi-panel dose-response and bar charts",
+    "rows": [
+      [
+        "α-MSH",
+        null,
+        "1.0"
+      ],
+      [
+        "K100",
+        null,
+        "0.3"
+      ],
+      [
+        "β-MSH",
+        null,
+        "1.0"
+      ],
+      [
+        "K100",
+        null,
+        "0.5"
+      ]
+    ],
+    "confidence": 45,
+    "notes": "The table structure appears to be asking for EC50 and Rmax values, but the figure panels show different measurements. Panel D shows α-MSH Rmax values (~1.0 for WT(E100) and ~0.3 for K100). Panel G shows β-MSH Rmax values (~1.0 for WT(E100) and ~0.5 for K100). However, explicit EC50 values are not clearly labeled as text annotations in the visible panels - they appear to be derived from dose-response curves in panels C and F, which would require reading from axes rather than direct text labels. The Rmax values are readable from the bar charts in panels D and G."
+  }
+}

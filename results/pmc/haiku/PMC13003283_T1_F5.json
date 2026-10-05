@@ -1,0 +1,118 @@
+{
+  "pmcid": "PMC13003283",
+  "table_num": 1,
+  "figure_num": 5,
+  "model": "haiku",
+  "confidence": 45,
+  "figure_type": "Multi-panel spectral curves with kinetic decay parameters",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 10,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.3,
+        "extracted": 89.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 99.0,
+        "extracted": 2.3,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 0.81,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.9,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 92.0,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 1.04,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 7.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.7,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Multi-panel spectral curves with kinetic decay parameters",
+    "rows": [
+      [
+        "NSs",
+        "89 ps",
+        "2.3 ns",
+        "0.81",
+        null,
+        null
+      ],
+      [
+        "NPLs",
+        "88 ps",
+        "0.9 ns",
+        "1.04",
+        null,
+        null
+      ]
+    ],
+    "confidence": 45,
+    "notes": "The figure shows panels (c) and (d) which display kinetic decay data with labeled parameters. Panel (c) for NSs shows τ₁ = 89 ps, τ₂ = 2.3 ns, and 0.81 (likely representing χ²). Panel (d) for NPLs shows τ₁ = 88 ps, τ₂ = 0.9 ns, and 1.04 (likely representing χ²). However, the table headers request τ₁, τ₂, τ₃, f, and τd columns. The values visible in the figure panels (c) and (d) appear to correspond to τ₁, τ₂, and possibly a goodness-of-fit parameter, but τ₃, f, and τd values are not explicitly labeled in the visible portions of the figure. The values I've transcribed come directly from the text annotations in panels (c) and (d)."
+  }
+}

@@ -1,0 +1,145 @@
+{
+  "pmcid": "PMC13006128",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Horizontal bar chart showing percentages by medical department/specialty",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 12,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 77.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 44.15,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 6.563,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.01,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 235.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 392.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 59.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 269.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 469.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 57.35,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Horizontal bar chart showing percentages by medical department/specialty",
+    "rows": [
+      [
+        "Swab",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Fine-needle aspiration",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Total",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows a bar chart of percentages by medical specialty/department (Visceral surgery, Traumatology and orthopedic surgery, etc.), but the table template requests data about specimen types (Swab, Fine-needle aspiration, Total) with columns for positive specimens, total specimens, positivity rate, statistical test, test statistic, and p-value. The figure does not contain any of the data requested in the table template. The figure shows percentages that appear to be departmental distribution but do not match the specimen type categorization requested in the table."
+  }
+}

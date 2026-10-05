@@ -1,0 +1,3 @@
+# Kept out of the published snapshot (git archive): local browsing tools
+# that need image files and HTML templates which are not in the repository.
+inspect/ export-ignore

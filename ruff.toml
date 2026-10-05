@@ -1,0 +1,25 @@
+# Ruff configuration for the PlotPick validation pipeline.
+#
+# Mirrors ../plotpick/ruff.toml so the benchmarks are held to the same
+# standard as the app. From this directory, check with `ruff check .`,
+# `pycodestyle .` (setup.cfg) and `pyright` (pyrightconfig.json).
+#
+# pyright has to run against an interpreter with requirements.txt installed,
+# or the lazily imported SDKs (torch, openai, ...) are reported as unresolved:
+# `pyright --pythonpath "$(command -v python3.12)"`.
+
+line-length = 88
+
+[lint]
+select = ["E", "F", "W", "B", "BLE", "C4", "DTZ", "FURB", "RUF", "SIM", "UP"]
+
+# The scripts put the validation root on sys.path before importing `paths`
+# and `shared`, so those imports carry `# noqa: E402`. Ruff exempts an import
+# that follows only a sys.path edit but pycodestyle does not; listing E402
+# here keeps ruff from calling those comments unused (RUF100) while it still
+# enforces E402 itself.
+external = ["E402"]
+
+# Blind `except Exception` (BLE001) stays enabled. The existing ones sit in
+# per-figure or per-paper loops, where one bad API reply or download must not
+# end a run that takes hours, and each is marked `# noqa: BLE001`.

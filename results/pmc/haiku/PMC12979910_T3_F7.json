@@ -1,0 +1,409 @@
+{
+  "pmcid": "PMC12979910",
+  "table_num": 3,
+  "figure_num": 7,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Box plots showing gene expression comparison between tumor and normal groups",
+  "metrics": {
+    "n_correct": 24,
+    "n_total": 34,
+    "recall": 0.706,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 4015.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 4371.0,
+        "extracted": 4371.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 4390.0,
+        "extracted": 4390.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 4514.0,
+        "extracted": 4514.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 4520.0,
+        "extracted": 4520.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 5100.0,
+        "extracted": 5100.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 5200.0,
+        "extracted": 5200.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 5213.0,
+        "extracted": 5213.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 5216.0,
+        "extracted": 5216.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 5218.0,
+        "extracted": 5218.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 5219.0,
+        "extracted": 5219.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 5226.0,
+        "extracted": 5226.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 4144.0,
+        "extracted": 4.53e-21,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 4510.0,
+        "extracted": 4510.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 5020.0,
+        "extracted": 5020.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 5100.0,
+        "extracted": 5100.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 5205.0,
+        "extracted": 5205.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 5416.0,
+        "extracted": 5416.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 0,
+        "pos": 0,
+        "truth": 5418.0,
+        "extracted": 5418.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 0,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 2,
+        "pos": 0,
+        "truth": 4080.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 20,
+        "col": 2,
+        "pos": 0,
+        "truth": 5202.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 21,
+        "col": 0,
+        "pos": 0,
+        "truth": 5206.0,
+        "extracted": 5206.0,
+        "match": true
+      },
+      {
+        "row": 22,
+        "col": 0,
+        "pos": 0,
+        "truth": 5215.0,
+        "extracted": 5215.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Box plots showing gene expression comparison between tumor and normal groups",
+    "rows": [
+      [
+        "CDH1",
+        null,
+        null
+      ],
+      [
+        "hsa04371: Apelin signaling pathway",
+        null,
+        null
+      ],
+      [
+        "hsa04390: Hippo signaling pathway",
+        null,
+        null
+      ],
+      [
+        "hsa04514: Cell adhesion molecules",
+        null,
+        null
+      ],
+      [
+        "hsa04520: Adherens junction",
+        null,
+        null
+      ],
+      [
+        "hsa05100: Bacterial invasion of epithelial cells",
+        null,
+        null
+      ],
+      [
+        "hsa05200: Pathways in cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05213: Endometrial cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05216: Thyroid cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05218: Melanoma",
+        null,
+        null
+      ],
+      [
+        "hsa05219: Bladder cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05226: Gastric cancer",
+        null,
+        null
+      ],
+      [
+        "CAV1",
+        null,
+        "adj.P.Val=4.53e-21"
+      ],
+      [
+        "hsa04510: Focal adhesion",
+        null,
+        null
+      ],
+      [
+        "hsa05020: Prion disease",
+        null,
+        null
+      ],
+      [
+        "hsa05100: Bacterial invasion of epithelial cells",
+        null,
+        null
+      ],
+      [
+        "hsa05205: Proteoglycans in cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05416: Viral myocarditis",
+        null,
+        null
+      ],
+      [
+        "hsa05418: Fluid shear stress and atherosclerosis",
+        null,
+        null
+      ],
+      [
+        "NR3C1",
+        null,
+        null
+      ],
+      [
+        "ZEB1",
+        null,
+        null
+      ],
+      [
+        "hsa05206: MicroRNAs in cancer",
+        null,
+        null
+      ],
+      [
+        "hsa05215: Prostate cancer",
+        null,
+        null
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The figure shows box plots for CAV1 and CXCL8 gene expression with adjusted p-values labeled (adj.P.Val=4.53e-21 for CAV1 and adj.P.Val=1.31e-19 for CXCL8). However, the table template structure does not match the figure content - the template appears to be a pathway enrichment table with gene IDs and KEGG pathways, while the figure only displays expression data for two specific genes (CAV1 and CXCL8). The figure does not contain explicit text labels for the gene names or pathway information requested in the template columns. Only the p-value annotation for CAV1 is visible in the figure."
+  }
+}

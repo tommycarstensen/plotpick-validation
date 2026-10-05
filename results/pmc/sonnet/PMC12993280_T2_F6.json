@@ -1,0 +1,187 @@
+{
+  "pmcid": "PMC12993280",
+  "table_num": 2,
+  "figure_num": 6,
+  "model": "sonnet",
+  "confidence": 95,
+  "figure_type": "grouped bar chart (Panel A) with additional panels B, C, D",
+  "metrics": {
+    "n_correct": 3,
+    "n_total": 18,
+    "recall": 0.167,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": 0.85,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.825,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.875,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 82.5,
+        "extracted": 0.825,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 84.2,
+        "extracted": 0.842,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 80.8,
+        "extracted": 0.808,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.82,
+        "extracted": 0.82,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.795,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.845,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 79.8,
+        "extracted": 0.798,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 81.5,
+        "extracted": 0.815,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 78.1,
+        "extracted": 0.781,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.986,
+        "extracted": 0.986,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.975,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.997,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 94.5,
+        "extracted": 0.945,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 96.2,
+        "extracted": 0.962,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 92.8,
+        "extracted": 0.928,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "grouped bar chart (Panel A) with additional panels B, C, D",
+    "rows": [
+      [
+        "Clinical only",
+        "0.850",
+        "0.825",
+        "0.842",
+        "0.808"
+      ],
+      [
+        "Genomics only",
+        "0.820",
+        "0.798",
+        "0.815",
+        "0.781"
+      ],
+      [
+        "Integrated multi-omics",
+        "0.986",
+        "0.945",
+        "0.962",
+        "0.928"
+      ]
+    ],
+    "confidence": 95,
+    "notes": "Values read directly from bar labels in Panel A. The AUC column uses the values shown for each bar since no confidence intervals are displayed in the figure."
+  }
+}

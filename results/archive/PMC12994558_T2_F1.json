@@ -1,0 +1,46 @@
+{
+  "pmcid": "PMC12994558",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 40,
+  "figure_type": "schematic diagram",
+  "metrics": {
+    "n_truth": 16,
+    "n_extracted": 3,
+    "matched": 8,
+    "recall": 0.5,
+    "precision": 2.667
+  },
+  "extraction": {
+    "figure_type": "schematic diagram",
+    "data": [
+      {
+        "label": "O2",
+        "description": "Oxygen molecule entering cathode",
+        "subscript": 2,
+        "atoms_shown": 2
+      },
+      {
+        "label": "H2O",
+        "description": "Water molecule in electrolyte",
+        "subscript_H": 2,
+        "atoms_shown": 3
+      },
+      {
+        "label": "OH-",
+        "description": "Hydroxide ion product",
+        "charge": -1,
+        "atoms_shown": 2
+      },
+      {
+        "label": "e-",
+        "description": "Electrons flowing through external circuit",
+        "charge": -1,
+        "occurrences": 2
+      }
+    ],
+    "confidence": 40,
+    "notes": "This is a schematic/illustration of an Al-air battery setup, not a data plot. There are no numerical data points, axes, or measurements visible. The only numbers present are chemical subscripts (O2, H2O) and ionic charges (OH-, e-). Confidence is low because no quantitative data exists in this figure."
+  }
+}

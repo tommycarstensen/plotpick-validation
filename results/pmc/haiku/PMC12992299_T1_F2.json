@@ -1,0 +1,736 @@
+{
+  "pmcid": "PMC12992299",
+  "table_num": 1,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Molecular structure visualization and protein interaction assay figure",
+  "metrics": {
+    "n_correct": 37,
+    "n_total": 77,
+    "recall": 0.481,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2727.0,
+        "extracted": 2727.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": -20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.611,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 189.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": -22.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 155061119.1,
+        "extracted": 155061119.1,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 2e-118,
+        "extracted": 2e-118,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 2,
+        "truth": 95.24,
+        "extracted": 95.24,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 2,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 3,
+        "truth": 56.0,
+        "extracted": 56.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 4,
+        "truth": 2.64e-11,
+        "extracted": 2.64e-11,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 2726.0,
+        "extracted": 2726.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": -20.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 2727.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 154.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": -12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 24295.0,
+        "extracted": 24295.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 7480.0,
+        "extracted": 7480.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 2,
+        "truth": 8.9e-13,
+        "extracted": 8.9e-13,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 3,
+        "truth": 36.0,
+        "extracted": 36.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 4,
+        "truth": -128.0,
+        "extracted": -128.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": 54657.0,
+        "extracted": 54657.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 2,
+        "truth": 2.5e-22,
+        "extracted": 2.5e-22,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 3,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 4,
+        "truth": -127.0,
+        "extracted": -127.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 2603.0,
+        "extracted": 2603.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": -21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.611,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 1196.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": 6533.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 2,
+        "truth": 9.5e-95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 3,
+        "truth": 26.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 4,
+        "truth": -500.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 1,
+        "truth": 37146.0,
+        "extracted": 37146.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 2,
+        "truth": 2.7e-47,
+        "extracted": 2.7e-47,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 3,
+        "truth": 1060.0,
+        "extracted": 1060.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 4,
+        "truth": -1196.0,
+        "extracted": -1196.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 2602.0,
+        "extracted": 2602.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": -21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 2603.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 98.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 290.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": 8.41e-27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 2,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 3,
+        "truth": -93.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 2625.0,
+        "extracted": 2625.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": -21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.95,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 1032.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 33907.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": 1.469e-40,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 2,
+        "truth": 882.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 3,
+        "truth": -1024.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.18e-06,
+        "extracted": 3.18e-06,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 2,
+        "truth": 719.0,
+        "extracted": 719.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 3,
+        "truth": -795.0,
+        "extracted": -795.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 555.0,
+        "extracted": 555.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 1,
+        "truth": -588.0,
+        "extracted": -588.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 2624.0,
+        "extracted": 2624.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": -21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 2625.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 276.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 1,
+        "truth": -21.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 5.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 1,
+        "truth": -27.0,
+        "extracted": -27.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Molecular structure visualization and protein interaction assay figure",
+    "rows": [
+      [
+        "SARI_02727",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "BLASTp: Type VI Rhs protein WP_155061119.1 (score 2E-118, identity 95.24%)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "AF3/Foldseek: Similarity to VrgG2b P. aureginosa (PDB 6H56) (score 2.64E-11)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SARI_02726",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Pfam: PF24295 DUF7480 (score 8.9E-13, 36-128aa)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "NCBIfam: Putative T6SS immunity lipoprotein IPR054657 (score 2.5E-22, 15-127aa)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SARI_02603",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Gene3D: Colicin/pyocin DNAse IPR037146 (score 2.7E-47, 1060-1196aa)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SARI_02602",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SARI_02625",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "CDD: M23 peptidase (score 3.18E-6, 719-795aa)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Prosite: EF-hand calcium-binding (555-588aa)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "SARI_02624",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "TMHMM: Transmembrane region (5-27aa)",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The figure shown (Figure 2) contains structural and experimental data visualizations but does not contain the data table structure requested in the template. The template appears to be designed for a supplementary table containing detailed bioinformatic predictions for multiple ORFs, including their T6SS gene cluster assignments, predictions, sizes, and predicted regions/domains. None of these detailed values are visible as explicit text labels in the figure provided. The figure shows protein structures (panels A-B), a competition assay (panel C), and an expression assay (panel D), but no embedded table with the requested information."
+  }
+}

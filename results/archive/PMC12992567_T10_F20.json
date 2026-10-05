@@ -1,0 +1,382 @@
+{
+  "pmcid": "PMC12992567",
+  "table_num": 10,
+  "figure_num": 20,
+  "model": "sonnet",
+  "confidence": 52,
+  "figure_type": "ACF and PACF plots (autocorrelation and partial autocorrelation function plots)",
+  "metrics": {
+    "n_truth": 10,
+    "n_extracted": 68,
+    "matched": 5,
+    "recall": 0.5,
+    "precision": 0.074
+  },
+  "extraction": {
+    "figure_type": "ACF and PACF plots (autocorrelation and partial autocorrelation function plots)",
+    "data": [
+      {
+        "plot": "ACF",
+        "lag": 0,
+        "value": 1.0
+      },
+      {
+        "plot": "ACF",
+        "lag": 1,
+        "value": 0.67
+      },
+      {
+        "plot": "ACF",
+        "lag": 2,
+        "value": 0.13
+      },
+      {
+        "plot": "ACF",
+        "lag": 3,
+        "value": -0.22
+      },
+      {
+        "plot": "ACF",
+        "lag": 4,
+        "value": -0.27
+      },
+      {
+        "plot": "ACF",
+        "lag": 5,
+        "value": -0.27
+      },
+      {
+        "plot": "ACF",
+        "lag": 6,
+        "value": -0.23
+      },
+      {
+        "plot": "ACF",
+        "lag": 7,
+        "value": -0.2
+      },
+      {
+        "plot": "ACF",
+        "lag": 8,
+        "value": -0.2
+      },
+      {
+        "plot": "ACF",
+        "lag": 9,
+        "value": -0.18
+      },
+      {
+        "plot": "ACF",
+        "lag": 10,
+        "value": -0.03
+      },
+      {
+        "plot": "ACF",
+        "lag": 11,
+        "value": 0.12
+      },
+      {
+        "plot": "ACF",
+        "lag": 12,
+        "value": 0.07
+      },
+      {
+        "plot": "ACF",
+        "lag": 13,
+        "value": 0.06
+      },
+      {
+        "plot": "ACF",
+        "lag": 14,
+        "value": 0.15
+      },
+      {
+        "plot": "ACF",
+        "lag": 15,
+        "value": 0.13
+      },
+      {
+        "plot": "ACF",
+        "lag": 16,
+        "value": 0.15
+      },
+      {
+        "plot": "ACF",
+        "lag": 17,
+        "value": -0.03
+      },
+      {
+        "plot": "ACF",
+        "lag": 18,
+        "value": -0.05
+      },
+      {
+        "plot": "ACF",
+        "lag": 19,
+        "value": -0.27
+      },
+      {
+        "plot": "ACF",
+        "lag": 20,
+        "value": -0.03
+      },
+      {
+        "plot": "ACF",
+        "lag": 21,
+        "value": 0.27
+      },
+      {
+        "plot": "ACF",
+        "lag": 22,
+        "value": 0.35
+      },
+      {
+        "plot": "ACF",
+        "lag": 23,
+        "value": 0.35
+      },
+      {
+        "plot": "ACF",
+        "lag": 24,
+        "value": 0.47
+      },
+      {
+        "plot": "ACF",
+        "lag": 25,
+        "value": -0.22
+      },
+      {
+        "plot": "ACF",
+        "lag": 26,
+        "value": -0.05
+      },
+      {
+        "plot": "ACF",
+        "lag": 27,
+        "value": -0.03
+      },
+      {
+        "plot": "ACF",
+        "lag": 28,
+        "value": -0.02
+      },
+      {
+        "plot": "ACF",
+        "lag": 29,
+        "value": -0.02
+      },
+      {
+        "plot": "ACF",
+        "lag": 30,
+        "value": 0.05
+      },
+      {
+        "plot": "ACF",
+        "lag": 31,
+        "value": 0.1
+      },
+      {
+        "plot": "ACF",
+        "lag": 32,
+        "value": 0.13
+      },
+      {
+        "plot": "ACF",
+        "lag": 33,
+        "value": 0.13
+      },
+      {
+        "plot": "ACF",
+        "lag": 34,
+        "value": 0.08
+      },
+      {
+        "plot": "ACF",
+        "lag": 35,
+        "value": 0.05
+      },
+      {
+        "plot": "ACF",
+        "lag": 36,
+        "value": 0.13
+      },
+      {
+        "plot": "ACF",
+        "lag": 37,
+        "value": 0.12
+      },
+      {
+        "plot": "ACF",
+        "lag": 38,
+        "value": 0.12
+      },
+      {
+        "plot": "ACF",
+        "lag": 39,
+        "value": 0.12
+      },
+      {
+        "plot": "ACF",
+        "lag": 40,
+        "value": 0.13
+      },
+      {
+        "plot": "PACF",
+        "lag": 0,
+        "value": 1.0
+      },
+      {
+        "plot": "PACF",
+        "lag": 1,
+        "value": 0.67
+      },
+      {
+        "plot": "PACF",
+        "lag": 2,
+        "value": -0.6
+      },
+      {
+        "plot": "PACF",
+        "lag": 3,
+        "value": 0.23
+      },
+      {
+        "plot": "PACF",
+        "lag": 4,
+        "value": -0.22
+      },
+      {
+        "plot": "PACF",
+        "lag": 5,
+        "value": -0.22
+      },
+      {
+        "plot": "PACF",
+        "lag": 6,
+        "value": 0.02
+      },
+      {
+        "plot": "PACF",
+        "lag": 7,
+        "value": -0.27
+      },
+      {
+        "plot": "PACF",
+        "lag": 8,
+        "value": -0.27
+      },
+      {
+        "plot": "PACF",
+        "lag": 9,
+        "value": 0.1
+      },
+      {
+        "plot": "PACF",
+        "lag": 10,
+        "value": 0.1
+      },
+      {
+        "plot": "PACF",
+        "lag": 11,
+        "value": 0.08
+      },
+      {
+        "plot": "PACF",
+        "lag": 12,
+        "value": -0.15
+      },
+      {
+        "plot": "PACF",
+        "lag": 13,
+        "value": 0.05
+      },
+      {
+        "plot": "PACF",
+        "lag": 14,
+        "value": 0.1
+      },
+      {
+        "plot": "PACF",
+        "lag": 15,
+        "value": -0.02
+      },
+      {
+        "plot": "PACF",
+        "lag": 16,
+        "value": 0.0
+      },
+      {
+        "plot": "PACF",
+        "lag": 17,
+        "value": -0.32
+      },
+      {
+        "plot": "PACF",
+        "lag": 18,
+        "value": 0.02
+      },
+      {
+        "plot": "PACF",
+        "lag": 19,
+        "value": 0.15
+      },
+      {
+        "plot": "PACF",
+        "lag": 20,
+        "value": 0.13
+      },
+      {
+        "plot": "PACF",
+        "lag": 21,
+        "value": 0.23
+      },
+      {
+        "plot": "PACF",
+        "lag": 22,
+        "value": 0.12
+      },
+      {
+        "plot": "PACF",
+        "lag": 23,
+        "value": -0.25
+      },
+      {
+        "plot": "PACF",
+        "lag": 24,
+        "value": -0.18
+      },
+      {
+        "plot": "PACF",
+        "lag": 25,
+        "value": -0.13
+      },
+      {
+        "plot": "PACF",
+        "lag": 26,
+        "value": -0.03
+      },
+      {
+        "plot": "PACF",
+        "lag": 27,
+        "value": -0.03
+      },
+      {
+        "plot": "PACF",
+        "lag": 28,
+        "value": -0.03
+      },
+      {
+        "plot": "PACF",
+        "lag": 29,
+        "value": -0.02
+      },
+      {
+        "plot": "PACF",
+        "lag": 30,
+        "value": -0.02
+      }
+    ],
+    "confidence": 52,
+    "notes": "Exact values are difficult to read precisely from the plot. Lag 0 for both ACF and PACF is 1.0 by definition. The PACF plot goes to lag 30 while ACF goes to lag 40. Some values are estimated based on visual inspection and may have an error margin of ±0.05. The confidence bands in ACF widen with lag while PACF has relatively constant bands."
+  }
+}

@@ -1,0 +1,74 @@
+{
+  "pmcid": "PMC12988434",
+  "table_num": 7,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Receiver Operating Characteristic (ROC) Curve",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 6,
+    "recall": 0.167,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.993,
+        "extracted": 0.993,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.974,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.256,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.95,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Receiver Operating Characteristic (ROC) Curve",
+    "rows": [
+      [
+        "0.993",
+        null
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The figure shows an ROC curve with sensitivity on the y-axis and (100% - Specificity%) on the x-axis. The curve displays multiple data points marked as circles. The template indicates a row with '0.993' as the lower value and asks for an upper value. However, no explicit text labels or annotations in the figure appear to correspond to numerical values for the 'Upper' column. The '0.993' appears to be a confidence interval lower bound (likely for AUC), but no corresponding upper bound value is visibly labeled in the figure itself."
+  }
+}

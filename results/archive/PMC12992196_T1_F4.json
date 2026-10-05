@@ -1,0 +1,463 @@
+{
+  "pmcid": "PMC12992196",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 62,
+  "figure_type": "line plot with confidence intervals (cumulative incidence curves)",
+  "metrics": {
+    "n_truth": 62,
+    "n_extracted": 32,
+    "matched": 26,
+    "recall": 0.419,
+    "precision": 0.812
+  },
+  "extraction": {
+    "figure_type": "line plot with confidence intervals (cumulative incidence curves)",
+    "data": [
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.12
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.25
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.4
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.55
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.65
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 28,
+        "cumulative_incidence": 0.72
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.05
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.1
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.18
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.27
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 28,
+        "cumulative_incidence": 0.35
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 5,
+        "cumulative_incidence": 0.05
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 10,
+        "cumulative_incidence": 0.15
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 15,
+        "cumulative_incidence": 0.25
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 20,
+        "cumulative_incidence": 0.35
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 25,
+        "cumulative_incidence": 0.42
+      },
+      {
+        "panel": "A",
+        "outcome": "All-cause death",
+        "subtype": "Other Subtypes",
+        "time_years": 28,
+        "cumulative_incidence": 0.47
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.06
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.12
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.18
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.23
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 28,
+        "cumulative_incidence": 0.25
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.04
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.07
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 28,
+        "cumulative_incidence": 0.09
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 5,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 10,
+        "cumulative_incidence": 0.03
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 15,
+        "cumulative_incidence": 0.06
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 20,
+        "cumulative_incidence": 0.09
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 25,
+        "cumulative_incidence": 0.11
+      },
+      {
+        "panel": "B",
+        "outcome": "CVD death",
+        "subtype": "Other Subtypes",
+        "time_years": 28,
+        "cumulative_incidence": 0.13
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.04
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.06
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.09
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Cardiometabolic Subtype",
+        "time_years": 30,
+        "cumulative_incidence": 0.11
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 5,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 10,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 15,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 20,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 25,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Liver-specific Subtype",
+        "time_years": 30,
+        "cumulative_incidence": 0.03
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 0,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 5,
+        "cumulative_incidence": 0.0
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 10,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 15,
+        "cumulative_incidence": 0.01
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 20,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 25,
+        "cumulative_incidence": 0.02
+      },
+      {
+        "panel": "C",
+        "outcome": "Diabetes-related death",
+        "subtype": "Other Subtypes",
+        "time_years": 30,
+        "cumulative_incidence": 0.03
+      }
+    ],
+    "confidence": 62,
+    "notes": "Values are approximate readings from smoothed cumulative incidence curves with confidence interval bands. Exact values cannot be precisely determined from visual inspection alone. Panel A y-axis goes to 100%, Panel B and C show much lower incidences. The Liver-specific Subtype in Panel A shows a step-function pattern suggesting smaller sample size. All values are estimated from visual inspection of the curves."
+  }
+}

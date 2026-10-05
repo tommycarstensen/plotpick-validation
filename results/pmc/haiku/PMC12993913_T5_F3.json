@@ -1,0 +1,218 @@
+{
+  "pmcid": "PMC12993913",
+  "table_num": 5,
+  "figure_num": 3,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Bar chart with error bars showing percentage differences in Kupperman Menopausal Index",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 17,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 12.2,
+        "extracted": -5.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.955,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 11.7,
+        "extracted": 45.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.93,
+        "extracted": 0.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.495,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.11,
+        "extracted": -5.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.89,
+        "extracted": 30.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.063,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.16,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Bar chart with error bars showing percentage differences in Kupperman Menopausal Index",
+    "rows": [
+      [
+        "Group",
+        null,
+        null,
+        null
+      ],
+      [
+        "Intervention",
+        "-5",
+        null,
+        null
+      ],
+      [
+        "Placebo",
+        "45",
+        null,
+        "0.01*"
+      ],
+      [
+        "Shift",
+        null,
+        null,
+        null
+      ],
+      [
+        "Morning",
+        "0",
+        null,
+        null
+      ],
+      [
+        "Afternoon",
+        "-5",
+        null,
+        null
+      ],
+      [
+        "Night",
+        "30",
+        null,
+        "n.s"
+      ],
+      [
+        "Menopausal Status",
+        null,
+        null,
+        null
+      ],
+      [
+        "Yes",
+        null,
+        null,
+        null
+      ],
+      [
+        "No",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The figure shows data from GRAPH 1 which displays percentage differences in Kupperman Menopausal Index. The left panel shows Intervention vs Placebo comparison with a p-value of 0.01*. The right panel shows work shift comparison (Morning, Afternoon, Night) with n.s (not significant). However, the exact mean values and standard errors are difficult to read precisely from the figure - only approximate central point values and the p-value annotation are clearly visible. The table template appears to be requesting data that may not all be present in the visible figure. Rows for 'Menopausal Status', 'Yes', and 'No' have no corresponding data visible in the provided figure."
+  }
+}

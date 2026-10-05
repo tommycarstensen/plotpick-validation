@@ -1,0 +1,246 @@
+{
+  "pmcid": "PMC13052096",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 62,
+  "figure_type": "scatter plots with Passing-Bablok regression lines (panel B) and Bland-Altman plots (panels F, G, H)",
+  "metrics": {
+    "n_correct": 9,
+    "n_total": 25,
+    "recall": 0.36,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 40.0,
+        "extracted": 40.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 399.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.32,
+        "extracted": -9.54,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.98,
+        "extracted": 1.0123,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.975,
+        "extracted": 0.975,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.1,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": -4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 4.19,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 41.0,
+        "extracted": 41.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 80.0,
+        "extracted": 80.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 46.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.56,
+        "extracted": -9.54,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.93,
+        "extracted": 1.144,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": 0.85,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": -2.54,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -15.12,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 10.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": 80.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": -17.17,
+        "extracted": -13.6,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.11,
+        "extracted": 1.0935,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.937,
+        "extracted": 0.937,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": -5.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": -19.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 7.76,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "scatter plots with Passing-Bablok regression lines (panel B) and Bland-Altman plots (panels F, G, H)",
+    "rows": [
+      [
+        "≤ 40",
+        null,
+        "y = -9.54 + 1.0123x",
+        "0.975",
+        null,
+        null
+      ],
+      [
+        "41–80",
+        null,
+        "y = -9.54 + 1.1440x",
+        "0.850",
+        null,
+        null
+      ],
+      [
+        "> 80",
+        null,
+        "y = -13.60 + 1.0935x",
+        "0.937",
+        null,
+        null
+      ]
+    ],
+    "confidence": 62,
+    "notes": "Regression equations and Pearson's r values were read from text annotations in panel B. The n values per stratum and per-stratum mean bias and 95% LoA are not explicitly labeled in the figure. Overall mean bias (-0.32) and 95% LoA (-6.40 to 5.76) are shown in panels F and G but are not broken down by ESR stratum."
+  }
+}

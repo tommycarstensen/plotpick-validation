@@ -1,0 +1,146 @@
+{
+  "pmcid": "PMC12987049",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 45,
+  "figure_type": "Forest plot showing mean differences in cancer-related fatigue scores across two randomized controlled trials",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 13,
+    "recall": 0.308,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": -3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 7,
+        "pos": 0,
+        "truth": -0.96,
+        "extracted": -0.96,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 51.0,
+        "extracted": 51.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -36.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 81.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 75.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 2.05,
+        "extracted": 2.05,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot showing mean differences in cancer-related fatigue scores across two randomized controlled trials",
+    "rows": [
+      [
+        "Zick [50]",
+        null,
+        null,
+        null,
+        null,
+        "Piper Fatigue Scale (PFS)",
+        null,
+        "-0.96 (−2.10 to 0.18)"
+      ],
+      [
+        "Baguley [51]",
+        null,
+        null,
+        null,
+        null,
+        "Functional Assessment of Chronic Illness Therapy–Fatigue (FACIT-F)",
+        null,
+        "2.05 (0.70 to 3.40)"
+      ]
+    ],
+    "confidence": 45,
+    "notes": "The figure is a forest plot that explicitly shows only the effect sizes (mean differences with 95% confidence intervals) and fatigue assessment tools for each study. The other requested columns (Design, Cancer Type, Sample Size for Intervention and Control groups, and Adherence to MD) are not visibly labeled or annotated in the figure itself. Only the effect size estimates and the fatigue tools used are explicitly presented as text labels in the figure."
+  }
+}

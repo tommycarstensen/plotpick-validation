@@ -1,0 +1,148 @@
+{
+  "pmcid": "PMC12971468",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 0,
+  "figure_type": "Box plot showing respiratory rate (RR) comparisons between Ciprofol and Propofol groups at four time points (T1, T2, T3, T4)",
+  "metrics": {
+    "n_correct": 2,
+    "n_total": 14,
+    "recall": 0.143,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 1,
+        "truth": 90.0,
+        "extracted": 90.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 10.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 23.44,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.293,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.038,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 12.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 29.69,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.198,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.023,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Box plot showing respiratory rate (RR) comparisons between Ciprofol and Propofol groups at four time points (T1, T2, T3, T4)",
+    "rows": [
+      [
+        "SpO2<90%",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Hypotension",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 0,
+    "notes": "The figure shows respiratory rate data with box plots and p-values for different time points. However, the table template requests data about 'SpO2<90%' and 'Hypotension' which are not presented in this figure. The figure only displays RR (Respiratory Rate) values at four time points (T1, T2, T3, T4) with p-values: p=0.520 (T1), p<0.001 (T2), p=0.032 (T3), and p=0.432 (T4). No specific numerical values for SpO2<90% or Hypotension are visible as text labels in this figure. The table cannot be filled with data from this figure as it does not contain the requested parameters."
+  }
+}

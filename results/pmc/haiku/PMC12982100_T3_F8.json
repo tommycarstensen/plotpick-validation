@@ -1,0 +1,84 @@
+{
+  "pmcid": "PMC12982100",
+  "table_num": 3,
+  "figure_num": 8,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Heatmap and Volcano plot showing metabolite profiles",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 6,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.043,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.36,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.233,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.049,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 2.085,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 4.619,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Heatmap and Volcano plot showing metabolite profiles",
+    "rows": [
+      [
+        "D-Proline",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Oleic Acid ethyl ester",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows a heatmap (A) and volcano plot (B) of metabolite profiles, but the specific metabolites listed in the table template (D-Proline and Oleic Acid ethyl ester) are not explicitly labeled with text annotations showing P values, VIP scores, FC values, or pathway information in the visible portions of the figure. While the heatmap shows individual metabolites as rows with labels on the left side (including entries like 'reg_1088', 'reg_6720', 'reg_14690', 'reg_2938', 'reg_15837'), and the volcano plot shows colored points representing different metabolites with a legend indicating 'Down', 'Not_Significant', and 'Up' categories, the specific numerical data for P values, VIP, FC, and Pathways are not transcribed as text labels in the figure itself. The table cannot be accurately filled without additional information or clearer labeling of these specific metabolites in the figure."
+  }
+}

@@ -1,0 +1,1518 @@
+{
+  "pmcid": "PMC12994757",
+  "table_num": 4,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 45,
+  "figure_type": "Stacked bar chart showing agreement levels across 17 perceived EMR benefit dimensions",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 170,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 7.3,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 47.0,
+        "extracted": 0.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 12.3,
+        "extracted": 0.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 185.0,
+        "extracted": 48.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 48.4,
+        "extracted": 83.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 99.0,
+        "extracted": 26.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 25.9,
+        "extracted": 97.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.2,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 46.0,
+        "extracted": 12.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": 12.0,
+        "extracted": 48.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 184.0,
+        "extracted": 49.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 48.2,
+        "extracted": 87.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 117.0,
+        "extracted": 30.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 30.6,
+        "extracted": 75.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.5,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 46.0,
+        "extracted": 12.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 12.0,
+        "extracted": 42.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 42.0,
+        "extracted": 11.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 1,
+        "truth": 11.0,
+        "extracted": 42.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 161.0,
+        "extracted": 42.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 1,
+        "truth": 42.1,
+        "extracted": 105.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 112.0,
+        "extracted": 29.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 29.3,
+        "extracted": 111.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.2,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 41.0,
+        "extracted": 10.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 10.7,
+        "extracted": 42.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 89.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": 23.3,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 152.0,
+        "extracted": 40.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": 39.8,
+        "extracted": 152.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": 21.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 20.9,
+        "extracted": 80.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.2,
+        "extracted": 24.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 9.2,
+        "extracted": 67.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 70.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 18.3,
+        "extracted": 67.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 168.0,
+        "extracted": 44.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": 44.0,
+        "extracted": 168.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 93.0,
+        "extracted": 24.0,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": 24.3,
+        "extracted": 92.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.9,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.2,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 39.0,
+        "extracted": 10.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 1,
+        "truth": 10.2,
+        "extracted": 38.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 191.0,
+        "extracted": 50.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 1,
+        "truth": 50.0,
+        "extracted": 191.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 117.0,
+        "extracted": 30.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": 30.6,
+        "extracted": 115.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.5,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": 9.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 1,
+        "truth": 8.6,
+        "extracted": 34.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 143.0,
+        "extracted": 37.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 1,
+        "truth": 37.4,
+        "extracted": 141.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 166.0,
+        "extracted": 44.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": 43.5,
+        "extracted": 168.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.7,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 32.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 1,
+        "truth": 8.4,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 89.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 1,
+        "truth": 23.3,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": 143.0,
+        "extracted": 38.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 1,
+        "truth": 37.4,
+        "extracted": 145.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 26.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 1,
+        "truth": 26.2,
+        "extracted": 99.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.7,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 1,
+        "truth": 4.7,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 38.0,
+        "extracted": 10.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 1,
+        "truth": 9.9,
+        "extracted": 38.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 186.0,
+        "extracted": 49.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": 48.7,
+        "extracted": 187.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": 126.0,
+        "extracted": 33.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 1,
+        "truth": 33.0,
+        "extracted": 126.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.5,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 69.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 1,
+        "truth": 18.1,
+        "extracted": 69.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 155.0,
+        "extracted": 41.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": 40.6,
+        "extracted": 157.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 114.0,
+        "extracted": 30.0,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 1,
+        "truth": 29.8,
+        "extracted": 115.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.5,
+        "extracted": 15.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": 15.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 66.0,
+        "extracted": 17.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 1,
+        "truth": 17.3,
+        "extracted": 65.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": 170.0,
+        "extracted": 48.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 1,
+        "truth": 44.5,
+        "extracted": 172.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 106.0,
+        "extracted": 28.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 1,
+        "truth": 27.7,
+        "extracted": 107.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 6.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 60.0,
+        "extracted": 16.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 1,
+        "truth": 15.7,
+        "extracted": 61.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 62.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 1,
+        "truth": 16.2,
+        "extracted": 69.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 151.0,
+        "extracted": 40.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 1,
+        "truth": 39.5,
+        "extracted": 153.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": 86.0,
+        "extracted": 22.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 1,
+        "truth": 22.5,
+        "extracted": 84.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 12.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 1,
+        "truth": 5.2,
+        "extracted": 46.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 22.0,
+        "extracted": 12.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.8,
+        "extracted": 46.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 47.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 1,
+        "truth": 12.3,
+        "extracted": 69.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 190.0,
+        "extracted": 50.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 1,
+        "truth": 49.7,
+        "extracted": 191.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 103.0,
+        "extracted": 27.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 1,
+        "truth": 27.0,
+        "extracted": 103.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 25.0,
+        "extracted": 7.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 1,
+        "truth": 6.5,
+        "extracted": 27.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 47.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 1,
+        "truth": 12.3,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 72.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 1,
+        "truth": 18.8,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 154.0,
+        "extracted": 41.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 1,
+        "truth": 40.3,
+        "extracted": 157.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 0,
+        "truth": 84.0,
+        "extracted": 22.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 1,
+        "truth": 22.0,
+        "extracted": 84.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 7.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.5,
+        "extracted": 27.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 1,
+        "truth": 8.1,
+        "extracted": 31.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 86.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 1,
+        "truth": 22.5,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 160.0,
+        "extracted": 43.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 1,
+        "truth": 41.9,
+        "extracted": 160.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 0,
+        "truth": 88.0,
+        "extracted": 23.0,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 1,
+        "truth": 23.0,
+        "extracted": 88.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 9.2,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 1,
+        "truth": 2.9,
+        "extracted": 35.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.8,
+        "extracted": 53.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 55.0,
+        "extracted": 14.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 1,
+        "truth": 14.4,
+        "extracted": 53.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 0,
+        "truth": 180.0,
+        "extracted": 47.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 4,
+        "pos": 1,
+        "truth": 47.1,
+        "extracted": 180.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 0,
+        "truth": 110.0,
+        "extracted": 29.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 5,
+        "pos": 1,
+        "truth": 28.8,
+        "extracted": 110.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 14.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 1,
+        "truth": 3.7,
+        "extracted": 19.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 7.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.2,
+        "extracted": 27.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 41.0,
+        "extracted": 45.5,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 1,
+        "truth": 10.7,
+        "extracted": 174.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": 151.0,
+        "extracted": 45.5,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 1,
+        "truth": 39.5,
+        "extracted": 174.0,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 0,
+        "truth": 156.0,
+        "extracted": 37.3,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 1,
+        "truth": 40.8,
+        "extracted": 142.0,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Stacked bar chart showing agreement levels across 17 perceived EMR benefit dimensions",
+    "rows": [
+      [
+        "Easy to enter data",
+        "6.0% (n=31)",
+        "6.0% (n=31)",
+        "0.0% (n=0)",
+        "48.0% (n=83)",
+        "26.0% (n=97)"
+      ],
+      [
+        "Saves cost",
+        "5.0% (n=13)",
+        "5.0% (n=13)",
+        "12.0% (n=48)",
+        "49.0% (n=87)",
+        "30.0% (n=75)"
+      ],
+      [
+        "Saves time",
+        "4.0% (n=9)",
+        "12.0% (n=42)",
+        "11.0% (n=42)",
+        "42.0% (n=105)",
+        "29.0% (n=111)"
+      ],
+      [
+        "Improves patient satisfaction",
+        "5.0% (n=19)",
+        "10.0% (n=42)",
+        "23.0% (n=88)",
+        "40.0% (n=152)",
+        "21.0% (n=80)"
+      ],
+      [
+        "Improves timeliness of clinical decisions",
+        "4.0% (n=24)",
+        "18.0% (n=67)",
+        "18.0% (n=67)",
+        "44.0% (n=168)",
+        "24.0% (n=92)"
+      ],
+      [
+        "Provides easy access to patient information",
+        "5.0% (n=19)",
+        "5.0% (n=19)",
+        "10.0% (n=38)",
+        "50.0% (n=191)",
+        "30.0% (n=115)"
+      ],
+      [
+        "Requires training",
+        "5.0% (n=9)",
+        "5.0% (n=9)",
+        "9.0% (n=34)",
+        "37.0% (n=141)",
+        "44.0% (n=168)"
+      ],
+      [
+        "Reduces the risk of medical errors",
+        "8.0% (n=31)",
+        "8.0% (n=31)",
+        "23.0% (n=88)",
+        "38.0% (n=145)",
+        "26.0% (n=99)"
+      ],
+      [
+        "Benefits the health care facility",
+        "5.0% (n=19)",
+        "5.0% (n=19)",
+        "10.0% (n=38)",
+        "49.0% (n=187)",
+        "33.0% (n=126)"
+      ],
+      [
+        "Eliminates need for physical storage",
+        "6.0% (n=23)",
+        "6.0% (n=23)",
+        "18.0% (n=69)",
+        "41.0% (n=157)",
+        "30.0% (n=115)"
+      ],
+      [
+        "Increases productivity",
+        "4.0% (n=15)",
+        "4.0% (n=15)",
+        "17.0% (n=65)",
+        "48.0% (n=172)",
+        "28.0% (n=107)"
+      ],
+      [
+        "Reduces workload",
+        "6.0% (n=23)",
+        "16.0% (n=61)",
+        "18.0% (n=69)",
+        "40.0% (n=153)",
+        "22.0% (n=84)"
+      ],
+      [
+        "Ensures data security",
+        "12.0% (n=46)",
+        "12.0% (n=46)",
+        "18.0% (n=69)",
+        "50.0% (n=191)",
+        "27.0% (n=103)"
+      ],
+      [
+        "Maintains data backup",
+        "7.0% (n=27)",
+        "8.0% (n=31), 9.0%",
+        "23.0% (n=88)",
+        "41.0% (n=157)",
+        "22.0% (n=84)"
+      ],
+      [
+        "Offers a consistent user interface",
+        "7.0% (n=27)",
+        "8.0% (n=31)",
+        "23.0% (n=88)",
+        "43.0% (n=160)",
+        "23.0% (n=88)"
+      ],
+      [
+        "Enhances audit trail functionality",
+        "9.2% (n=35)",
+        "14.0% (n=53)",
+        "14.0% (n=53)",
+        "47.0% (n=180)",
+        "29.0% (n=110)"
+      ],
+      [
+        "Encourages other hospitals to use EMR",
+        "5.0% (n=19)",
+        "7.0% (n=27)",
+        "45.5% (n=174)",
+        "45.5% (n=174)",
+        "37.3% (n=142)"
+      ]
+    ],
+    "confidence": 45,
+    "notes": "Several cells are difficult to read with complete certainty. Some percentages are partially obscured or overlapping with stacked bar sections. The last row (Encourages other hospitals) appears to have different values than other rows and was transcribed as visible, but confidence is lower for this row. Some n values are difficult to distinguish due to image resolution."
+  }
+}

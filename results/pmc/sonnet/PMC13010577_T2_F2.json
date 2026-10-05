@@ -1,0 +1,164 @@
+{
+  "pmcid": "PMC13010577",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "Stacked horizontal bar chart showing summary risk of bias assessments across multiple domains",
+  "metrics": {
+    "n_correct": 11,
+    "n_total": 11,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 311994.0,
+        "extracted": 311994.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 18.0,
+        "extracted": 18.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 2013.0,
+        "extracted": 2013.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 2023.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 32.0,
+        "extracted": 32.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 2021.0,
+        "extracted": 2021.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": 33.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 1,
+        "truth": 2017.0,
+        "extracted": 2017.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": 2020.0,
+        "extracted": 2020.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Stacked horizontal bar chart showing summary risk of bias assessments across multiple domains",
+    "rows": [
+      [
+        "Chenoy et al311994",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Farzaneh et al18 2013",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Ghavi et al30 2023",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Kazemi et al32 2021",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Motaghi Dastenaei et al33 2017",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sharif and Darsareh29 2020",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure shows aggregated percentage bar charts for each bias domain (not individual study-level traffic light plots). No explicit text labels are visible for individual study judgments per domain. The summary bars show approximate percentages but these are not labeled as text annotations, and individual study-level data cannot be read from this chart format."
+  }
+}

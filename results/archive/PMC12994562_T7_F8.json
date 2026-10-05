@@ -1,0 +1,27 @@
+{
+  "pmcid": "PMC12994562",
+  "table_num": 7,
+  "figure_num": 8,
+  "model": "sonnet",
+  "confidence": 20,
+  "figure_type": "schematic/diagram",
+  "metrics": {
+    "n_truth": 22,
+    "n_extracted": 1,
+    "matched": 0,
+    "recall": 0.0,
+    "precision": 0.0
+  },
+  "extraction": {
+    "figure_type": "schematic/diagram",
+    "data": [
+      {
+        "label": "Figure number",
+        "value": 8,
+        "description": "Figure 8 - General scheme for electrodeposition of f-MOFs onto conductive substrate"
+      }
+    ],
+    "confidence": 20,
+    "notes": "This figure is a schematic diagram illustrating a process (electrodeposition of f-MOFs onto a conductive substrate) and contains no quantitative numerical data such as measurements, axes, or values. The only number present is the figure number '8'. The labels 'DC' (direct current), 'f-MOF particles', and 'f-MOF on conductive substrate' are qualitative descriptors."
+  }
+}

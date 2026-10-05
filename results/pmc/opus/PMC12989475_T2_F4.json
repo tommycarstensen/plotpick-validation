@@ -1,0 +1,294 @@
+{
+  "pmcid": "PMC12989475",
+  "table_num": 2,
+  "figure_num": 4,
+  "model": "opus",
+  "confidence": 65,
+  "figure_type": "Table with accompanying text describing CONSORT compliance percentages",
+  "metrics": {
+    "n_correct": 12,
+    "n_total": 22,
+    "recall": 0.545,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 90.0,
+        "extracted": 90.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 70.0,
+        "extracted": 70.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 60.0,
+        "extracted": 60.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 60.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 50.0,
+        "extracted": 50.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 40.0,
+        "extracted": 40.0,
+        "match": true
+      },
+      {
+        "row": 18,
+        "col": 1,
+        "pos": 0,
+        "truth": 40.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 19,
+        "col": 1,
+        "pos": 0,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      },
+      {
+        "row": 20,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 21,
+        "col": 1,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Table with accompanying text describing CONSORT compliance percentages",
+    "rows": [
+      [
+        "Detailed intervention description for replication",
+        "100"
+      ],
+      [
+        "Statistical methods used for primary and secondary outcomes",
+        "100"
+      ],
+      [
+        "Pre-specified primary and secondary outcomes, how and when assessed",
+        null
+      ],
+      [
+        "Scientific background and explanation of rationale",
+        null
+      ],
+      [
+        "Blinding of participants, care providers, and outcome assessors",
+        null
+      ],
+      [
+        "Study limitations, addressing potential biases",
+        null
+      ],
+      [
+        "Sources of funding and role of funders",
+        "90"
+      ],
+      [
+        "Description of trial design (parallel, factorial, etc.) and allocation ratio",
+        null
+      ],
+      [
+        "Eligibility criteria for participants and care providers",
+        null
+      ],
+      [
+        "Address issues related to comparator choice, lack of blinding, and expertise differences",
+        null
+      ],
+      [
+        "Identification as a randomized trial in the title",
+        "70"
+      ],
+      [
+        "Structured summary of trial design, methods, results, and conclusions",
+        "60"
+      ],
+      [
+        "Recruitment dates and follow-up periods",
+        null
+      ],
+      [
+        "How sample size was determined",
+        "50"
+      ],
+      [
+        "Mechanism for allocation concealment",
+        "50"
+      ],
+      [
+        "Flow of participants, losses and exclusions",
+        null
+      ],
+      [
+        "External validity and generalizability",
+        "50"
+      ],
+      [
+        "Method used to generate random allocation sequence",
+        "40"
+      ],
+      [
+        "Generalizability according to care providers and centers involved",
+        null
+      ],
+      [
+        "Full trial protocol",
+        "30"
+      ],
+      [
+        "Trial registration number and registry",
+        "20"
+      ],
+      [
+        "Details on tailoring interventions to individual participants, standardization, and adherence",
+        "10"
+      ],
+      [
+        "If blinding was not possible, describe methods to limit bias",
+        null
+      ],
+      [
+        "Report the delay between randomization and intervention initiation",
+        null
+      ]
+    ],
+    "confidence": 65,
+    "notes": "The figure shows a study characteristics table, but the compliance percentages are mentioned in the text below. Only some values are explicitly stated in the text (mean compliance 56%, with specific values for certain items). Many checklist items do not have explicit percentages mentioned in the visible text."
+  }
+}

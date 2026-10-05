@@ -1,0 +1,878 @@
+{
+  "pmcid": "PMC12989553",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 82,
+  "figure_type": "Forest plot (panel A) with LASSO coefficient bar chart (panel D)",
+  "metrics": {
+    "n_correct": 82,
+    "n_total": 92,
+    "recall": 0.891,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.139615902901813,
+        "extracted": 0.1396,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.57666988148402,
+        "extracted": 1.577,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.16194186141879,
+        "extracted": 1.162,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.13942538583077,
+        "extracted": 2.139,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.00345816450965638,
+        "extracted": 0.003,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.0411707222581777,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.808185437306731,
+        "extracted": 0.808,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.685999022851651,
+        "extracted": 0.686,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.952135031270913,
+        "extracted": 0.952,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0108826555592973,
+        "extracted": 0.011,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.0209777981372376,
+        "extracted": 0.021,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.232214743659,
+        "extracted": 1.232,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.07984812012707,
+        "extracted": 1.08,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.40608030535992,
+        "extracted": 1.406,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.00193081894822745,
+        "extracted": 0.002,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.135145338896309,
+        "extracted": 0.1351,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.1814851599436,
+        "extracted": 1.181,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.03738545790015,
+        "extracted": 1.037,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.34560126376989,
+        "extracted": 1.346,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0119696306437253,
+        "extracted": 0.012,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 408.0,
+        "extracted": 408.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.0357273419058719,
+        "extracted": 0.0357,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.5097114561033,
+        "extracted": 1.51,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.13410097753028,
+        "extracted": 1.134,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.00972287816293,
+        "extracted": 2.01,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0047708244556977,
+        "extracted": 0.005,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.347841344009843,
+        "extracted": 0.3478,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.85708653517014,
+        "extracted": 1.857,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.32419998391376,
+        "extracted": 1.324,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.60441809470286,
+        "extracted": 2.604,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.000334086292021966,
+        "extracted": 0.001,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.233325937169438,
+        "extracted": 0.2333,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.739400937761452,
+        "extracted": 0.739,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.585184044617346,
+        "extracted": 0.585,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.934259489456882,
+        "extracted": 0.934,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0114145576449108,
+        "extracted": 0.011,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.0657758833033669,
+        "extracted": 0.0658,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.3141370469349,
+        "extracted": 1.314,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.04715582263272,
+        "extracted": 1.047,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.6491873900724,
+        "extracted": 1.649,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0183920588218012,
+        "extracted": 0.018,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.187754842630385,
+        "extracted": 0.1876,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.36640194934934,
+        "extracted": 1.366,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.06975174082393,
+        "extracted": 1.07,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.74531549324486,
+        "extracted": 1.745,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0124225477812048,
+        "extracted": 0.012,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.12156559679314,
+        "extracted": 0.1216,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.40405505155393,
+        "extracted": 1.404,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 1.08592503625562,
+        "extracted": 1.086,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.81538367932983,
+        "extracted": 1.815,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.00963155546551135,
+        "extracted": 0.01,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.148108019874895,
+        "extracted": 0.1481,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.735940371749953,
+        "extracted": 0.736,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.560144339337829,
+        "extracted": 0.56,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.966908335468884,
+        "extracted": 0.967,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0276935178132752,
+        "extracted": 0.028,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": 1.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.00553897468799589,
+        "extracted": 0.0055,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.857297082669048,
+        "extracted": 0.857,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.752441085135074,
+        "extracted": 0.752,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.976765227832987,
+        "extracted": 0.977,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.020714638883554,
+        "extracted": 0.021,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.114294479491114,
+        "extracted": 0.1143,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.79637675719354,
+        "extracted": 0.796,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.666253868248539,
+        "extracted": 0.666,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.95191333157335,
+        "extracted": 0.952,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0123710240732109,
+        "extracted": 0.012,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": 2.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.0661767043714598,
+        "extracted": 0.0662,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.817859419315966,
+        "extracted": 0.818,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.700898084159598,
+        "extracted": 0.701,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.954338504956647,
+        "extracted": 0.954,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0106639690876777,
+        "extracted": 0.011,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.0761425636466641,
+        "extracted": 0.0761,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.798185700987204,
+        "extracted": 0.798,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.696881607884982,
+        "extracted": 0.697,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.914216139516177,
+        "extracted": 0.914,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.0011334520826692,
+        "extracted": 0.001,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot (panel A) with LASSO coefficient bar chart (panel D)",
+    "rows": [
+      [
+        "RNPEPL1",
+        "0.1396",
+        "1.577",
+        "1.162",
+        "2.139",
+        "0.003"
+      ],
+      [
+        "ACAD8",
+        null,
+        "0.808",
+        "0.686",
+        "0.952",
+        "0.011"
+      ],
+      [
+        "B3GNT3",
+        "0.0210",
+        "1.232",
+        "1.080",
+        "1.406",
+        "0.002"
+      ],
+      [
+        "PLEKHA6",
+        "0.1351",
+        "1.181",
+        "1.037",
+        "1.346",
+        "0.012"
+      ],
+      [
+        "ZNF408",
+        "0.0357",
+        "1.510",
+        "1.134",
+        "2.010",
+        "0.005"
+      ],
+      [
+        "PPP2R1A",
+        "0.3478",
+        "1.857",
+        "1.324",
+        "2.604",
+        "<0.001"
+      ],
+      [
+        "CASZ1",
+        "0.2333",
+        "0.739",
+        "0.585",
+        "0.934",
+        "0.011"
+      ],
+      [
+        "LMNA",
+        "0.0658",
+        "1.314",
+        "1.047",
+        "1.649",
+        "0.018"
+      ],
+      [
+        "PDXK",
+        "0.1876",
+        "1.366",
+        "1.070",
+        "1.745",
+        "0.012"
+      ],
+      [
+        "CAPN15",
+        "0.1216",
+        "1.404",
+        "1.086",
+        "1.815",
+        "0.010"
+      ],
+      [
+        "RPS6KA1",
+        "0.1481",
+        "0.736",
+        "0.560",
+        "0.967",
+        "0.028"
+      ],
+      [
+        "GLB1L2",
+        "0.0055",
+        "0.857",
+        "0.752",
+        "0.977",
+        "0.021"
+      ],
+      [
+        "ADCY9",
+        "0.1143",
+        "0.796",
+        "0.666",
+        "0.952",
+        "0.012"
+      ],
+      [
+        "PPFIBP2",
+        "0.0662",
+        "0.818",
+        "0.701",
+        "0.954",
+        "0.011"
+      ],
+      [
+        "PRDM16",
+        "0.0761",
+        "0.798",
+        "0.697",
+        "0.914",
+        "0.001"
+      ]
+    ],
+    "confidence": 82,
+    "notes": "Coeff values are taken from panel D (LASSO Coefficient Absolute Value bar chart). ACAD8 does not appear in panel D, so its Coeff is null. HR, HR.95L, HR.95H, and p-value are read from panel A text annotations."
+  }
+}

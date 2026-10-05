@@ -1,0 +1,217 @@
+{
+  "pmcid": "PMC13065238",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Scatter plot with regression lines showing relationships between caregiver distress/theory of mind and anosognosia, stratified by diagnosis",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 20,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 38.17,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.91,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.46,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": -1.22,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": -2.27,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.25,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": -1.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.07,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.55,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": -0.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": -6.98,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Scatter plot with regression lines showing relationships between caregiver distress/theory of mind and anosognosia, stratified by diagnosis",
+    "rows": [
+      [
+        "Intercept",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Age (years)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Sex (female)",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Anosognosia score (PCRS difference score)a",
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Theory of mind (social inference: TASIT-SIE)b",
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "This figure contains scatter plots with regression lines for multiple diagnostic groups (NC, AD, bvFTD, CBS, PSPS, PPA, svPPA). Panel A shows the relationship between caregiver distress (NPI Distress Score) and anosognosia (PCRS difference score). Panel B shows the relationship between distress and theory of mind (TASIT-SIE score). While the figure shows visual representations of these relationships with trend lines for each diagnosis, there are no explicit numerical values (estimates, standard errors, statistics, or p-values) displayed as text annotations in the figure itself. The data points are scattered but not labeled with specific values. Therefore, no values can be transcribed from explicit text labels in this figure."
+  }
+}

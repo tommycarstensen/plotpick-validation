@@ -1,0 +1,202 @@
+{
+  "pmcid": "PMC13058271",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 98,
+  "figure_type": "forest plot",
+  "metrics": {
+    "n_correct": 18,
+    "n_total": 18,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.13,
+        "extracted": 1.13,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 1.08,
+        "extracted": 1.08,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": -1.17,
+        "extracted": -1.17,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.2,
+        "extracted": 1.2,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.92,
+        "extracted": 0.92,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": -1.55,
+        "extracted": -1.55,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.03,
+        "extracted": 1.03,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.99,
+        "extracted": 0.99,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 2,
+        "truth": -1.07,
+        "extracted": -1.07,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.86,
+        "extracted": 0.86,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.69,
+        "extracted": 0.69,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 2,
+        "truth": -1.06,
+        "extracted": -1.06,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 4.85,
+        "extracted": 4.85,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 1,
+        "truth": 4.78,
+        "extracted": 4.78,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 2,
+        "truth": -4.92,
+        "extracted": -4.92,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.57,
+        "extracted": 0.57,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.5,
+        "extracted": 0.5,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 2,
+        "truth": -0.63,
+        "extracted": -0.63,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "forest plot",
+    "rows": [
+      [
+        "Physical impairment",
+        null
+      ],
+      [
+        "a Marginal Structural Model",
+        "1.13(1.08-1.17)"
+      ],
+      [
+        "Instrumental Variable Analysis",
+        "1.2(0.92-1.55)"
+      ],
+      [
+        "Cognitive impairment",
+        null
+      ],
+      [
+        "a Marginal Structural Model",
+        "1.03(0.99-1.07)"
+      ],
+      [
+        "Instrumental Variable Analysis",
+        "0.86(0.69-1.06)"
+      ],
+      [
+        "Mortality",
+        null
+      ],
+      [
+        "a Marginal Structural Model",
+        "4.85(4.78-4.92)"
+      ],
+      [
+        "Instrumental Variable Analysis",
+        "0.57(0.5-0.63)"
+      ]
+    ],
+    "confidence": 98,
+    "notes": "All values were explicitly annotated as text labels on the right side of the forest plot."
+  }
+}

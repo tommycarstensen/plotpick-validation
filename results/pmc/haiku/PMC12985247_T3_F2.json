@@ -1,0 +1,122 @@
+{
+  "pmcid": "PMC12985247",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 0,
+  "figure_type": "Stacked horizontal bar chart (QUADAS-2 risk-of-bias and applicability summary)",
+  "metrics": {
+    "n_correct": 8,
+    "n_total": 8,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 1,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2024.0,
+        "extracted": 2024.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 28.0,
+        "extracted": 28.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 29.0,
+        "extracted": 29.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 2021.0,
+        "extracted": 2021.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 1,
+        "truth": 30.0,
+        "extracted": 30.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Stacked horizontal bar chart (QUADAS-2 risk-of-bias and applicability summary)",
+    "rows": [
+      [
+        "Frankland (2022) [27]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Hajibonabi (2024) [28]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Polti (2023) [29]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "D'Hondt (2021) [30]",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 0,
+    "notes": "The figure shows aggregate QUADAS-2 proportions across all studies, not individual study assessments. No explicit text labels showing study-level values for individual studies are visible in the figure. Individual study data cannot be extracted from this aggregated visualization."
+  }
+}

@@ -1,0 +1,846 @@
+{
+  "pmcid": "PMC12986964",
+  "table_num": 4,
+  "figure_num": 1,
+  "model": "sonnet",
+  "confidence": 35,
+  "figure_type": "Forest plot showing effect sizes (%) with 95% confidence intervals for VO2max across 18 studies",
+  "metrics": {
+    "n_correct": 39,
+    "n_total": 76,
+    "recall": 0.513,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 2020.0,
+        "extracted": 2024.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 65.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 34.0,
+        "extracted": 34.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 2017.0,
+        "extracted": 2018.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 7,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 21.0,
+        "extracted": 21.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2019.0,
+        "extracted": 2001.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 7.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2019.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": 27.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": 6.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 2018.0,
+        "extracted": 2023.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 47.0,
+        "extracted": 10.0,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 9,
+        "pos": 0,
+        "truth": 0.968,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 7.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 2016.0,
+        "extracted": 2018.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 47.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 1,
+        "truth": 36.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 8.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 1,
+        "pos": 0,
+        "truth": 1983.0,
+        "extracted": 2016.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": 20.0,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 9.0,
+        "extracted": 9.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 1983.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 5.0,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 37.0,
+        "extracted": 37.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 13.0,
+        "extracted": 13.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 31.0,
+        "extracted": 31.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 2021.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 13.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 33.0,
+        "extracted": 33.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 1,
+        "pos": 0,
+        "truth": 2024.0,
+        "extracted": 2021.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 65.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": 3.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 1,
+        "pos": 0,
+        "truth": 2018.0,
+        "extracted": 2020.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 20.0,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 5.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 10.0,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 1,
+        "pos": 0,
+        "truth": 2001.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 3,
+        "pos": 0,
+        "truth": 7.0,
+        "extracted": 28.0,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "pos": 0,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 17.0,
+        "extracted": 17.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 1,
+        "pos": 0,
+        "truth": 2020.0,
+        "extracted": 2015.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 3,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 20.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 0,
+        "pos": 0,
+        "truth": 23.0,
+        "extracted": 23.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 1,
+        "pos": 0,
+        "truth": 2023.0,
+        "extracted": 2021.0,
+        "match": true
+      },
+      {
+        "row": 15,
+        "col": 3,
+        "pos": 0,
+        "truth": 28.0,
+        "extracted": 8.0,
+        "match": false
+      },
+      {
+        "row": 15,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 38.0,
+        "extracted": 38.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 1,
+        "pos": 0,
+        "truth": 2015.0,
+        "extracted": 2020.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 20.0,
+        "extracted": 28.0,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 19.0,
+        "extracted": 19.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 1,
+        "pos": 0,
+        "truth": 2021.0,
+        "extracted": 2017.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.0,
+        "extracted": 26.0,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot showing effect sizes (%) with 95% confidence intervals for VO2max across 18 studies",
+    "rows": [
+      [
+        "[20]",
+        "2024",
+        null,
+        "65",
+        null,
+        null,
+        null,
+        "NOT REPORTED",
+        null,
+        null
+      ],
+      [
+        "[34]",
+        "2018",
+        null,
+        "8",
+        null,
+        null,
+        null,
+        "NOT REPORTED",
+        null,
+        null
+      ],
+      [
+        "[21]",
+        "2001",
+        null,
+        "7",
+        null,
+        null,
+        null,
+        "NOT REPORTED",
+        null,
+        null
+      ],
+      [
+        "[26]",
+        "2019",
+        null,
+        "8",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[27]",
+        "2023",
+        null,
+        "10",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[6]",
+        "2023",
+        null,
+        "10",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[7]",
+        "2018",
+        null,
+        "47",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[8]",
+        "2016",
+        null,
+        "20",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[9]",
+        "1983",
+        null,
+        "5",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[37]",
+        "2022",
+        null,
+        "13",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[31]",
+        "2022",
+        null,
+        "13",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[33]",
+        "2021",
+        null,
+        "8",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[3]",
+        "2020",
+        null,
+        "20",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[10]",
+        "2022",
+        null,
+        "28",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[17]",
+        "2015",
+        null,
+        "20",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[23]",
+        "2021",
+        null,
+        "8",
+        null,
+        null,
+        null,
+        "NO CHANGE",
+        null,
+        null
+      ],
+      [
+        "[38]",
+        "2020",
+        null,
+        "28",
+        null,
+        null,
+        null,
+        "IMPROVED",
+        null,
+        null
+      ],
+      [
+        "[19]",
+        "2017",
+        null,
+        "26",
+        null,
+        null,
+        null,
+        "IMPROVED",
+        null,
+        null
+      ]
+    ],
+    "confidence": 35,
+    "notes": "Only study names, years, N values, and outcome categories are explicitly labeled in the figure. Effect size point estimates and CI bounds are shown graphically but not as explicit text annotations. Year and N values were read from the study labels on the y-axis. Reference number to study mapping is uncertain as it's not shown in the figure."
+  }
+}

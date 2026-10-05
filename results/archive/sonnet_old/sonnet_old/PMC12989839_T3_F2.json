@@ -1,0 +1,1146 @@
+{
+  "pmcid": "PMC12989839",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 72,
+  "figure_type": "Forest plot with embedded text table",
+  "metrics": {
+    "n_correct": 61,
+    "n_total": 118,
+    "recall": 0.517,
+    "cells": [
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 48.33,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 2.62,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 49.81,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.97,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.54,
+        "extracted": -0.54,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.09,
+        "extracted": -1.09,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.01,
+        "extracted": 0.01,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.053,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 60.0,
+        "extracted": 60.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.48,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.51,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 9.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.58,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.71,
+        "extracted": -0.71,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.27,
+        "extracted": -1.27,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.15,
+        "extracted": -0.15,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.013,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 0,
+        "pos": 0,
+        "truth": 57.0,
+        "extracted": 57.0,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": 5.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.89,
+        "extracted": 0.89,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.23,
+        "extracted": 0.23,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 5,
+        "pos": 1,
+        "truth": 1.55,
+        "extracted": 1.55,
+        "match": true
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.008,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 6.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.4,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": -1.87,
+        "extracted": -1.87,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": -2.68,
+        "extracted": -2.68,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": -1.06,
+        "extracted": -1.06,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 0,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": -10.0,
+        "extracted": -10.0,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 27.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 0,
+        "truth": 24.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.87,
+        "extracted": 1.87,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.06,
+        "extracted": 1.06,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.68,
+        "extracted": 2.68,
+        "match": true
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 0,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 4,
+        "pos": 0,
+        "truth": -3.32,
+        "extracted": -3.32,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": -4.51,
+        "extracted": -4.51,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": -2.13,
+        "extracted": -2.13,
+        "match": true
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 0,
+        "pos": 0,
+        "truth": 61.0,
+        "extracted": 61.0,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 0,
+        "truth": 33.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 2,
+        "pos": 1,
+        "truth": 4.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 24.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.96,
+        "extracted": 1.96,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.87,
+        "extracted": 0.87,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 5,
+        "pos": 1,
+        "truth": 3.05,
+        "extracted": 3.05,
+        "match": true
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 0,
+        "truth": 2.21,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 2.03,
+        "extracted": 2.03,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 1.33,
+        "extracted": 1.33,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.73,
+        "extracted": 2.73,
+        "match": true
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.79,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.72,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 8.38,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.96,
+        "extracted": -0.96,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.55,
+        "extracted": -1.55,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.37,
+        "extracted": -0.37,
+        "match": true
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 0,
+        "pos": 0,
+        "truth": 57.0,
+        "extracted": 57.0,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 3.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 1,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.52,
+        "extracted": 0.52,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.11,
+        "extracted": -0.11,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 5,
+        "pos": 1,
+        "truth": 1.15,
+        "extracted": 1.15,
+        "match": true
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.105,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 0,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 15.0,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 0,
+        "truth": 74.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 2,
+        "pos": 1,
+        "truth": 6.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 0,
+        "truth": 63.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 3,
+        "pos": 1,
+        "truth": 9.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 12,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.41,
+        "extracted": 1.41,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.68,
+        "extracted": 0.68,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 5,
+        "pos": 1,
+        "truth": 2.14,
+        "extracted": 2.14,
+        "match": true
+      },
+      {
+        "row": 12,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 13,
+        "col": 0,
+        "pos": 0,
+        "truth": 16.0,
+        "extracted": 16.0,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.99,
+        "extracted": -0.99,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.68,
+        "extracted": -1.68,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.3,
+        "extracted": -0.3,
+        "match": true
+      },
+      {
+        "row": 13,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.005,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 14,
+        "col": 0,
+        "pos": 0,
+        "truth": 58.0,
+        "extracted": 58.0,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.32,
+        "extracted": 0.32,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.2,
+        "extracted": -0.2,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.84,
+        "extracted": 0.84,
+        "match": true
+      },
+      {
+        "row": 14,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.229,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 0,
+        "pos": 0,
+        "truth": 11.0,
+        "extracted": 11.0,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 0,
+        "truth": 165.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 2,
+        "pos": 1,
+        "truth": 4.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 0,
+        "truth": 168.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 3,
+        "pos": 1,
+        "truth": 4.8,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 16,
+        "col": 4,
+        "pos": 0,
+        "truth": -0.54,
+        "extracted": -0.54,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.09,
+        "extracted": -1.09,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.01,
+        "extracted": 0.01,
+        "match": true
+      },
+      {
+        "row": 16,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.053,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 17,
+        "col": 0,
+        "pos": 0,
+        "truth": 59.0,
+        "extracted": 59.0,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.64,
+        "extracted": 0.64,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 0,
+        "truth": -0.26,
+        "extracted": -0.26,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 5,
+        "pos": 1,
+        "truth": 1.54,
+        "extracted": 1.54,
+        "match": true
+      },
+      {
+        "row": 17,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.162,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot with embedded text table",
+    "rows": [
+      [
+        "Physical performance",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jebabli et al. (11)",
+        "Total Time",
+        null,
+        null,
+        "-0.54",
+        "[-1.09, 0.01]",
+        null,
+        null
+      ],
+      [
+        "Jebabli et al. (60)",
+        "Best Time",
+        null,
+        null,
+        "-0.71",
+        "[-1.27, -0.15]",
+        null,
+        null
+      ],
+      [
+        "Greco et al. (57)",
+        "Reaction Time",
+        null,
+        null,
+        "0.89",
+        "[0.23, 1.55]",
+        null,
+        null
+      ],
+      [
+        "Ouergui et al. (15)",
+        "TSAT",
+        null,
+        null,
+        "-1.87",
+        "[-2.68, -1.06]",
+        null,
+        null
+      ],
+      [
+        "Ouergui et al. (15)",
+        "FSKT-10s",
+        null,
+        null,
+        "1.87",
+        "[1.06, 2.68]",
+        null,
+        null
+      ],
+      [
+        "Ouergui et al. (16)",
+        "TSAT",
+        null,
+        null,
+        "-3.32",
+        "[-4.51, -2.13]",
+        null,
+        null
+      ],
+      [
+        "Ferguson et al. (61)",
+        "Kata Score",
+        null,
+        null,
+        "1.96",
+        "[0.87, 3.05]",
+        null,
+        null
+      ],
+      [
+        "Psychological outcomes",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jebabli et al. (11)",
+        "Feeling Scale",
+        null,
+        null,
+        "2.03",
+        "[1.33, 2.73]",
+        null,
+        null
+      ],
+      [
+        "Jebabli et al. (11)",
+        "RPE",
+        null,
+        null,
+        "-0.96",
+        "[-1.55, -0.37]",
+        null,
+        null
+      ],
+      [
+        "Greco et al. (57)",
+        "Feeling Scale",
+        null,
+        null,
+        "0.52",
+        "[-0.11, 1.15]",
+        null,
+        null
+      ],
+      [
+        "Ouergui et al. (15)",
+        "PACES",
+        null,
+        null,
+        "1.41",
+        "[0.68, 2.14]",
+        null,
+        null
+      ],
+      [
+        "Ouergui et al. (16)",
+        "RPE",
+        null,
+        null,
+        "-0.99",
+        "[-1.68, -0.30]",
+        null,
+        null
+      ],
+      [
+        "Gacar et al. (58)",
+        "Motivation",
+        null,
+        null,
+        "0.32",
+        "[-0.20, 0.84]",
+        null,
+        null
+      ],
+      [
+        "Physiological measures",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Jebabli et al. (11)",
+        "HR Mean",
+        null,
+        null,
+        "-0.54",
+        "[-1.09, 0.01]",
+        null,
+        null
+      ],
+      [
+        "Hammad et al. (59)",
+        "Systolic BP",
+        null,
+        null,
+        "0.64",
+        "[-0.26, 1.54]",
+        null,
+        null
+      ]
+    ],
+    "confidence": 72,
+    "notes": "The figure only shows Study (Outcome), Effect Size [95% CI], and Weight columns. The table template requests additional columns (Music condition, Control condition, p-Value, Interpretation) which are not visible in this forest plot figure. Weight values are visible but not mapped to any template column. Row labels in the template use author et al. format with reference numbers, while the figure shows slightly different labels (e.g., 'Jebabli 2025' vs multiple 'Jebabli et al. (11)' and '(60)' entries). Values transcribed as shown in the figure text."
+  }
+}

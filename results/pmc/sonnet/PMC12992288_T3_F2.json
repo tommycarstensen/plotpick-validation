@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC12992288",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "sonnet",
+  "confidence": 5,
+  "figure_type": "Risk of bias assessment chart with stacked bar chart (a) and traffic light plot (b)",
+  "metrics": {
+    "n_correct": 6,
+    "n_total": 6,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2020.0,
+        "extracted": 2020.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 1,
+        "truth": 24.0,
+        "extracted": 24.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2024.0,
+        "extracted": 2024.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Risk of bias assessment chart with stacked bar chart (a) and traffic light plot (b)",
+    "rows": [
+      [
+        "Endo et al. (2020) (24)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Yun et al. (2022) (25)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Yoo et al. (2024) (26)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The studies listed in the table template (Endo et al., Yun et al., Yoo et al.) do not appear in the figure. The figure shows different studies (Paus2007, Videnovic2017, Willis2018, etc.) with different column categories. No values can be transcribed as there is no match between the template and the figure content."
+  }
+}

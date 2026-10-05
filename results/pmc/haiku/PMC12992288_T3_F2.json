@@ -1,0 +1,103 @@
+{
+  "pmcid": "PMC12992288",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 5,
+  "figure_type": "Risk of bias assessment chart with stacked bar chart (a) and risk of bias table (b)",
+  "metrics": {
+    "n_correct": 6,
+    "n_total": 6,
+    "recall": 1.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 2020.0,
+        "extracted": 2020.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 1,
+        "truth": 24.0,
+        "extracted": 24.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 2022.0,
+        "extracted": 2022.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 25.0,
+        "extracted": 25.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 2024.0,
+        "extracted": 2024.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 1,
+        "truth": 26.0,
+        "extracted": 26.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Risk of bias assessment chart with stacked bar chart (a) and risk of bias table (b)",
+    "rows": [
+      [
+        "Endo et al. (2020) (24)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Yun et al. (2022) (25)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Yoo et al. (2024) (26)",
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows risk of bias data for different studies (Paus2007, Videnovic2017, Willis2018, Rutten2019, Raymakers2019, Videnovic2025, Xie2025, Wyman2025, Zhou2025), but the requested studies (Endo et al. 2020, Yun et al. 2022, Yoo et al. 2024) are not present in the figure. The template rows do not match any studies shown in the figure panel (b). No data can be extracted for the requested studies."
+  }
+}

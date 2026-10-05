@@ -1,0 +1,778 @@
+{
+  "pmcid": "PMC13052122",
+  "table_num": 3,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Forest plot showing AUC (area under curve) with 95% confidence intervals across three studies (LEARN, Placebo, Solanezumab) and multiple demographic and biomarker models",
+  "metrics": {
+    "n_correct": 2,
+    "n_total": 81,
+    "recall": 0.025,
+    "cells": [
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.09,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.07,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 217.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.02,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.07,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.09,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.14,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.06,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 217.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.07,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.07,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.02,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 7,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 0,
+        "pos": 0,
+        "truth": 4.0,
+        "extracted": 4.0,
+        "match": true
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.11,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.1,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.14,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.06,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.05,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.09,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 1,
+        "pos": 0,
+        "truth": 217.0,
+        "extracted": 4.0,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.9,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 5,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.03,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 10,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.01,
+        "extracted": 0.8,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 3,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.85,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 4,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 0,
+        "truth": 0.04,
+        "extracted": 0.95,
+        "match": false
+      },
+      {
+        "row": 11,
+        "col": 6,
+        "pos": 1,
+        "truth": 0.05,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Forest plot showing AUC (area under curve) with 95% confidence intervals across three studies (LEARN, Placebo, Solanezumab) and multiple demographic and biomarker models",
+    "rows": [
+      [
+        "LEARN",
+        "Demographics+APOE4+Amyloid PET+P-tau217+PACC",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+P-tau217+PACC",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Amyloid PET+PACC",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+P-tau217",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "A4 Placebo",
+        "Demographics+APOE4+PACC",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Amyloid PET",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Tau217",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Amyloid PET",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "A4 Solanezumab",
+        "Demographics+APOE4",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+P-tau217",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Amyloid PET",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ],
+      [
+        "",
+        "Demographics+APOE4+Amyloid PET+P-tau217+PACC",
+        "0.7",
+        "0.8",
+        "0.85",
+        "0.9",
+        "0.95"
+      ]
+    ],
+    "confidence": 15,
+    "notes": "The table structure in the template does not align with the forest plot shown. The figure displays multiple models with their AUC values and confidence intervals for three different studies/groups (LEARN, Placebo, Solanezumab), but the exact AUC point estimates and CI bounds are difficult to read precisely from the plot without explicit numerical labels on each point estimate. The row labels from the left side of the plot are visible but the specific numerical values for each model's AUC in each study group would require reading from the horizontal axis, which violates the instruction not to estimate from axes. The template structure appears to expect a different data organization than what the forest plot presents."
+  }
+}

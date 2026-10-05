@@ -1,0 +1,218 @@
+{
+  "pmcid": "PMC12993913",
+  "table_num": 5,
+  "figure_num": 3,
+  "model": "sonnet",
+  "confidence": 30,
+  "figure_type": "dot plot with error bars (Graph 1) and stacked bar chart (Figure 3)",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 17,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 12.2,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.83,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.955,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 11.7,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.67,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 8.93,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 6.94,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.495,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 1,
+        "pos": 0,
+        "truth": 20.11,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 5,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 1,
+        "pos": 0,
+        "truth": 6.89,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 6,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.04,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 1,
+        "pos": 0,
+        "truth": 21.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 2,
+        "pos": 0,
+        "truth": 7.88,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 8,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.063,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.82,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 9,
+        "col": 2,
+        "pos": 0,
+        "truth": 5.16,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "dot plot with error bars (Graph 1) and stacked bar chart (Figure 3)",
+    "rows": [
+      [
+        "Group",
+        null,
+        null,
+        "0.01*"
+      ],
+      [
+        "Intervention",
+        null,
+        null,
+        null
+      ],
+      [
+        "Placebo",
+        null,
+        null,
+        null
+      ],
+      [
+        "Shift",
+        null,
+        null,
+        "n.s"
+      ],
+      [
+        "Morning",
+        null,
+        null,
+        null
+      ],
+      [
+        "Afternoon",
+        null,
+        null,
+        null
+      ],
+      [
+        "Night",
+        null,
+        null,
+        null
+      ],
+      [
+        "Menopausal Status",
+        null,
+        null,
+        null
+      ],
+      [
+        "Yes",
+        null,
+        null,
+        null
+      ],
+      [
+        "No",
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 30,
+    "notes": "The figure does not display explicit numerical text annotations for Mean (%) or SE values on the data points. Only the p-values '0.01*' and 'n.s' are visible as text labels in Graph 1. The Menopausal Status rows have no corresponding data visible in the figure at all."
+  }
+}

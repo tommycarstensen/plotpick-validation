@@ -1,0 +1,134 @@
+{
+  "pmcid": "PMC12989405",
+  "table_num": 5,
+  "figure_num": 7,
+  "model": "sonnet",
+  "confidence": 10,
+  "figure_type": "Funnel plots (scatter plots) for publication bias assessment - two panels: A (SBP) and B (DBP)",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 12,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": -3.741041,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.9065883,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": -4.13,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": -5.576333,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": -1.905749,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": -1.047733,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.4676111,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": -2.24,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.031,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -1.994363,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": -0.1011043,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Funnel plots (scatter plots) for publication bias assessment - two panels: A (SBP) and B (DBP)",
+    "rows": [
+      [
+        "Slope",
+        null,
+        null,
+        null,
+        null,
+        null
+      ],
+      [
+        "Bias",
+        null,
+        null,
+        null,
+        null,
+        null
+      ]
+    ],
+    "confidence": 10,
+    "notes": "The figure contains only funnel plots with data points and dashed confidence limit lines. No numerical table with coefficients, standard errors, t-statistics, p-values, or confidence intervals is visible as text annotations in the figure. The table template requested does not correspond to any explicitly labeled values in the displayed figure."
+  }
+}

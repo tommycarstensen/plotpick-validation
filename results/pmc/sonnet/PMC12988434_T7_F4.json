@@ -1,0 +1,74 @@
+{
+  "pmcid": "PMC12988434",
+  "table_num": 7,
+  "figure_num": 4,
+  "model": "sonnet",
+  "confidence": 20,
+  "figure_type": "ROC (Receiver Operating Characteristic) curve",
+  "metrics": {
+    "n_correct": 1,
+    "n_total": 6,
+    "recall": 0.167,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 0.993,
+        "extracted": 0.993,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.974,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": -0.256,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": 0.95,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "ROC (Receiver Operating Characteristic) curve",
+    "rows": [
+      [
+        "0.993",
+        null
+      ]
+    ],
+    "confidence": 20,
+    "notes": "The figure contains only axis tick marks and no explicit text annotations for confidence interval bounds or AUC values. The 'Upper' value cannot be transcribed as it is not visible as a text label in the figure."
+  }
+}

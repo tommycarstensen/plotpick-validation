@@ -1,0 +1,135 @@
+{
+  "pmcid": "PMC12992921",
+  "table_num": 4,
+  "figure_num": 9,
+  "model": "sonnet",
+  "confidence": 5,
+  "figure_type": "line chart showing transmit power convergence vs number of iterations for 4 D2D users",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 11,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": -69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": -69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 2,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": -69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 1,
+        "truth": -69.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 12.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 1,
+        "truth": -69.0,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "line chart showing transmit power convergence vs number of iterations for 4 D2D users",
+    "rows": [
+      [
+        "FEHO+DSNN",
+        null,
+        null
+      ],
+      [
+        "IGWO-Elman",
+        null,
+        null
+      ],
+      [
+        "GWO-BP",
+        null,
+        null
+      ],
+      [
+        "OP minimization",
+        null,
+        null
+      ],
+      [
+        "MFPUP",
+        null,
+        null
+      ]
+    ],
+    "confidence": 5,
+    "notes": "The figure shows a convergence plot of transmit power vs iterations for D2D users (D2D 1-4). The table template requests algorithm complexity data that is not present in this figure. No numeric annotations are visible that correspond to the table columns (Algorithm components, Overall complexity). The figure and table template appear to be mismatched."
+  }
+}

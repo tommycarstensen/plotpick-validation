@@ -1,0 +1,127 @@
+{
+  "pmcid": "PMC12982106",
+  "table_num": 2,
+  "figure_num": 1,
+  "model": "haiku",
+  "confidence": 25,
+  "figure_type": "Stacked bar chart showing correlation between preoperative diagnosis and surgical approach",
+  "metrics": {
+    "n_correct": 3,
+    "n_total": 10,
+    "recall": 0.3,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 317.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 89.3,
+        "extracted": 90.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 35.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 9.9,
+        "extracted": 10.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 2.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.6,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 1,
+        "pos": 0,
+        "truth": 1.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 3,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.3,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 1,
+        "pos": 0,
+        "truth": 355.0,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 4,
+        "col": 2,
+        "pos": 0,
+        "truth": 100.0,
+        "extracted": 100.0,
+        "match": true
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Stacked bar chart showing correlation between preoperative diagnosis and surgical approach",
+    "rows": [
+      [
+        "CERVICOTOMY",
+        null,
+        "90.00%"
+      ],
+      [
+        "CERVICOTOMY WITH SKIN-SPLIT INCISION",
+        null,
+        "10.00%"
+      ],
+      [
+        "STERNOTOMY",
+        null,
+        null
+      ],
+      [
+        "POSTEROLATERAL THORACOTOMY",
+        null,
+        null
+      ],
+      [
+        "TOTAL",
+        null,
+        "100%"
+      ]
+    ],
+    "confidence": 25,
+    "notes": "The bottom figure shows percentages for different surgical approaches, but the template requests Total and Percentage columns. Only the first diagnosis (GRAVE'S DISEASE) clearly shows labeled percentages (90.00% and 10.00%). The other diagnoses have various percentages labeled within their bars, but it's unclear which specific values should populate the 'Total' column or if the table structure requires aggregated data across all diagnoses. The figure does not provide explicit total patient counts, only percentages. Without additional context about whether this table should represent data from only one diagnosis or aggregated data, confidence is low."
+  }
+}

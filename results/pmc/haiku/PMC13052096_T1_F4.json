@@ -1,0 +1,246 @@
+{
+  "pmcid": "PMC13052096",
+  "table_num": 1,
+  "figure_num": 4,
+  "model": "haiku",
+  "confidence": 60,
+  "figure_type": "Bland-Altman and regression plots with stratified analysis",
+  "metrics": {
+    "n_correct": 4,
+    "n_total": 25,
+    "recall": 0.16,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": 40.0,
+        "extracted": 40.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 399.0,
+        "extracted": 209.0,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.32,
+        "extracted": 0.99,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.98,
+        "extracted": 0.79,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.975,
+        "extracted": 0.996,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 4,
+        "pos": 0,
+        "truth": 0.1,
+        "extracted": -0.36,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 0,
+        "truth": -4.0,
+        "extracted": -6.4,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 5,
+        "pos": 1,
+        "truth": 4.19,
+        "extracted": 5.7,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": 41.0,
+        "extracted": 41.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 1,
+        "truth": 80.0,
+        "extracted": -80.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 46.0,
+        "extracted": 143.0,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 1.56,
+        "extracted": 0.98,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 1,
+        "truth": 0.93,
+        "extracted": 1.27,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.85,
+        "extracted": 0.99,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 4,
+        "pos": 0,
+        "truth": -2.54,
+        "extracted": -0.32,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 0,
+        "truth": -15.12,
+        "extracted": -6.4,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 5,
+        "pos": 1,
+        "truth": 10.04,
+        "extracted": 5.76,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 0,
+        "pos": 0,
+        "truth": 80.0,
+        "extracted": 80.0,
+        "match": true
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 15.0,
+        "extracted": 18.0,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": -17.17,
+        "extracted": 0.99,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 1,
+        "truth": 1.11,
+        "extracted": 1.41,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 3,
+        "pos": 0,
+        "truth": 0.937,
+        "extracted": 0.997,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 4,
+        "pos": 0,
+        "truth": -5.87,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 0,
+        "truth": -19.49,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 5,
+        "pos": 1,
+        "truth": 7.76,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Bland-Altman and regression plots with stratified analysis",
+    "rows": [
+      [
+        "≤40",
+        "209",
+        "y = 0.99x + 0.79",
+        "0.996",
+        "-0.36",
+        "-6.40 to 5.70"
+      ],
+      [
+        "41-80",
+        "143",
+        "y = 0.98x + 1.27",
+        "0.990",
+        "-0.32",
+        "-6.40 to 5.76"
+      ],
+      [
+        ">80",
+        "18",
+        "y = 0.99x + 1.41",
+        "0.997",
+        null,
+        null
+      ]
+    ],
+    "confidence": 60,
+    "notes": "Values extracted from panel B (top right scatter plots with Passing-Bablok analysis). The stratified analysis shows three ESR ranges. For the ≤40 range, values are from the middle plot; for 41-80 range, values are from the right plot. The >80 range regression equation visible in the legend but confidence intervals and mean bias not clearly visible as explicit text labels for that subgroup. Some values like the Passing-Bablok equations and correlation coefficients are read from the inset text boxes in each plot."
+  }
+}

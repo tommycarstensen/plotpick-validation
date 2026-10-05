@@ -1,0 +1,64 @@
+{
+  "pmcid": "PMC12987127",
+  "table_num": 5,
+  "figure_num": 6,
+  "model": "haiku",
+  "confidence": 15,
+  "figure_type": "Contour plot showing displacement magnitude analysis system for gravitational deformation control",
+  "metrics": {
+    "n_correct": 0,
+    "n_total": 4,
+    "recall": 0.0,
+    "cells": [
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.044,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.007,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 22.557,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 3.244,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Contour plot showing displacement magnitude analysis system for gravitational deformation control",
+    "rows": [
+      [
+        "Gravity",
+        null,
+        null
+      ],
+      [
+        "Thermal",
+        null,
+        null
+      ]
+    ],
+    "confidence": 15,
+    "notes": "This figure is a 3D contour plot showing gravitational deformation analysis with displacement magnitude values in scientific notation. The figure does not contain a data table with PV (nm) and RMS (nm) values organized by 'Gravity' and 'Thermal' conditions as specified in the template. The visible numerical values are contour scale labels (1.573×10⁻³, 1.399×10⁻³, etc.) and a maximum value annotation (Max=1.573×10⁻³), but these do not correspond to the requested PV and RMS columns for Gravity and Thermal conditions. No explicit text labels matching the table structure are visible in the figure."
+  }
+}

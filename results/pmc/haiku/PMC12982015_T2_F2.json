@@ -1,0 +1,149 @@
+{
+  "pmcid": "PMC12982015",
+  "table_num": 2,
+  "figure_num": 2,
+  "model": "haiku",
+  "confidence": 0,
+  "figure_type": "Kaplan-Meier survival curve with two groups and confidence intervals",
+  "metrics": {
+    "n_correct": 2,
+    "n_total": 14,
+    "recall": 0.143,
+    "cells": [
+      {
+        "row": 0,
+        "col": 0,
+        "pos": 0,
+        "truth": -9.0,
+        "extracted": -9.0,
+        "match": true
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.71,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.64,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.78,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 0,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 0,
+        "pos": 0,
+        "truth": -6.0,
+        "extracted": -6.0,
+        "match": true
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.42,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.34,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.5,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 1,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.001,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 0,
+        "truth": 0.08,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 1,
+        "truth": 0.02,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 1,
+        "pos": 2,
+        "truth": 0.14,
+        "extracted": null,
+        "match": false
+      },
+      {
+        "row": 2,
+        "col": 2,
+        "pos": 0,
+        "truth": 0.009,
+        "extracted": null,
+        "match": false
+      }
+    ]
+  },
+  "extraction": {
+    "figure_type": "Kaplan-Meier survival curve with two groups and confidence intervals",
+    "rows": [
+      [
+        "MMP-9",
+        null,
+        null
+      ],
+      [
+        "IL-6",
+        null,
+        null
+      ],
+      [
+        "hsCRP",
+        null,
+        null
+      ]
+    ],
+    "confidence": 0,
+    "notes": "The figure is a survival curve showing cumulative MACE-free survival for High SPP1 vs Low SPP1 groups. It contains no explicit text labels or numerical annotations corresponding to the table template requesting β coefficients and P values for MMP-9, IL-6, and hsCRP. These values do not appear in the visible figure."
+  }
+}
