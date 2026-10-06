@@ -49,6 +49,7 @@ Usage:
 import argparse
 import io
 import json
+import re
 import statistics
 import sys
 from pathlib import Path
@@ -90,7 +91,7 @@ class Scores(NamedTuple):
     whole       whole-table numeric F1, on sets
     horizontal  whether the chart is a horizontal bar chart
     repeats     best-series numeric F1 with repeated values kept
-    large       whether the median annotated magnitude reaches LARGE_VALUE
+    magnitude   median absolute annotated value
     errors      relative error of each annotated value that the best series
                 reproduces within the tolerance
     rows        table rows after the header row
@@ -101,10 +102,15 @@ class Scores(NamedTuple):
     whole: float
     horizontal: bool
     repeats: float
-    large: bool
+    magnitude: float
     errors: tuple
     rows: int
     values: int
+
+    @property
+    def large(self):
+        """Whether the median annotated magnitude reaches LARGE_VALUE."""
+        return self.magnitude >= LARGE_VALUE
 
 
 def annotations():
@@ -121,8 +127,9 @@ def parse_table(text):
     DePlot writes ``<0x0A>`` between rows and ``|`` between cells, and starts
     with a TITLE row, which is dropped. The VLMs write newlines and tabs, and
     now and then a Markdown table, whose fence, outer pipes and rule row are
-    removed. A table aligned with spaces is not split and counts as a single
-    column; no reply of a reported system is laid out that way.
+    removed. A reply with neither tabs nor pipes is a table aligned with
+    spaces and is split at runs of two or more of them; no reply of a reported
+    system is laid out that way, only the archived mistral-medium-latest run.
     """
     body = text.replace("<0x0A>", "\n").strip()
     if body.startswith("```"):
@@ -130,12 +137,15 @@ def parse_table(text):
         body = body.rsplit("```", 1)[0]
     lines = [line for line in body.split("\n") if line.strip()]
     tabbed = any("\t" in line for line in lines)
+    piped = any("|" in line for line in lines)
     grid = []
     for line in lines:
         if tabbed:
             cells = [cell.strip() for cell in line.split("\t")]
-        else:
+        elif piped:
             cells = [cell.strip() for cell in line.strip().strip("|").split("|")]
+        else:
+            cells = re.split(r" {2,}", line.strip())
         if all(cell and set(cell) <= set("-: ") for cell in cells):
             continue
         grid.append(cells)
@@ -211,12 +221,21 @@ def score_items(path, tolerance=0.05):
             whole=compute_numeric_f1(everything, truth, tolerance),
             horizontal="<s_width>" in entry["raw_text"],
             repeats=max(repeats) if repeats else 0.0,
-            large=statistics.median(map(abs, values)) >= LARGE_VALUE,
+            magnitude=statistics.median(map(abs, values)) if values else 0.0,
             errors=relative_errors(chosen, truth, tolerance) if chosen else (),
             rows=max(len(grid) - 1, 0),
             values=len(values),
         )
     return data["model"], items
+
+
+def space_aligned(path):
+    """How many replies of one result file have neither tabs nor pipes."""
+    data = json.loads(Path(path).read_text(encoding="utf-8"))
+    return sum(
+        1 for row in data["results"]
+        if not set("\t|") & set(row.get("extracted_text") or "")
+    )
 
 
 def reported_items(tolerance=0.05):
@@ -257,6 +276,8 @@ def mean_of(items, field, horizontal=None):
 def median_error(items):
     """Median relative error of the reproduced values, in per cent."""
     errors = [e for scores in items.values() for e in scores.errors]
+    if not errors:
+        sys.exit("No reply reproduces any annotated value")
     return statistics.median(errors) * 100
 
 

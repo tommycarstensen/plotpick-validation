@@ -59,6 +59,3 @@ CHARTX_RESULTS_DIR = RESULTS_DIR / "chartx"
 PLOTQA_RESULTS_DIR = RESULTS_DIR / "plotqa"
 FINAL_VAL_RESULTS_DIR = RESULTS_DIR / "final_val"
 PMC_RESULTS_DIR = RESULTS_DIR / "pmc"
-
-# Manuscript (sibling of validation/)
-MANUSCRIPT_DIR = VALIDATION_ROOT.parent / "manuscript"

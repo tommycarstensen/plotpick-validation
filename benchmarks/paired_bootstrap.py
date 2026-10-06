@@ -10,8 +10,9 @@ percentile 95% interval, fixed seed) for each comparison the paper makes:
     ChartX   the same margins if DePlot's title line is scored as output
     ChartX   the same margins without the numbers that occur only in labels
     ChartX   the same margins if a missing reply is scored as zero
-    ChartX   the unreported ministral-3b-latest run against DePlot
+    ChartX   the three unreported moving-alias runs against DePlot
     PlotQA   each VLM against DePlot, best-series and whole-table
+    PlotQA   the two unreported moving-alias runs against DePlot
     PlotQA   the same by chart orientation, by magnitude of the values and
              with repeated values kept
     PlotQA   the detailed prompt against the simple prompt, for Claude
@@ -55,7 +56,9 @@ from paths import (  # noqa: E402
 )
 from benchmarks.score_plotqa import (  # noqa: E402
     detailed_prompt_items,
+    mean_of,
     reported_items,
+    score_items,
 )
 from benchmarks.shared import (  # noqa: E402
     compute_numeric_f1,
@@ -408,11 +411,15 @@ def main():
         print(f"{name:22}{interval.n:>4}  {overall(filled):.1f}% instead of "
               f"{overall(items):.1f}%  {interval}{flag(interval)}")
 
-    print("\nChartX: ministral-3b-latest (unreported alias run) minus DePlot")
-    for field, label in (("f1", "numeric F1"), ("recall", "recall")):
-        interval = paired_interval(column(ministral, field),
-                                   column(deplot, field))
-        print(f"{label:22}{interval.n:>4}  {interval}{flag(interval)}")
+    alias_dir = MINISTRAL_RUN.parent
+    print("\nChartX: the unreported alias runs minus DePlot")
+    for path in sorted(alias_dir.glob("final_val_*.json")):
+        model, items = chartx_items(path)
+        for field, label in (("f1", "numeric F1"), ("recall", "recall")):
+            interval = paired_interval(column(items, field),
+                                       column(deplot, field))
+            print(f"{model:24}{label:12}{interval.n:>4}  "
+                  f"{interval}{flag(interval)}")
 
     plotqa = reported_items()
     deplot_qa = plotqa[DEPLOT.plotqa_key]
@@ -425,6 +432,14 @@ def main():
                                 field_of(deplot_qa, "whole"))
         print(f"{BY_PLOTQA_KEY[key].name:22}{best.n:>4}  "
               f"{best!s:24}{whole!s:24}")
+
+    print("\nPlotQA best-series: the unreported alias runs minus DePlot")
+    for path in sorted(alias_dir.glob("plotqa_*.json")):
+        model, items = score_items(path)
+        interval = paired_interval(field_of(items, "best"),
+                                   field_of(deplot_qa, "best"))
+        print(f"{model:24}{interval.n:>4}  {mean_of(items, 'best'):.1f}%  "
+              f"{interval}{flag(interval)}")
 
     for label, where in PLOTQA_SUBSETS.items():
         size = len(field_of(deplot_qa, "best", where))

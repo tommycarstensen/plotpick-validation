@@ -27,7 +27,7 @@ python benchmarks/paired_bootstrap.py
 python benchmarks/plot_chartx_validation.py
 
 # Every macro the paper uses, written to out/numbers.tex. main.tex reads
-# them via \input{numbers}, so no result in the paper is typed by hand.
+# them via \input{numbers}, so no result of version 2 is typed by hand.
 # Table 2 (numeric F1, its interval, recall, margin over DePlot) is here.
 python benchmarks/export_paper_numbers.py
 ```
@@ -38,22 +38,23 @@ The bootstraps are seeded, so each command writes the same output every time on 
 
 ## Scoring errors corrected in October 2026
 
-Version 1 of the paper, and this repository until 5 October 2026, scored two things wrongly. Both were found in review of the paper, and both are corrected in the scripts above.
+Version 1 of the paper was scored by code that got two things wrong, and the development repository this one is taken from kept that code until 5 October 2026. Both errors were found in review of the paper. This public repository has carried the corrected scripts from its first commit.
 
 **PlotQA was scored against the wrong axis.** Each entry of `external/plotqa_test_1000.json` describes one series of a chart, with `x_values` and `y_values`. The runners took the series from `y_values` for every chart. For a horizontal bar chart those are the category labels and the bar lengths are in `x_values`. Of the 529 scored items, 427 are horizontal bar charts whose categories are years, so their "ground truth" was a list of years, and a score near 100% meant only that the reply contained a column of years. Version 1 reported 86-99% for the VLMs on that basis. Scored against the plotted values the picture is different: DePlot 87.0%, two VLMs at 89%, and the other four between 83% and 57%. `shared.plotqa_truth` now builds the truth and the runners use it.
 
 **DePlot's title line was scored as output.** DePlot begins every reply with `TITLE | <chart title>`, and 220 of its 300 ChartX titles contain a number, usually a year, which was counted as an extracted value that matches nothing. The VLMs were told to return only the table. DePlot is now scored without that row (`shared.deplot_rows`): 74.3% numeric F1 on ChartX instead of 72.8%.
 
-A third, smaller correction: the tolerance test rejected a few values lying exactly on the 5% bound through floating-point rounding (`shared.within_tolerance`); five ChartX scores moved by 0.1.
+A third, smaller correction: the tolerance test rejected a few values lying exactly on the 5% bound through floating-point rounding (`shared.within_tolerance`); five of the ten overall ChartX numeric F1 scores moved by 0.1.
 
 ### Do not read the summary fields in the result files
 
 The result files were written before these corrections and still carry the old figures. The scoring scripts ignore them and rescore from the stored replies.
 
-- `results/plotqa/*.json`: `gt_nums`, `rmsf1` and the top-level `mean_rmsf1` were computed against the wrong axis for 427 of the 529 items, as a whole-table score, and for DePlot with its title row counted. They show every VLM at 39-42% and DePlot at 27%, which is the opposite of the corrected result. Use `python benchmarks/score_plotqa.py`.
-- `results/chartx/chartx_deplot*.json`: `ex_nums` and `rmsf1` still include the numbers of DePlot's title row (the mean stored `rmsf1` over the six reported types is 71.2%; the paper's 74.3% is rescored from `extracted_text`).
+- `results/plotqa/*.json` (both prompts), `results/archive/plotqa_*.json` and `results/archive/alias_runs/plotqa_*.json`: `gt_nums`, `rmsf1` and the top-level `mean_rmsf1` were computed against the wrong axis for 427 of the 529 items, as a whole-table score, and for DePlot with its title row counted. They show every VLM of the paper at 39-42% and DePlot at 27%, the wrong way round for four of the six VLMs. In `plotqa_deplot.json`, `ex_nums` also holds the numbers of the title row and two spurious zeros for every `<0x0A>` row separator (5,640 of its 14,404 values). The top-level `n` of `plotqa_mistral_small_latest.json` says 529, but the file holds 511 replies. Use `python benchmarks/score_plotqa.py`.
+- `results/chartx/chartx_deplot*.json`: `ex_nums` and `rmsf1` include the numbers of DePlot's title row, and `rmsf1` was computed with repeated values kept. Their mean over the six reported types is 71.2%; the same `ex_nums` scored as sets give 72.8%, the score with the title line; the paper's 74.3% is rescored from `extracted_text` without it.
+- `results/final_val/*.json`: the stored per-item `recall` predates the tolerance correction and differs from the rescored value on up to four items per file. The scripts recompute it from `ex_nums` and `gt_nums`.
 
-They are kept because they are what version 1 was computed from, so its error can be audited.
+They are kept so that the replies and number sets version 1 was scored from can be audited.
 
 ## The PlotQA items
 
@@ -65,8 +66,8 @@ They are kept because they are what version 1 was computed from, so its error ca
 
 Two properties of the metric matter for the comparisons, and `paired_bootstrap.py` prints what each costs:
 
-- **Numbers in headers and row labels are counted like any other.** A year, the 0 and -10 read from a histogram bin `0-10`, the 1 and 3 of `Q1` and `Q3` are all credited. Such label-only numbers are 3% to 34% of the ChartX ground truth, by chart type. Without them every VLM but one keeps a separable lead over DePlot; Mistral Large 3 does not.
-- **Both work on sets, so a value that occurs twice counts once.** That penalises rounding: a reply that repeats one rounded value for a series of nearby values matches only one of them. On PlotQA, keeping repeated values raises the scores of the VLMs that round most by up to 5 points.
+- **Numbers in headers and row labels are counted like any other.** A year, the 0 and -10 read from a histogram bin `0-10`, the 1 and 3 of `Q1` and `Q3` are all credited. Such label-only numbers are 4% to 50% of the ChartX ground-truth numbers, depending on the chart type. Without them every VLM but one keeps a separable lead over DePlot; Mistral Large 3 does not.
+- **Both work on sets, so a value that occurs twice counts once.** That penalises a reply that rounds nearby values to the same number: it matches only one of them. On PlotQA, keeping repeated values raises every score, by 0.4 points for DePlot and by up to 5.2 points for a VLM (Claude Haiku 4.5).
 
 The code, the result files and version 1 of the paper call numeric F1 `rmsf1`. It is not the Relative Mapping Similarity F1 of the DePlot paper (Liu et al. 2023), which matches (row header, column header, value) triples with partial credit, and the two must not be compared. `compute_numeric_f1` in `benchmarks/shared.py` is the definition; `compute_rmsf1` is kept as an alias for the benchmark runners.
 
@@ -122,8 +123,8 @@ Things to know before a rerun:
 
 ## Runs that are in this repository but not in the paper's tables
 
-- **Moving-alias runs** (`results/archive/alias_runs/`). Early Mistral runs used the `-latest` aliases, which Mistral repoints when a new version ships, so they cannot be tied to a model version. The three reported Mistral models were re-run under dated identifiers. `ministral-3b-latest` was not re-run; the paper states its result in the text (76.7% numeric F1 on the 295 items it returned a reply for, 2.8 points above DePlot with an interval that includes zero; 75.5% and 1.2 points with its five empty replies scored as zero) without tabulating it. `plotqa_mistral_medium_latest.json` cannot be scored as stored: most of its tables are aligned with spaces, which `score_plotqa.py` reads as a single column.
-- **Development split** (`results/chartx/`). Runs of the six non-Mistral models, of Gemini 2.5 Flash, Ministral 3B and 8B, the Mistral aliases, a pixel-ruler computer-vision baseline, and a small DePlot run (10 items per chart type). The Claude runs there cover all 18 ChartX chart types and used the detailed prompt. The paper's tables and figures use the validation split only; its Section 3.2 quotes the development split in two places (the twelve unreported chart types, and the gap between the two splits).
+- **Moving-alias runs** (`results/archive/alias_runs/`). Early Mistral runs used the `-latest` aliases, which Mistral repoints when a new version ships, so they cannot be tied to a model version. They were made in April 2026, before version 1 was posted, and left out of it. The three reported Mistral models were re-run under dated identifiers, on ChartX only. The paper states the alias results in the text without tabulating them, and `paired_bootstrap.py` prints them: on ChartX, `mistral-medium-latest` and `mistral-small-latest` lead DePlot separably and `ministral-3b-latest` does not (76.7% numeric F1 on the 295 items it returned a reply for, 2.8 points above DePlot with an interval that includes zero; 75.5% and 1.2 points with its five empty replies scored as zero); on PlotQA, `mistral-medium-latest` (74.3%) and `mistral-small-latest` (72.7% on 511 items) are both below DePlot. Most replies of `plotqa_mistral_medium_latest.json` are tables aligned with spaces, which `score_plotqa.py` splits at runs of two or more spaces; no reply of a reported run is laid out that way.
+- **Development split** (`results/chartx/`). Runs of the six non-Mistral models, of Gemini 2.5 Flash, Ministral 3B and 8B, the Mistral aliases, a pixel-ruler computer-vision baseline, and a small DePlot run (10 items per chart type). The Claude runs there cover all 18 ChartX chart types and used the detailed prompt. The paper's tables and figures use the validation split only. Its Section 3.2 quotes the development split for the twelve unreported chart types, the gap between the two splits and the margins of the two Claude models on the six reported types, and its Section 7 for the box-plot scores behind the figures of version 1.
 - **Chart types.** ChartX has 18; the paper reports the six listed in `benchmarks/systems.py`. `chartx_deplot_val.json` holds DePlot on all 18.
 - **PubMed Central, Opus** (`results/pmc/opus/`, 13 pairs). The paper quotes the Haiku and Sonnet runs only.
 - **Early and exploratory runs** (`results/archive/`): about 130 earlier Sonnet extractions of PubMed Central pairs (`sonnet_old/`, `sonnet_old2/`, `PMC*.json`), partial PlotQA runs and one-off comparisons.
@@ -132,7 +133,7 @@ Things to know before a rerun:
 
 **The PMC results are not a fair accuracy measure.** `results/pmc/` scores extractions from real biomedical figures against the article's companion table, asking the model to fill in the table's layout from numbers printed in the figure. The ground truth has a median of 71 cells per figure and a maximum of 1060, far more than any single figure plots, so recall is structurally capped: the median figure has about 5 extracted values against those cells. Mean recall is around 13%, but restricting to in-scope chart types does not raise it, and the confound is in the denominator rather than the chart types. The paper states this run and draws no conclusion from it; the numbers should not be quoted as PlotPick's accuracy on biomedical figures. Answering that question properly needs ground truth limited to values actually plotted; that work has not been done. The result directories hold more pairs than `pairs.json` lists (206): the Haiku run has 259 and the Sonnet run 255, the extra ones from earlier selection rounds that are in neither `pairs.json` nor `excluded_pairs.json`.
 
-**The ChartX annotations here are modified.** Eight figures had errors in the upstream ground truth, all proposed upstream as pull requests and all in the development split. See `external/chartx/CORRECTIONS.md` for the full list with links and for what was changed for each. No validation-split item was changed, so the paper's ChartX tables and figures run on uncorrected upstream data. The validation items themselves were not audited for such errors.
+**The ChartX annotations here are modified.** Eight figures had errors in the upstream ground truth, all proposed upstream as pull requests and all in the development split. See `external/chartx/CORRECTIONS.md` for the full list with links and for what was changed for each. No validation-split item was changed, so the paper's ChartX tables and figures run on uncorrected upstream data; only its development-split results can be affected. The validation items themselves were not audited for such errors.
 
 ## Datasets and licensing
 

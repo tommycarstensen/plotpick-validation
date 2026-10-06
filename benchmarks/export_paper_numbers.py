@@ -79,6 +79,8 @@ from benchmarks.score_plotqa import (  # noqa: E402
     mean_of,
     median_error,
     reported_items,
+    score_items,
+    space_aligned,
 )
 from benchmarks.shared import (  # noqa: E402
     DEPLOT_MAX_NEW_TOKENS,
@@ -145,6 +147,10 @@ def minus(text):
 
 
 def signed(value, digits=1):
+    """A signed number. One that would print as zero keeps a second decimal,
+    so that an interval ending at -0.03 is not shown as ending at -0.0."""
+    if digits == 1 and 0 < abs(value) < 0.05:
+        digits = 2
     return minus(f"{value:+.{digits}f}")
 
 
@@ -245,7 +251,7 @@ def main():
         f"{(arm_b * (1 - shift) - arm_a * (1 + shift)) / deviation:.2f}"))
     define("SmdExampleHigh",
            f"{(arm_b * (1 + shift) - arm_a * (1 - shift)) / deviation:.2f}")
-    define("ImageMaxSide", str(
+    define("ImageMaxSide", thousands(
         inspect.signature(encode_image).parameters["max_size"].default))
     define("BootstrapDraws", thousands(N_BOOT))
     define("BorderlinePoints", f"{BORDERLINE:.1f}")
@@ -372,15 +378,18 @@ def main():
     # Numbers that occur only in labels: their share of the truth by chart
     # type, and the margins when they are left out of both sets.
     labels = label_only_numbers()
-    shares = {}
+    label_only, all_numbers = {}, {}
     for record in chartx_meta:
+        chart_type = record["chart_type"]
         if record["imgname"] in scores[DEPLOT.key] and (
-                record["chart_type"] in CHART_TYPES):
+                chart_type in CHART_TYPES):
             drop, everything = labels[record["imgname"]]
-            shares.setdefault(record["chart_type"], []).append(
-                len(drop) / len(everything))
-    define("ChartXLabelShareMin", f"{min(map(mean, shares.values())) * 100:.0f}")
-    define("ChartXLabelShareMax", f"{max(map(mean, shares.values())) * 100:.0f}")
+            label_only[chart_type] = label_only.get(chart_type, 0) + len(drop)
+            all_numbers[chart_type] = (
+                all_numbers.get(chart_type, 0) + len(everything))
+    shares = [label_only[t] / all_numbers[t] for t in CHART_TYPES]
+    define("ChartXLabelShareMin", f"{min(shares) * 100:.0f}")
+    define("ChartXLabelShareMax", f"{max(shares) * 100:.0f}")
     no_labels = chartx_validation(labels=labels)
     falls, lost = [], []
     for system in order:
@@ -391,7 +400,7 @@ def main():
         falls.append(before.mean - after.mean)
         if not after.separable:
             lost.append((system, after))
-    require(min(falls) > -0.05, "no margin grows without the label numbers")
+    require(min(falls) > 0, "every margin falls without the label numbers")
     require(len(lost) == 1 and lost[0][0] is order[-1],
             "without the label numbers only the lowest VLM stops being "
             "separable from DePlot")
@@ -620,6 +629,34 @@ def main():
         for s in VLMS if s.key in development
     ]
     require(min(dev_gaps) > 0, "the development split scores higher")
+    # Version 1 drew its two figures from this split. Its text gave the
+    # VLMs 83-97% on box plots; the six VLMs' range there is this.
+    first_version_keys = [s.key for s in VLMS if s.provider != "Mistral"]
+    require(set(first_version_keys) == set(development),
+            "the six VLMs of version 1 have development-split runs")
+    dev_box = [type_mean(development[key], "box") for key in first_version_keys]
+    val_box = [type_mean(scores[key], "box") for key in first_version_keys]
+    define("DevBoxFoneMin", f"{min(dev_box) * 100:.0f}")
+    define("DevBoxFoneMax", f"{max(dev_box) * 100:.0f}")
+    define("ValBoxSixFoneMin", f"{min(val_box) * 100:.0f}")
+    define("ValBoxSixFoneMax", f"{max(val_box) * 100:.0f}")
+    box_ranges = {
+        tuple(round(end(mean(column(runs[key], field, ["box"]).values())
+                        for key in first_version_keys) * 100)
+              for end in (min, max))
+        for runs in (development, scores) for field in ("f1", "recall")
+    }
+    require((83, 97) not in box_ranges,
+            "version 1's 83-97% for the VLMs on box plots is reproduced on "
+            "neither split, as numeric F1 or as recall")
+    per_type = {
+        len(column(development[key], "f1", [t]))
+        for key in first_version_keys for t in CHART_TYPES
+    }
+    require(len(per_type) == 2,
+            "the development-split runs hold one of two item counts per type")
+    define("DevPerTypeMin", str(min(per_type)))
+    define("DevPerTypeMax", str(max(per_type)))
     define_count("ChartXDevModels", len(dev_gaps))
     define("ChartXDevGapMin", f"{min(dev_gaps):.1f}")
     define("ChartXDevGapMax", f"{max(dev_gaps):.1f}")
@@ -635,6 +672,7 @@ def main():
            f"{mean(v.f1 for v in dev_deplot.values()) * 100:.1f}")
     _, dev_deplot_six = chartx_items(CHARTX_RESULTS_DIR / "chartx_deplot.json")
     define("DevSixN", str(len(dev_deplot_six)))
+    define("DevDePlotPerType", str(len(dev_deplot_six) // len(CHART_TYPES)))
     for key in ("haiku", "sonnet"):
         _, claude = chartx_items(
             CHARTX_RESULTS_DIR / f"chartx_{key}.json", chart_types=other_types)
@@ -657,8 +695,22 @@ def main():
         define(f"DevSixDelta{BY_KEY[key].macro}", signed(six.mean))
         define(f"DevSixDeltaCI{BY_KEY[key].macro}", interval_text(six))
 
-    # The unreported run under a moving alias.
-    section("ChartX, ministral-3b-latest (moving alias, not tabulated)")
+    # The runs under moving aliases, which the paper does not tabulate.
+    section("ChartX, runs under moving aliases (not tabulated)")
+    alias_runs = sorted(MINISTRAL_RUN.parent.glob("final_val_*.json"))
+    leading = 0
+    for path in alias_runs:
+        if path == MINISTRAL_RUN:
+            continue
+        _, alias = chartx_items(path)
+        interval = paired_interval(column(alias, "f1"), column(deplot, "f1"))
+        require(interval.low > 0, f"{path.name} leads DePlot separably")
+        leading += 1
+    require(leading == len(alias_runs) - 1,
+            "every alias run but ministral-3b-latest leads DePlot separably")
+    define("AliasRunCountCap", word(len(alias_runs)).capitalize())
+    define_count("AliasRunCount", len(alias_runs))
+    define("AliasLeadCountCap", word(leading).capitalize())
     _, ministral = chartx_items(MINISTRAL_RUN)
     f1 = paired_interval(column(ministral, "f1"), column(deplot, "f1"))
     recall = paired_interval(column(ministral, "recall"),
@@ -705,10 +757,11 @@ def main():
     define_count("PlotQAModelCount", len(qa_order))
     # Series that occur in more than one entry: the data behind a chart can
     # recur across PlotQA's charts.
+    # A constant series (100, 100, 100) can coincide by chance and is left out.
     series = {}
     for entry in subset:
         values = tuple(plotqa_truth(entry))
-        if len(values) >= 3:
+        if len(values) >= 3 and len(set(values)) > 1:
             series[values] = series.get(values, 0) + 1
     require(all(n <= 2 for n in series.values()),
             "no series occurs in more than two entries")
@@ -796,6 +849,10 @@ def main():
     gaps = [-against_deplot(key, "best").mean for key in below]
     require(BY_KEY["haiku"].plotqa_key in below,
             "Claude Haiku 4.5 is among the VLMs below DePlot on PlotQA")
+    require(means["haiku"] < means["sonnet"]
+            and mean_of(plotqa[BY_KEY["haiku"].plotqa_key], "best")
+            < mean_of(plotqa[BY_KEY["sonnet"].plotqa_key], "best"),
+            "Claude Haiku 4.5 scores below Claude Sonnet 4.6 on both benchmarks")
     define_count("PlotQABelowCount", len(below))
     define("PlotQABelowList", names(below))
     define("PlotQABelowMin", f"{min(gaps):.1f}")
@@ -811,6 +868,25 @@ def main():
             "on the other charts one VLM is above DePlot, three are level "
             "with it and two are below it")
     define("PlotQAHorizontalTopDeltas", margin_text(top, "best", horizontal_only))
+    define("PlotQAOtherTopDeltas", margin_text(top, "best", other_only))
+
+    def share_of_margin(key, where):
+        """The part of a VLM's pooled margin over DePlot that a subset holds."""
+        inside = field_of(plotqa[key], "best", where)
+        everywhere = field_of(plotqa[key], "best")
+        return (sum(inside[k] - deplot_qa[k].best for k in inside)
+                / sum(everywhere[k] - deplot_qa[k].best for k in everywhere))
+
+    bar_share = [share_of_margin(key, horizontal_only) for key in top]
+    require(all(share > 0.5 for share in bar_share)
+            and all(against_deplot(key, "best", other_only).mean
+                    > against_deplot(key, "best", horizontal_only).mean
+                    for key in top),
+            "the horizontal bar charts hold more than half of the pooled "
+            "margins of the two strongest VLMs, whose margins are larger on "
+            "the other plots")
+    define("PlotQAHorizontalShareTop",
+           join_words(f"{share * 100:.0f}\\%" for share in bar_share))
     define("PlotQAOtherAboveList", names(above_o))
     define_count("PlotQAOtherLevelCount", len(level_o))
     define("PlotQAOtherLevelList", names(level_o))
@@ -857,7 +933,50 @@ def main():
     require(above_r == top and level_r == moved and below_r == below_w,
             "with repeats kept both of the strongest VLMs are above DePlot "
             "and the same VLM is level with it")
+    # Across the three scorings the pooled margins of the two strongest VLMs
+    # stay small; within the subsets neither that nor "the weakest are below
+    # DePlot" holds everywhere.
+    pooled = [against_deplot(key, field).mean
+              for key in top for field in ("best", "whole", "repeats")]
+    require(min(pooled) > 0 and max(pooled) < 4,
+            "the pooled margins of the two strongest VLMs stay within a few "
+            "points under every scoring")
+    define("PlotQATopMarginMin", f"{min(pooled):.1f}")
+    define("PlotQATopMarginMax", f"{max(pooled):.1f}")
+    level_weak = [key for key in below_r if key in level_o]
+    require(len(level_weak) == 1, "one of the weakest VLMs is level with "
+            "DePlot on the other plots")
+    define("PlotQAOtherLevelWeakName", names(level_weak))
+    define("PlotQAOtherLevelWeakDelta",
+           margin_text(level_weak, "best", other_only))
     define("PlotQARepeatsTopDeltas", margin_text(top, "repeats"))
+
+    # The two PlotQA runs made under moving aliases, kept in the archive and
+    # not tabulated. Only they hold replies laid out with spaces, so the way
+    # such a reply is split cannot move a reported score.
+    require(not any(space_aligned(path) for path in sorted(
+                Path(PLOTQA_RESULTS_DIR).glob("plotqa_*.json"))),
+            "no reply of a reported PlotQA run is a table aligned with spaces")
+    alias_qa = sorted(MINISTRAL_RUN.parent.glob("plotqa_*.json"))
+    require([path.stem for path in alias_qa]
+            == ["plotqa_mistral_medium_latest", "plotqa_mistral_small_latest"],
+            "the archive holds two alias runs on PlotQA")
+    define_count("AliasPlotQARunCount", len(alias_qa))
+    for label, path in zip(("Medium", "Small"), alias_qa, strict=True):
+        _, alias_items = score_items(path)
+        require(set(alias_items) <= set(deplot_qa),
+                f"{path.stem} covers no item outside the scored ones")
+        interval = paired_interval(field_of(alias_items, "best"),
+                                   field_of(deplot_qa, "best"))
+        require(interval.high < 0 and interval.n == len(alias_items),
+                f"{path.stem} is below DePlot on PlotQA")
+        if len(alias_items) < len(deplot_qa):
+            define(f"AliasPlotQA{label}N", str(len(alias_items)))
+        define(f"AliasPlotQA{label}Best", f"{mean_of(alias_items, 'best'):.1f}")
+        define(f"AliasPlotQA{label}Delta",
+               f"{signed(interval.mean)} {interval_text(interval)}")
+    require(len(score_items(alias_qa[0])[1]) == len(deplot_qa),
+            "mistral-medium-latest has a reply for every scored item")
     define("PlotQARepeatsMovedDelta", margin_text(moved, "repeats"))
     define_count("PlotQAAlwaysBelowCount", len(below_r))
     define("PlotQAAlwaysBelowList", names(below_r))
@@ -865,8 +984,9 @@ def main():
         key: mean_of(plotqa[key], "repeats") - mean_of(plotqa[key], "best")
         for key in plotqa
     }
-    require(min(gains, key=lambda k: gains[k]) == DEPLOT.plotqa_key,
-            "keeping repeated values raises DePlot's score least")
+    require(min(gains, key=lambda k: gains[k]) == DEPLOT.plotqa_key
+            and min(gains.values()) > 0,
+            "keeping repeated values raises every score, DePlot's least")
     most = max(gains, key=lambda k: gains[k])
     define("PlotQARepeatsGainDePlot", f"{gains[DEPLOT.plotqa_key]:.1f}")
     define("PlotQARepeatsGainMax", f"{gains[most]:.1f}")
@@ -879,9 +999,38 @@ def main():
     define("PlotQASmallTopDeltas", margin_text(top, "best", small_only))
     define("PlotQALargeTopDeltas", margin_text(top, "best", large_only))
     require(all(against_deplot(key, "best", large_only).low > 0 for key in top)
-            and all(against_deplot(key, "best", small_only).mean < 0.5
+            and all(against_deplot(key, "best", small_only).low <= 0
                     for key in top),
-            "the two strongest VLMs lead DePlot on the large-valued items only")
+            "the two strongest VLMs lead DePlot separably on the large-valued "
+            "items and not on the others")
+    require(all(share_of_margin(key, large_only) > 1 for key in top),
+            "the large-valued items hold more than the whole pooled margin "
+            "of the two strongest VLMs")
+    define("PlotQALargeHorizontalN", str(sum(
+        1 for s in deplot_qa.values() if s.large and s.horizontal)))
+    define("PlotQALargeOtherN", str(sum(
+        1 for s in deplot_qa.values() if s.large and not s.horizontal)))
+
+    # The threshold was chosen after the fact; the pattern does not hang on it.
+    def split_at(key, cut):
+        """A VLM's margins over DePlot at and above a magnitude, and below."""
+        halves = []
+        for keep in (True, False):
+            names_kept = {name for name, s in deplot_qa.items()
+                          if (s.magnitude >= cut) == keep}
+            halves.append(paired_interval(
+                {n: plotqa[key][n].best for n in names_kept},
+                {n: deplot_qa[n].best for n in names_kept}))
+        return halves
+
+    exponents = range(3, 10)
+    for exponent in exponents:
+        for key in top:
+            above_cut, below_cut = split_at(key, 10 ** exponent)
+            require(above_cut.low > 0 and below_cut.low <= 0,
+                    f"the magnitude pattern holds at a threshold of 1e{exponent}")
+    define("PlotQAThresholdLowExponent", str(min(exponents)))
+    define("PlotQAThresholdHighExponent", str(max(exponents)))
 
     # How close the reproduced values are, and DePlot's missing last rows.
     errors = {key: median_error(plotqa[key]) for key in plotqa}
@@ -895,8 +1044,16 @@ def main():
         for key in plotqa
     }
     require(all(one_row_short[key] == 0 for key in top),
-            "the two strongest VLMs never drop the last row")
+            "the two strongest VLMs never return a table one row short")
     define("PlotQADePlotShortReplies", str(one_row_short[DEPLOT.plotqa_key]))
+    short_scores = [s.best for s in deplot_qa.values()
+                    if s.rows == s.values - 1]
+    full_scores = [s.best for s in deplot_qa.values()
+                   if s.rows != s.values - 1]
+    require(mean(short_scores) < mean(full_scores),
+            "DePlot scores lower on the replies that are one row short")
+    define("PlotQADePlotShortScore", pct(mean(short_scores)))
+    define("PlotQADePlotRestScore", pct(mean(full_scores)))
 
     # Detailed prompt against simple prompt, the two Claude models.
     section("PlotQA, detailed prompt against simple prompt")
@@ -912,7 +1069,8 @@ def main():
         define(f"PromptDeltaCI{system.macro}", interval_text(interval))
         require(0 < interval.high < 1.5, "the interval excludes a gain of the "
                 "size version 1 reported")
-        define(f"PromptDeltaHigh{system.macro}", f"{interval.high:.1f}")
+        define(f"PromptDeltaHigh{system.macro}",
+               f"{np.ceil(interval.high * 10) / 10:.1f}")
 
     # --- Every system at four tolerances -----------------------------------
     section("Sensitivity to the tolerance")
@@ -968,14 +1126,35 @@ def main():
                 f"from DePlot at {tolerance:.0%}")
         define(f"TolChartX{TOLERANCE_MACRO[tolerance]}LowestDelta",
                f"{signed(interval.mean)} {interval_text(interval)}")
+    # The second-lowest VLM leads DePlot only just at the strictest tolerance;
+    # the others lead it separably at every tolerance.
+    second = order[-2]
+    for tolerance in TOLERANCES:
+        at = chartx_validation(tolerance)
+        for system in order[:-1]:
+            interval = paired_interval(column(at[system.key], "f1"),
+                                       column(at[DEPLOT.key], "f1"))
+            require(interval.low > 0, f"{system.name} leads DePlot separably "
+                    f"at {tolerance:.0%}")
+            if system is second and tolerance == min(TOLERANCES):
+                require(interval.low < 0.5, f"{second.name} leads DePlot only "
+                        "just at the strictest tolerance")
+                define("TolChartXOneSecondLowestName", second.name)
+                define("TolChartXOneSecondLowestDelta",
+                       f"{signed(interval.mean)} {interval_text(interval)}")
 
     # PlotQA: the two strongest VLMs at the strictest and loosest tolerance.
     at_strict, at_loose = (reported_items(min(TOLERANCES)),
                            reported_items(max(TOLERANCES)))
     first, second = top
-    tie = (mean_of(at_strict[first], "best")
-           - mean_of(at_strict[DEPLOT.plotqa_key], "best"))
-    require(abs(tie) < 0.05, "at 1% the best VLM ties DePlot")
+    require(f"{mean_of(at_strict[first], 'best'):.1f}"
+            == f"{mean_of(at_strict[DEPLOT.plotqa_key], 'best'):.1f}",
+            "at 1% the best VLM ties DePlot to the printed digit")
+    for tolerance in TOLERANCES:
+        at = reported_items(tolerance)
+        require(all(mean_of(at[key], "best")
+                    < mean_of(at[DEPLOT.plotqa_key], "best") for key in below),
+                f"the VLMs below DePlot at 5% are below it at {tolerance:.0%}")
     define("TolPlotQATieName", BY_PLOTQA_KEY[first].name)
     interval = paired_interval(
         field_of(at_strict[second], "best"),
@@ -1007,9 +1186,6 @@ def main():
     define_count("TolPlotQADropDoubled", sum(
         drops[key] > 2 * drops[DEPLOT.plotqa_key] for key in qa_order
     ))
-    require(max(qa_order, key=lambda k: drops[k]) == most,
-            "the VLM that gains most from keeping repeated values loses most "
-            "as the tolerance tightens")
 
     # The exploratory PubMed Central run. Its ground truth is each figure's
     # companion table, which holds far more cells than the figure plots, so
