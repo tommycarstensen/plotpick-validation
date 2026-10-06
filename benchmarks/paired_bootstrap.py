@@ -3,7 +3,9 @@
 Every system was scored on the same items, so the uncertainty of a difference
 between two systems is that of the per-item differences, not of two separate
 means. This script resamples those per-item differences (10,000 draws,
-percentile 95% interval, fixed seed) for each comparison the paper makes:
+percentile 95% interval, fixed seed) for most comparisons the paper makes
+(export_paper_numbers.py computes a few more, such as those at other
+tolerances):
 
     ChartX   each VLM against DePlot, overall and per chart type
     ChartX   each row of Table 2 against the row below it
@@ -79,6 +81,9 @@ from benchmarks.systems import (  # noqa: E402
 
 N_BOOT = 10000
 SEED = 0
+# An interval end this close to zero (in points) can change sides with the
+# bootstrap seed, so it is printed to two decimals and called borderline.
+BORDERLINE = 0.1
 
 # Relative tolerances at which every system is rescored; the paper's is 5%.
 TOLERANCES = (0.01, 0.02, 0.05, 0.10)
@@ -108,7 +113,14 @@ class Interval(NamedTuple):
         return self.low > 0 or self.high < 0
 
     def __str__(self):
-        return f"{self.mean:+5.1f} [{self.low:+5.1f}, {self.high:+5.1f}]"
+        return (f"{self.mean:+5.1f} [{end_text(self.low)}, "
+                f"{end_text(self.high)}]")
+
+
+def end_text(value):
+    """An interval end; one within BORDERLINE of zero keeps a second decimal,
+    as in the paper, because whether it excludes zero is a close call."""
+    return f"{value:+5.2f}" if abs(value) < BORDERLINE else f"{value:+5.1f}"
 
 
 def paired_interval(a, b, n_boot=N_BOOT, seed=SEED):
@@ -399,10 +411,10 @@ def main():
         print(f"{system.name:22}{interval.n:>4}  {interval}{flag(interval)}")
 
     print("\nChartX: runs with a missing reply, the reply scored as zero")
-    _, ministral = chartx_items(MINISTRAL_RUN)
     for name, items in [
         *((s.name, scores[s.key]) for s in ranked(scores)),
-        ("ministral-3b-latest", ministral),
+        *(chartx_items(path) for path in sorted(
+            MINISTRAL_RUN.parent.glob("final_val_*.json"))),
     ]:
         if len(items) == len(deplot):
             continue

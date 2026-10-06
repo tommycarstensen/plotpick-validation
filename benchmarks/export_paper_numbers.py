@@ -54,6 +54,7 @@ from paths import (  # noqa: E402
     VALIDATION_ROOT,
 )
 from benchmarks.paired_bootstrap import (  # noqa: E402
+    BORDERLINE,
     MINISTRAL_RUN,
     N_BOOT,
     SEED,
@@ -112,10 +113,6 @@ DEFAULT_OUT = VALIDATION_ROOT / "out" / "numbers.tex"
 # The relative tolerance compute_numeric_f1 and compute_recall default to.
 TOLERANCE_PERCENT = 5
 
-# A separable difference whose interval comes this close to zero (in points)
-# flips with the bootstrap seed, so it is reported as borderline.
-BORDERLINE = 0.1
-
 # Macro infix for each tolerance of the sensitivity table.
 TOLERANCE_MACRO = {0.01: "One", 0.02: "Two", 0.05: "Five", 0.10: "Ten"}
 
@@ -155,9 +152,13 @@ def signed(value, digits=1):
 
 
 def interval_text(interval, digits=1):
-    """An interval in brackets, boxed so that LaTeX cannot break it."""
-    return (f"\\mbox{{[{signed(interval.low, digits)}, "
-            f"{signed(interval.high, digits)}]}}")
+    """An interval in brackets, boxed so that LaTeX cannot break it. An end
+    within BORDERLINE of zero keeps a second decimal: whether it excludes
+    zero is a close call, and the paper says so once, in Section 3.1."""
+    def end(value):
+        return signed(value, 2 if abs(value) < BORDERLINE else digits)
+
+    return f"\\mbox{{[{end(interval.low)}, {end(interval.high)}]}}"
 
 
 def thousands(n):
@@ -692,14 +693,59 @@ def main():
             (CHARTX_RESULTS_DIR / "chartx_deplot.json").read_text()
         )["results"].items() if chart_type in CHART_TYPES for row in rows
     ]
+    require(round(type_mean(development["haiku"], "line_chart") * 100) == 91
+            and round(mean(r["rmsf1"] for r in stored
+                           if r["chart_type"] == "line_chart") * 100) == 93,
+            "version 1's Figure 2 has Claude Haiku 4.5 at 91 and DePlot at 93 "
+            "on plain line charts")
     require(f"{mean(r['rmsf1'] for r in stored) * 100:.1f}" == "70.5"
             and round(mean(r["rmsf1"] for r in stored
                            if r["chart_type"] == "box") * 100) == 24,
             "version 1's 70.5% and 24% for DePlot are its stored development "
             "scores")
+    # Items of the unreported types are keyed "type/name", the others "name".
+    dev_names = {key.rsplit("/", 1)[-1] for key in (*dev_deplot, *dev_deplot_six)}
+    require(not corrected & dev_names,
+            "none of the corrected charts is among DePlot's development items")
+    define("DevDePlotN", str(len(dev_deplot) + len(dev_deplot_six)))
+    # Replies long enough to have reached DePlot's token limit.
+    dev_replies = json.loads(
+        (CHARTX_RESULTS_DIR / "chartx_deplot.json").read_text())["results"]
+    long_other = {
+        f"{chart_type}/{row['imgname']}" for chart_type in other_types
+        for row in dev_replies.get(chart_type, [])
+        if len(row["extracted_text"]) >= DEPLOT_MAX_NEW_TOKENS
+    }
+    require(long_other <= set(dev_deplot),
+            "the long development replies are among the scored items")
+    define("DevOtherDePlotLongReplies", str(len(long_other)))
+    # Absolute scores on the development split: the six reported types
+    # against the twelve others, as means of the per-type means.
+    define("DevSixFoneDePlot", f"{type_balanced_f1(dev_deplot_six) * 100:.1f}")
+    define("DevOtherFoneDePlot", f"{mean(
+        type_mean(dev_deplot, t) for t in other_types) * 100:.1f}")
+    for key in ("haiku", "sonnet"):
+        _, six_types = chartx_items(CHARTX_RESULTS_DIR / f"chartx_{key}.json")
+        _, twelve = chartx_items(
+            CHARTX_RESULTS_DIR / f"chartx_{key}.json", chart_types=other_types)
+        on_six = type_balanced_f1(six_types)
+        on_other = mean(type_mean(twelve, t) for t in other_types)
+        require(on_other < on_six - 0.1,
+                f"{key} scores far lower on the unreported types")
+        define(f"DevSixFone{BY_KEY[key].macro}", f"{on_six * 100:.1f}")
+        define(f"DevOtherFone{BY_KEY[key].macro}", f"{on_other * 100:.1f}")
     for key in ("haiku", "sonnet"):
         _, claude = chartx_items(
             CHARTX_RESULTS_DIR / f"chartx_{key}.json", chart_types=other_types)
+        everything = paired_interval(
+            {k: v.f1 for k, v in claude.items()},
+            {k: v.f1 for k, v in dev_deplot.items()})
+        short_only = paired_interval(
+            {k: v.f1 for k, v in claude.items() if k not in long_other},
+            {k: v.f1 for k, v in dev_deplot.items() if k not in long_other})
+        require(abs(everything.mean - short_only.mean) < 1,
+                f"leaving out DePlot's long replies moves the {key} margin on "
+                "the unreported types by less than a point")
         interval = paired_interval(
             {k: v.f1 for k, v in claude.items()},
             {k: v.f1 for k, v in dev_deplot.items()})
@@ -1054,6 +1100,9 @@ def main():
                     for key in top),
             "the two strongest VLMs lead DePlot separably on the large-valued "
             "items and not on the others")
+    require(against_deplot(top[1], "best", small_only).high < 0,
+            "on the items without very large values the second-strongest VLM "
+            "is separably below DePlot")
     require(all(share_of_margin(key, large_only) > 1 for key in top),
             "the large-valued items hold more than the whole pooled margin "
             "of the two strongest VLMs")
@@ -1277,6 +1326,8 @@ def main():
         for path, m in zip(paths, metrics, strict=True):
             cells[path.name] = m["n_total"]
     define("PMCMedianCells", f"{statistics.median(cells.values()):.0f}")
+    define("PMCPairsOpus", str(len(list((PMC_RESULTS_DIR / "opus").glob(
+        "*.json")))))
 
     args.out.parent.mkdir(parents=True, exist_ok=True)
     args.out.write_text("\n".join(out) + "\n")

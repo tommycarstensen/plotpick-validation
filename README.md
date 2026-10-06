@@ -16,14 +16,17 @@ pip install -r requirements-core.txt   # matplotlib, numpy, Pillow only
 # Tables 3 and 4 (PlotQA) and the prompt comparison
 python benchmarks/score_plotqa.py
 
-# Every paired interval the paper quotes: ChartX, each VLM against DePlot
-# overall, per chart type and pooled over the five types other than box
-# plots; adjacent rows of Table 2; the ChartX sensitivity checks (DePlot's
-# title line, numbers in labels, missing replies as zero); PlotQA, each VLM
-# against DePlot (best-series and whole-table, Table 3), by orientation
-# (Table 4), by magnitude and with repeated values kept; the three
-# moving-alias runs on ChartX and the two on PlotQA; the two prompts; and
-# Table 5, every system at four tolerances
+# The paired intervals of the tables and most of those in the text:
+# ChartX, each VLM against DePlot overall, per chart type and pooled over
+# the five types other than box plots; adjacent rows of Table 2; the ChartX
+# sensitivity checks (DePlot's title line, numbers in labels, missing
+# replies as zero); PlotQA, each VLM against DePlot (best-series and
+# whole-table, Table 3), by orientation (Table 4), by magnitude and with
+# repeated values kept; the three moving-alias runs on ChartX and the two
+# on PlotQA; the two prompts; and Table 5, every system at four tolerances
+# (point margins only). The others (the development-split margins, the
+# interval between the two strongest PlotQA models and those of Section
+# 3.4) are computed by export_paper_numbers.py into out/numbers.tex.
 python benchmarks/paired_bootstrap.py
 
 # Figures 1 and 2 (ChartX validation split), written to out/
@@ -41,7 +44,7 @@ The bootstraps are seeded, so each command writes the same output every time on 
 
 ## Scoring errors corrected in October 2026
 
-Version 1 of the paper was scored by code that got two things wrong, and the development repository this one is taken from kept that code until 5 October 2026. Both errors were found in review of the paper. The first commit of this public repository already held the corrected scoring code (`benchmarks/shared.py`, the scoring scripts and the runners), with one exception: `benchmarks/run_overnight.py`, an old all-in-one runner that still took the PlotQA truth from `y_values` and had its own uncorrected tolerance test. It was removed in the second commit.
+Version 1 of the paper was scored by code that got two things wrong, and the development repository this one is taken from kept that code until 5 October 2026. Both errors were found in review of the paper. The first commit of this public repository already held the corrected scoring code (`benchmarks/shared.py` and the scoring scripts), and the runners of the reported results with two exceptions, both put right in the second commit: `benchmarks/benchmark_deplot_plotqa.py` still counted the numbers of DePlot's title row, and `benchmarks/run_overnight.py`, an old all-in-one runner that still took the PlotQA truth from `y_values` and had its own uncorrected tolerance test, was removed. Three scripts of runs the paper does not tabulate still test the tolerance in the old quotient form: `benchmarks/run_benchmark.py` (the PubMed Central run, whose mean recalls of 12.9% and 13.6% do not change when rescored with `shared.within_tolerance`), `benchmarks/pixel_ruler.py` and `benchmarks/benchmark_chartqa.py`.
 
 **PlotQA was scored against the wrong axis.** Each entry of `external/plotqa_test_1000.json` describes one series of a chart, with `x_values` and `y_values`. The runners took the series from `y_values` for every chart. For a horizontal bar chart those are the category labels and the bar lengths are in `x_values`. Of the 529 scored items, 427 are horizontal bar charts whose categories are years, so their "ground truth" was a list of years, and a score near 100% meant only that the reply contained a column of years. Version 1 reported 86-99% for the VLMs on that basis. Scored against the plotted values the picture is different: DePlot 87.0%, two VLMs at 89%, and the other four between 83% and 57%. `shared.plotqa_truth` now builds the truth and the runners use it.
 
@@ -53,8 +56,8 @@ A third, smaller correction: the tolerance test rejected a few values lying exac
 
 The result files were written before these corrections and still carry the old figures. The scoring scripts ignore them and rescore from the stored replies.
 
-- `results/plotqa/*.json` (both prompts) and `results/archive/alias_runs/plotqa_*.json`: `gt_nums`, `rmsf1` and the top-level `mean_rmsf1` were computed against the wrong axis for 427 of the 529 items, as a whole-table score, and for DePlot with its title row counted. They show every VLM of the paper at 39-42% and DePlot at 27%, the wrong way round for four of the six VLMs. In `plotqa_deplot.json`, `ex_nums` also holds the numbers of the title row and two spurious zeros for every `<0x0A>` row separator (5,640 of its 14,404 values). The top-level `n` of `plotqa_mistral_small_latest.json` says 529, but the file holds 511 replies. The early partial runs `results/archive/plotqa_haiku_early_n484.json` and `plotqa_*_early_n57.json` have the same fault on 389 of their 484 and 44 of their 57 items. Use `python benchmarks/score_plotqa.py`.
-- `results/chartx/chartx_deplot*.json`: `ex_nums` and `rmsf1` include the numbers of DePlot's title row, and `rmsf1` was computed with repeated values kept. In `chartx_deplot_val.json` (300 items) their mean over the six reported types is 71.2%; the same `ex_nums` scored as sets give 72.8%, the score with the title line; the paper's 74.3% is rescored from `extracted_text` without it. In `chartx_deplot.json` (60 development items) the stored mean is 70.5%, the figure version 1 printed for DePlot (and 24% on its 10 box plots); its `ex_nums` scored as sets give 71.6%.
+- `results/plotqa/*.json` (both prompts) and `results/archive/alias_runs/plotqa_*.json`: `gt_nums`, `rmsf1` and the top-level `mean_rmsf1` were computed against the wrong axis for 427 of the 529 items, as a whole-table score, and for DePlot with its title row counted. They show every VLM of the paper at 39-42% and DePlot at 27%, the wrong way round for four of the six VLMs. In `plotqa_deplot.json`, `ex_nums` also holds the numbers of the title row and two spurious zeros for every `<0x0A>` row separator (5,640 of its 14,404 values). The top-level `n` of `plotqa_mistral_small_latest.json` says 529, but the file holds 511 replies. The early partial runs `results/archive/plotqa_haiku_early_n484.json` and `plotqa_*_early_n57.json` have the same fault on 389 of their 484 and 44 of their 57 items; the 484-item run also holds 427 empty replies (failed calls scored as zero), so its stored mean of 4.9% is not a score of Claude Haiku 4.5. Use `python benchmarks/score_plotqa.py`.
+- `results/chartx/chartx_deplot*.json`: `ex_nums` and `rmsf1` include the numbers of DePlot's title row, and `rmsf1` was computed with repeated values kept. In `chartx_deplot_val.json` (900 items, 18 types of 50) their mean over the 300 items of the six reported types is 71.2%; the same `ex_nums` scored as sets give 72.8%, the score with the title line; the paper's 74.3% is rescored from `extracted_text` without it. In `chartx_deplot.json` (180 development items, 18 types of 10) the stored mean over the 60 items of the six reported types is 70.5%, the figure version 1 printed for DePlot (and 24% on its 10 box plots); its `ex_nums` scored as sets give 71.6%.
 - `results/final_val/*.json`: the stored per-item `recall` predates the tolerance correction and differs from the rescored value on up to four items per file. The scripts recompute it from `ex_nums` and `gt_nums`.
 
 They are kept so that the replies and number sets version 1 was scored from can be audited.
@@ -101,7 +104,7 @@ Things to know before a rerun:
 - Model calls are made at each provider's defaults, with no seed, so a rerun will not reproduce the stored outputs exactly. The stored per-item results are the reproducible artefact; the scoring on top of them is deterministic.
 - The runners were corrected in October 2026 as described above and have not been re-run since.
 - The PlotQA runners resume from an existing output file and would keep the stale summary fields of the 529 items already there. Move `results/plotqa/plotqa_*.json` aside first.
-- The runners have changed since the April and May runs in one more way: those runs capped the replies of the Claude and OpenAI models at 2,000 tokens, and the Claude cap is now 16,384.
+- The runners have changed since the April and May runs in one more way: the ChartX and PlotQA runs of April and May capped the replies of the Claude and OpenAI models at 2,000 tokens, and the Claude cap is now 16,384 (the PubMed Central runner uses 4,096).
 - Empty replies were handled by hand in April 2026: a call that returned nothing was repeated, and an entry that stayed empty was deleted from the result file instead of being scored. That is why the Claude Haiku 4.5 validation run has 299 items, the `ministral-3b-latest` run 295 and the `mistral-small-latest` runs 296 (ChartX) and 511 (PlotQA). `paired_bootstrap.py` prints both runs with the missing replies scored as zero.
 
 ## Layout
@@ -150,4 +153,4 @@ Subsets of ChartQA, ChartQAPro and ChartMuseum were used in exploratory work. Th
 
 MIT, see `LICENSE`, matching the PlotPick application repository.
 
-The MIT grant covers the code here. It does not extend to the third-party benchmark data this repository redistributes or embeds: ChartX is Apache-2.0 and PlotQA is CC-BY-4.0, and `NOTICE` records their terms.
+The MIT grant covers the code here. It does not extend to the third-party benchmark data this repository redistributes or embeds: ChartX is Apache-2.0 and PlotQA is CC-BY-4.0, the PubMed Central values and metadata carry the licences of their articles, and `NOTICE` records their terms.
