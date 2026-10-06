@@ -636,6 +636,13 @@ def main():
             "the six VLMs of version 1 have development-split runs")
     dev_box = [type_mean(development[key], "box") for key in first_version_keys]
     val_box = [type_mean(scores[key], "box") for key in first_version_keys]
+    require(dict(zip(first_version_keys, (round(v * 100) for v in dev_box),
+                     strict=True))
+            == {"gemini-3-flash-preview": 98,
+                "gemini-3.1-flash-lite-preview": 97, "gpt-5.4-mini": 93,
+                "sonnet": 83, "gpt-5.4-nano": 80, "haiku": 85},
+            "the development-split box scores are the box column of version "
+            "1's Figure 2")
     define("DevBoxFoneMin", f"{min(dev_box) * 100:.0f}")
     define("DevBoxFoneMax", f"{max(dev_box) * 100:.0f}")
     define("ValBoxSixFoneMin", f"{min(val_box) * 100:.0f}")
@@ -672,7 +679,24 @@ def main():
            f"{mean(v.f1 for v in dev_deplot.values()) * 100:.1f}")
     _, dev_deplot_six = chartx_items(CHARTX_RESULTS_DIR / "chartx_deplot.json")
     define("DevSixN", str(len(dev_deplot_six)))
+    require(len({len(column(dev_deplot_six, "f1", [t]))
+                 for t in CHART_TYPES}) == 1,
+            "DePlot has the same number of development items per type")
     define("DevDePlotPerType", str(len(dev_deplot_six) // len(CHART_TYPES)))
+    require(not corrected & set(dev_deplot_six),
+            "none of the corrected charts is among DePlot's development items")
+    # Version 1 printed DePlot's stored development scores: 70.5% over the
+    # six types and 24% on box plots.
+    stored = [
+        row for chart_type, rows in json.loads(
+            (CHARTX_RESULTS_DIR / "chartx_deplot.json").read_text()
+        )["results"].items() if chart_type in CHART_TYPES for row in rows
+    ]
+    require(f"{mean(r['rmsf1'] for r in stored) * 100:.1f}" == "70.5"
+            and round(mean(r["rmsf1"] for r in stored
+                           if r["chart_type"] == "box") * 100) == 24,
+            "version 1's 70.5% and 24% for DePlot are its stored development "
+            "scores")
     for key in ("haiku", "sonnet"):
         _, claude = chartx_items(
             CHARTX_RESULTS_DIR / f"chartx_{key}.json", chart_types=other_types)
@@ -704,12 +728,22 @@ def main():
             continue
         _, alias = chartx_items(path)
         interval = paired_interval(column(alias, "f1"), column(deplot, "f1"))
-        require(interval.low > 0, f"{path.name} leads DePlot separably")
+        zeroed = paired_interval(
+            column(with_missing_as_zero(alias, deplot), "f1"),
+            column(deplot, "f1"))
+        require(interval.low > 0 and zeroed.low > 0,
+                f"{path.name} leads DePlot separably, with any empty replies "
+                "scored as zero or not")
         leading += 1
     require(leading == len(alias_runs) - 1,
             "every alias run but ministral-3b-latest leads DePlot separably")
     define("AliasRunCountCap", word(len(alias_runs)).capitalize())
     define_count("AliasRunCount", len(alias_runs))
+    dev_alias = sorted(CHARTX_RESULTS_DIR.glob("chartx_*_latest.json"))
+    require(bool(dev_alias) and all(
+        "istral" in json.loads(path.read_text())["model"] for path in dev_alias),
+        "the development split holds Mistral runs under moving aliases")
+    define_count("AliasDevRunCount", len(dev_alias))
     define("AliasLeadCountCap", word(leading).capitalize())
     _, ministral = chartx_items(MINISTRAL_RUN)
     f1 = paired_interval(column(ministral, "f1"), column(deplot, "f1"))
@@ -867,6 +901,16 @@ def main():
     require(above_o == top[:1] and len(level_o) == 3 and len(below_o) == 2,
             "on the other charts one VLM is above DePlot, three are level "
             "with it and two are below it")
+    borderline_o = []
+    for key in level_o:
+        interval = against_deplot(key, "best", other_only)
+        nearest = min(abs(interval.low), abs(interval.high))
+        if nearest < BORDERLINE:
+            borderline_o.append((key, nearest))
+    require(len(borderline_o) == 1, "one level call on the other plots is "
+            "borderline")
+    define("PlotQAOtherBorderlineName", names(k for k, _ in borderline_o))
+    define("PlotQAOtherBorderlineEnd", f"{borderline_o[0][1]:.2f}")
     define("PlotQAHorizontalTopDeltas", margin_text(top, "best", horizontal_only))
     define("PlotQAOtherTopDeltas", margin_text(top, "best", other_only))
 
@@ -887,6 +931,11 @@ def main():
             "the other plots")
     define("PlotQAHorizontalShareTop",
            join_words(f"{share * 100:.0f}\\%" for share in bar_share))
+    item_share = sum(s.horizontal for s in deplot_qa.values()) / len(deplot_qa)
+    require(all(share < item_share for share in bar_share),
+            "the horizontal bar charts hold less of the margins than of the "
+            "items")
+    define("PlotQAHorizontalItemShare", f"{item_share * 100:.0f}\\%")
     define("PlotQAOtherAboveList", names(above_o))
     define_count("PlotQAOtherLevelCount", len(level_o))
     define("PlotQAOtherLevelList", names(level_o))
@@ -955,7 +1004,7 @@ def main():
     # not tabulated. Only they hold replies laid out with spaces, so the way
     # such a reply is split cannot move a reported score.
     require(not any(space_aligned(path) for path in sorted(
-                Path(PLOTQA_RESULTS_DIR).glob("plotqa_*.json"))),
+                Path(PLOTQA_RESULTS_DIR).glob("*.json"))),
             "no reply of a reported PlotQA run is a table aligned with spaces")
     alias_qa = sorted(MINISTRAL_RUN.parent.glob("plotqa_*.json"))
     require([path.stem for path in alias_qa]
@@ -975,6 +1024,8 @@ def main():
         define(f"AliasPlotQA{label}Best", f"{mean_of(alias_items, 'best'):.1f}")
         define(f"AliasPlotQA{label}Delta",
                f"{signed(interval.mean)} {interval_text(interval)}")
+    require(len(score_items(alias_qa[1])[1]) < len(deplot_qa),
+            "mistral-small-latest lacks replies for some scored items")
     require(len(score_items(alias_qa[0])[1]) == len(deplot_qa),
             "mistral-medium-latest has a reply for every scored item")
     define("PlotQARepeatsMovedDelta", margin_text(moved, "repeats"))
@@ -1006,6 +1057,14 @@ def main():
     require(all(share_of_margin(key, large_only) > 1 for key in top),
             "the large-valued items hold more than the whole pooled margin "
             "of the two strongest VLMs")
+    define("PlotQALargeShareTop", join_words(
+        f"{share_of_margin(key, large_only) * 100:.0f}\\%" for key in top))
+    large_horizontal = sum(
+        1 for s in deplot_qa.values() if s.large and s.horizontal)
+    large_n = sum(1 for s in deplot_qa.values() if s.large)
+    require(abs(large_horizontal / large_n - item_share) < 0.02,
+            "the large-valued items have about the same mix of orientations "
+            "as all items")
     define("PlotQALargeHorizontalN", str(sum(
         1 for s in deplot_qa.values() if s.large and s.horizontal)))
     define("PlotQALargeOtherN", str(sum(
@@ -1155,6 +1214,23 @@ def main():
         require(all(mean_of(at[key], "best")
                     < mean_of(at[DEPLOT.plotqa_key], "best") for key in below),
                 f"the VLMs below DePlot at 5% are below it at {tolerance:.0%}")
+    not_separable = []
+    for tolerance in TOLERANCES:
+        at = reported_items(tolerance)
+        for key in below:
+            interval = paired_interval(
+                field_of(at[key], "best"),
+                field_of(at[DEPLOT.plotqa_key], "best"))
+            if interval.high >= 0:
+                not_separable.append((key, tolerance, interval))
+    require(len(not_separable) == 1
+            and not_separable[0][1] == max(TOLERANCES),
+            "the VLMs below DePlot are separably below it at every tolerance "
+            "but one, at the loosest")
+    level_key, _, level_interval = not_separable[0]
+    define("TolPlotQATenLevelName", BY_PLOTQA_KEY[level_key].name)
+    define("TolPlotQATenLevelDelta",
+           f"{signed(level_interval.mean)} {interval_text(level_interval)}")
     define("TolPlotQATieName", BY_PLOTQA_KEY[first].name)
     interval = paired_interval(
         field_of(at_strict[second], "best"),

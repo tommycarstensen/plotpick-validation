@@ -16,11 +16,11 @@ of the paper (6.5 in), the heatmap at nine tenths of it.
 
 Colours are set in systems.py, one hue per provider.
 
-Figures are written to validation/out/ unless --out-dir says otherwise.
+Figures are written to out/ unless --out-dir says otherwise.
 
 Usage:
     python benchmarks/plot_chartx_validation.py
-    python benchmarks/plot_chartx_validation.py --out-dir ../manuscript_arxiv/figures
+    python benchmarks/plot_chartx_validation.py --out-dir <directory>
 """
 
 import argparse
