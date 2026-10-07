@@ -26,7 +26,7 @@ configs:
 
 # PlotPick validation: scored ChartX and PlotQA items
 
-The per-item results behind the benchmark in "PlotPick: AI-powered batch extraction of numerical data from scientific figures" (arXiv:2605.06021, version 2), which compares nine vision-language models (VLMs) with DePlot, a dedicated chart-to-table model, at reading the numbers in chart images. Each row is one chart and one system: the chart's ground truth, what the system returned, and its scores. The code that produced the results, and the script that wrote this dataset (`benchmarks/export_hf_dataset.py`), are at <https://github.com/tommycarstensen/plotpick-validation>.
+The per-item results behind the benchmark in "PlotPick: AI-powered batch extraction of numerical data from scientific figures" ([arxiv.org/abs/2605.06021](https://arxiv.org/abs/2605.06021), version 2), which compares nine vision-language models (VLMs) with DePlot, a dedicated chart-to-table model, at reading the numbers in chart images. Each row is one chart and one system: the chart's ground truth, what the system returned, and its scores. The code that produced the results, and the script that wrote this dataset (`benchmarks/export_hf_dataset.py`), are at <https://github.com/tommycarstensen/plotpick-validation>.
 
 No chart images are included. Each row names its image in the source dataset (below).
 
