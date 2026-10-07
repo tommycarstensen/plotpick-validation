@@ -19,7 +19,7 @@ from PIL import Image
 
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent))
 sys.path.insert(0, str(Path(__file__).resolve().parent.parent.parent / "plotpick"))
-from pdf_figures import find_figures, open_pdf  # noqa: E402
+from plotpick.pdf_figures import find_figures, open_pdf  # noqa: E402
 
 from paths import (PDF_DIR, TABLE_DIR, PMC_FIG_DIR, PAIRS_PATH,  # noqa: E402
                    SECRETS_PATH, CANDIDATES_PATH)

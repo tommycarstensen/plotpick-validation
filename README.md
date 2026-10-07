@@ -112,7 +112,7 @@ Things to know before a rerun:
 | Path | What it holds |
 |---|---|
 | `benchmarks/` | Benchmark runners, metrics (`shared.py`), the list of reported systems (`systems.py`) and the four scoring scripts above |
-| `pipeline/` | Dataset fetching and PubMed Central pair construction. `match_pairs.py` imports `pdf_figures` from the application repository and expects it cloned beside this one |
+| `pipeline/` | Dataset fetching and PubMed Central pair construction. `match_pairs.py` imports `plotpick.pdf_figures` from the application repository and expects it cloned beside this one |
 | `external/` | Benchmark annotations (ChartX, PlotQA). Images are not stored here |
 | `results/final_val/` | ChartX validation split, the nine VLMs. **The paper's headline numbers** |
 | `results/chartx/chartx_deplot_val.json` | DePlot on the same validation split, all 18 chart types. Its `ex_nums` and `rmsf1` fields include DePlot's title row; see above |
